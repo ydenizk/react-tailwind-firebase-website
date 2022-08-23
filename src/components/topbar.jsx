@@ -79,7 +79,7 @@ const Topbar = ({ scrollRef }) => {
                       Miletus
                     </a>
                   </li>
-                  <li className="p-2 flex">
+           {/*        <li className="p-2 flex">
                     <FaUniversity className="mr-1 text-amber-400" />
                     <a
                       href=""
@@ -268,17 +268,17 @@ const Topbar = ({ scrollRef }) => {
                     >
                       Apollon Smintheus
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               )}
             </li>
             <li className="relative">
-              <button className=" mx-2  font-extralight font-dosis text-gray-700 hover:text-gray-900 transition-all">
+              <button className=" mx-2  font-extralight font-dosis text-gray-700  hover:text-gray-900 transition-all">
                 About
               </button>
             </li>
             <li className="relative">
-              <button className=" mx-2 font-extralight font-dosis text-gray-700 hover:text-gray-900 transition-all">
+              <button className=" mx-2 font-extralight font-dosis text-gray-700  hover:text-gray-900 transition-all">
                 Contact
               </button>
             </li>
