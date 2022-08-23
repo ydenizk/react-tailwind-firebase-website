@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+
+import React,{useRef} from "react";
+
+import Topbar from "./components/topbar";
+import Hedaer from "./components/hedaer"
+import Ads from "./components/ads"
+import Regions from "./components/regions";
+import Email from "./components/mail"
+import Footer from "./components/footer"
 
 function App() {
+
+  const scrollRef = useRef(null);
+
+/* ; */
+
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-neutral-100">
+      <Topbar scrollRef={scrollRef}  />
+      <Hedaer />
+      <Ads  />
+      <Regions  ref={scrollRef} />
+      <Email />
+      <Footer />
     </div>
   );
 }
