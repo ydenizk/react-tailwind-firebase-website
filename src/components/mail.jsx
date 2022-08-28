@@ -3,6 +3,15 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 import { db } from "./../firebase-config";
 import { collection, getDocs, addDoc } from "firebase/firestore";
 
+
+
+
+
+
+
+
+
+
 export default function Mail() {
   const usersCollectionRef = collection(db, "users");
 
@@ -12,7 +21,7 @@ export default function Mail() {
     await addDoc(usersCollectionRef, { email: newEmail });
   };
 
- 
+
 
   return (
     <>
@@ -21,7 +30,7 @@ export default function Mail() {
           <h1 className="text-sm font-bold tracking-wide pb-8 font-roboto text-gray-800">
             DON'T BE A STRANGER
           </h1>
-
+      
           <form>
             <div className=" text-center mb-8 ">
               <label

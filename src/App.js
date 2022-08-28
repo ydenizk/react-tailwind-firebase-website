@@ -1,31 +1,85 @@
-
-import React,{useRef} from "react";
+import React, { useRef } from "react";
 
 import Topbar from "./components/topbar";
-import Hedaer from "./components/hedaer"
-import Ads from "./components/ads"
-import Regions from "./components/regions";
-import Email from "./components/mail"
-import Footer from "./components/footer"
+import Footer from "./components/footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/home"
+import Regios from "./pages/regios";
+import Contact from "./pages/contact";
+import About from "./pages/about";
+
+
+import Aizanoi from "./pages/aizanoi";
+import Aphrodisias from "./pages/aphrodisias";
+import Apollon  from "./pages/apollon";
+import Aspendos  from "./pages/aspendos";
+import Assos  from "./pages/assos";
+import Didyma  from "./pages/didyma";
+import Ephesus from "./pages/ephesus";
+import Hierapolis  from "./pages/hierapolis";
+import Kaunos  from "./pages/kaunos";
+import Knidos  from "./pages/knidos";
+import Laodikeia  from "./pages/laodikeia";
+import Letoon  from "./pages/letoon";
+import Miletus from "./pages/miletus";
+import Myra from "./pages/myra";
+/* import Olympos from "./pages/olympos"; */
+import Patara from "./pages/patara";
+import Perga from "./pages/perga";
+import Pergamon from "./pages/pergamon";
+import Priene from "./pages/priene";
+import Sagalassos from "./pages/sagalassos";
+import Sardes from "./pages/sardes";
+import Tlos from "./pages/tlos";
+import Troia from "./pages/troia";
+import Xanthos from "./pages/xanthos";
 
 function App() {
+/*   const scrollRef = useRef(null); */
 
-  const scrollRef = useRef(null);
-
-/* ; */
-
-
-
+  /* ; */
 
   return (
-    <div className="bg-neutral-100">
-      <Topbar scrollRef={scrollRef}  />
-      <Hedaer />
-      <Ads  />
-      <Regions  ref={scrollRef} />
-      <Email />
+    <Router>
+      <Topbar /* scrollRef={scrollRef}  */ />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/regios" element={<Regios />} />
+
+        <Route path="/destinations" element={<Home />} />
+        <Route path="/ephesus" element={<Ephesus />} />
+        <Route path="/sardes" element={<Sardes />} />
+        <Route path="/miletus" element={<Miletus />} />
+        <Route path="/aphrodisias" element={<Aphrodisias />} />
+
+        <Route path="/aizanoi" element={<Aizanoi />} />
+        <Route path="/apollon" element={<Apollon />} />
+        <Route path="/aspendos" element={<Aspendos />} />
+        <Route path="/assos" element={<Assos />} />
+        <Route path="/didyma" element={<Didyma />} />
+        <Route path="/Hierapolis" element={<Hierapolis />} />
+        <Route path="/Kaunos" element={<Kaunos />} />
+        <Route path="/Knidos" element={<Knidos />} />
+        <Route path="/laodikeia" element={<Laodikeia />} />
+        <Route path="/letoon" element={<Letoon />} />
+        <Route path="/myra" element={<Myra />} />
+       {/*  <Route path="/olympos" element={<Olympos />} /> */}
+        <Route path="/patara" element={<Patara />} />
+        <Route path="/perga" element={<Perga />} />
+        <Route path="/pergamon" element={<Pergamon />} />
+        <Route path="/priene" element={<Priene />} />
+        <Route path="/sagalassos" element={<Sagalassos />} />
+        <Route path="/tlos" element={<Tlos />} />
+        <Route path="/troia" element={<Troia />} />
+        <Route path="/xanthos" element={<Xanthos />} />
+
+        <Route path="about" element={<About />} />
+        <Route path="contact" element={<Contact />} />
+      </Routes>
+
       <Footer />
-    </div>
+    </Router>
   );
 }
 
