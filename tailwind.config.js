@@ -38,6 +38,7 @@ module.exports = {
         roboto: ["Roboto"],
         dosis: ["Dosis", "sans - serif"],
         noto: ["Noto Serif HK", "serif"],
+        bodoni: ['Libre Bodoni', "serif"]
       },
     },
   },

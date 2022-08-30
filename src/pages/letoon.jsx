@@ -1,13 +1,13 @@
 import React from "react";
 import Share from "./../components/share";
 
-import banner from "./../assets/letoon/banner.jpg";
+/* import banner from "./../assets/letoon/banner.jpg";
 import big from "./../assets/letoon/592-332.jpg";
 import big1 from "./../assets/letoon/592-360.jpg";
 import big2 from "./../assets/letoon/592-444.jpg";
+ */
 
-
-export default function Letoon() {
+/* export default function Letoon()  */{
 
     
   return (
@@ -20,14 +20,14 @@ export default function Letoon() {
             className="object-cover w-288 max-h-145 h-145  "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-4xl mb-2 tracking-wider">
-              No <span className="font-roboto font-medium">17</span>
+            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider">
+              No <span className="font-roboto font-medium">02</span>
             </h2>
-            <p className=" font-roboto font-bold text-white text-5xl  whitespace-nowrap mb-6 tracking-wide ">
-              ANCIENT SITES IN TURKEY
+            <p className=" font-roboto font-bold text-white text-4xl  whitespace-nowrap mb-6 tracking-wide ">
+              HOME OF AP
             </p>
-            <p className="uppercase text-white font-mono text-xl tracking-wide">
-              The beauty of ASPENDOS
+            <p className="uppercase text-white font-mono text-lg tracking-wide">
+              The beauty of letoon
             </p>
           </div>
         </div>

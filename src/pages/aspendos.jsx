@@ -19,14 +19,14 @@ export default function Aspendos() {
             className="object-cover w-288 max-h-145 h-145 brightness-75 opacity-90 "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-4xl mb-2 tracking-wider">
-              No <span className="font-roboto font-medium">17</span>
+            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider">
+              No <span className="font-roboto font-medium">04</span>
             </h2>
-            <p className=" font-roboto font-bold text-white text-5xl  whitespace-nowrap mb-6 tracking-wide ">
-              ANCIENT SITES IN TURKEY
+            <p className="uppercase font-roboto font-bold text-white text-4xl  whitespace-nowrap mb-6 tracking-wide ">
+              HOME OF the best preserved roman theater 
             </p>
-            <p className="uppercase text-white font-mono text-xl tracking-wide">
-              The beauty of ASPENDOS
+            <p className="uppercase text-white font-mono text-lg tracking-wide">
+              The beauty of Aspendos
             </p>
           </div>
         </div>
@@ -36,8 +36,8 @@ export default function Aspendos() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 ">
-            <h2 className="mb-6 text-2xl tracking-widest font-semibold ">
-              THE DASHING TRADERS CONVERGE , INDIA ONCE A YEAR
+            <h2 className="mb-6 text-2xl tracking-widest font-semibold uppercase ">
+              a surreal atmosphere of ancient ruins and great sounds of acoustics of  theater  
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>
@@ -47,78 +47,86 @@ export default function Aspendos() {
           <div className="  w-full p-0 text-black grid grid-cols-6 gap-2">
             <div className="w-full  col-span-4 ">
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
-                No12
+                No04
               </h4>
-              <p className=" tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+              <p className=" tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Aspendos or Aspendus was an ancient Greco-Roman city in Antalya
+                province of Turkey. The site is located 40 km east of the modern
+                city of Antalya.In antiquity, Aspendos was probably the most
+                important city in the state of Pamphylia. This glorious city
+                came under Roman control in 190 BCE and reached its epoch during
+                the Roman period, when trade and commerce flourished here.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These traditional pastoralists come from hundreds of miles away.
-                They congregate on a dusty plain outside the town, where they
-                sip masala tea around the campfire and smoke the conical clay
-                pipe known as a chillum. In their white tunics, leather
-                slippers, and jeweled earrings, they cut striking figures, never
-                moreso than when they let their luxurious mustaches run through
-                their fingers. More than mere styling, their colorful turbans
-                communicate caste and native region.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Aspendos did not play an important role in antiquity as a
+                political force. Its political history during the colonisation
+                period corresponded to the currents of the Pamphylian region.The
+                Persians captured the city again in 411 BC and used it as a
+                base. In 389 BC, Thrasybulus of Athens, in an effort to regain
+                some of the prestige that city had lost in the Peloponnesian
+                Wars.When Alexander the Great marched into Aspendos in 333 BC
+                after capturing Perge, the citizens sent envoys asking him not
+                to garrison soldiers there. He agreed, provided he would be
+                given the taxes and horses that they had formerly paid as
+                tribute to the Persian king.In 190 BC, the city surrendered to
+                the Romans.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+              <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
+                Ancient buildings and Aspendos Theater
+              </h2>
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Aspendos' theater is one of the largest ever built by the Romans
+                in Asia Minor(Anatolia), and today it is one of the best
+                preserved examples of Roman theater architecture.It was built in
+                155[8] by the Greek architect Zenon, a native of the city,during
+                Marcus Aurelius' reign. It was periodically repaired by the
+                Seljuks, who used it as a caravanserai.As was usual to minimise
+                construction complexity and cost, part of the theatre was built
+                against the hill where the Citadel (Acropolis) stood, while the
+                remainder was built on vaulted arches. The high stage, whose
+                supporting columns are still in place,served to seemingly
+                isolate the audience from the rest of the world. The new
+                investigations have revealed that the capacity of the theatre
+                was 7300-7600 people.The theatre hosts the annual Aspendos
+                International Opera and Ballet Festival organized by Turkish
+                State Opera and Ballet since 1994, with international
+                participation of opera and ballet companies and an audience of
+                about 10,000.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
-              </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
+              <p className="tracking-wider font-light text-base font-noto mb-8 leading-7">
+                Although mainly known for its theatre by the general public and
+                visitors, Aspendos‟ aqueducts, with their two unique siphons,
+                have been a source of extreme fascination for researchers.Just
+                to the north of Aspendos' acropolis hill are the remains of a
+                magnificent ancient aqueduct and two linked water towers, which
+                would have originally provided water for the city.The aqueduct
+                would have originally transported water for 19 kilometers and
+                was built at some stage in the 3rd century CE.Nearby stand the
+                remains of a stadium, baths, basilica, agora and nymphaeum. The
+                Roman Eurymedon Bridge, reconstructed in the 13th century, is
+                also in the vicinity.
               </p>
 
-              <div className="w-148 h-111 mb-4 ">
+              <div className="w-148 h-111 mb-6 ">
                 <img src={big} alt="object-cover w-148 max-h-111 " />
               </div>
 
-              <div className="w-148 h-111 mb-4">
+              <div className="w-148 h-111 mb-8">
                 <img src={big1} alt="object-cover w-148 h-111 " />
               </div>
 
-              <p className="tracking-wider font-light text-base font-noto my-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
-              </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
+              <h2 className="mb-1   uppercase text-lg tracking-widest font-semibold">
+                How to get Aspendos Ancient City?
+              </h2>
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                There are basically three ways by which you can reach Aspendos
+                from Antalya Airport. You can reach here from Antalya airport by
+                public transport, but it is advised to hire a taxi or car for
+                hassle free travel. By Bus Aspendos Theater is at a distance of
+                38 kms from Antalya airport. Indirect buses run from Antalya
+                Airport to Aspendos via Serick, to Termessos. By Car/Taxi,it is
+                the best way to reach aspendos from Antalya airport. Take the
+                route D400 and you’ll reach Aspendos in approx 45 minutes.
               </p>
             </div>
 
@@ -170,12 +178,11 @@ export default function Aspendos() {
                   Wikipedia
                 </a>
               </div>
-
-              <div className="w-72 h-138 mt-16 mb-4 ">
+              <Share />
+              <div className="w-72 h-138 mt-16 mb-6 ">
                 <img src={small1} alt="object-cover w-72 max-h-138 " />
               </div>
             </div>
-            <Share />
           </div>
 
           {/* .................... */}

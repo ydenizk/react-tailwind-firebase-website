@@ -21,14 +21,14 @@ export default function Assos() {
             className="object-cover w-288 max-h-145 h-145  opacity-90 "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-4xl mb-2 tracking-wider">
-              No <span className="font-roboto font-medium">17</span>
+            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider">
+              No <span className="font-roboto font-medium">05</span>
             </h2>
-            <p className=" font-roboto font-bold text-white text-5xl  whitespace-nowrap mb-6 tracking-wide ">
-              ANCIENT SITES IN TURKEY
+            <p className="uppercase font-roboto font-bold text-white text-4xl  whitespace-nowrap mb-6 tracking-wide ">
+              HOME OF Aristotle
             </p>
-            <p className="uppercase text-white font-mono text-xl tracking-wide">
-              The beauty of ASPENDOS
+            <p className="uppercase text-white font-mono text-lg tracking-wide">
+              The beauty of Assos
             </p>
           </div>
         </div>
@@ -38,8 +38,8 @@ export default function Assos() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 ">
-            <h2 className="mb-6 text-2xl tracking-widest font-semibold ">
-              THE DASHING TRADERS CONVERGE , INDIA ONCE A YEAR
+            <h2 className="mb-6 text-2xl tracking-widest font-semibold uppercase">
+              Temple of Goddess Athena, the protector of Assos Ancient city
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>
@@ -49,77 +49,96 @@ export default function Assos() {
           <div className="  w-full p-0 text-black grid grid-cols-6 gap-2">
             <div className="w-full  col-span-4 ">
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
-                No12
+                No05
               </h4>
-              <p className=" tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+              <p className=" tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Assos,ancient Greek city of Troas,located on the coast of what
+                is now northwestern Turkey, with the island of Lesbos lying
+                about 7 miles (11 km) offshore to the south. During Pliny the
+                Elder's time the city also bore the name Apollonia.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These traditional pastoralists come from hundreds of miles away.
-                They congregate on a dusty plain outside the town, where they
-                sip masala tea around the campfire and smoke the conical clay
-                pipe known as a chillum. In their white tunics, leather
-                slippers, and jeweled earrings, they cut striking figures, never
-                moreso than when they let their luxurious mustaches run through
-                their fingers. More than mere styling, their colorful turbans
-                communicate caste and native region.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                The city was founded from 1000 to 900 BC by Aeolian colonists
+                from Lesbos, who specifically are said to have come from
+                Methymna. Assus came under the rule of the Persians and later of
+                the Athenian empire. It fell to Alexander the Great and
+                subsequently was ruled by the Macedonian general Lysimachus, the
+                kings of Pergamum, and Rome.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                St. Paul also visited the city during his third missionary
+                journey through Asia Minor, which was between 53-57 AD, on his
+                way to Lesbos. From this period onwards, Assos shrunk to a small
+                village, as it has remained ever since. Ruins around Assos
+                continue to be excavated.In the early 1900s an attempt was made
+                to move the contents of the Temple of Athena. Much of the art
+                has been moved to museums like the Louvre. The art found
+                includes pictures both of mythical creatures and heraldic
+                events.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                The most striking structure in the acropolis is the Temple of
+                Athena in the part of the inner castle during the Byzantine
+                period. Only 5-6 columns have survived from this structure,
+                which should have had 36 columns. It is in the Doric style,
+                which does not have much detail on the architectural texture and
+                is generally used to be seen in the Greece.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                The theatre, which was located on the south of the agora on a
+                slope overlooking the Aegean Sea, was built on a stepped terrace
+                formed by cutting the surrounding conglomerate rock. The
+                building, which is dated to the end of the 4rd century BC, is a
+                typical Hellenic theatre with a horseshoe-shaped plan. The
+                results of new research in Assos provide evidence for the
+                formation of a confident Polis in the decades after the end of
+                the Persian rule by Alexander the Great and his victory at
+                Granicus in 334 BC.
+              </p>
+              <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
+                a Platonic school of Aristotle
+              </h2>
+
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Assos is the city where the great philosopher Aristotle taught
+                philosophy and wrote some of his books. Its importance in the
+                history of philosophy as well as for its natural beauty and
+                unspoiled authenthic Aegean culture.The establishment of a
+                philosophy school by students of Plato, who also briefly ruled
+                the city and the Temple of Athena, the only example of a Doric
+                temple in Archaic Anatolia, the unique cityscape, its
+                topography, layout and preservation make this Greek city unique
+                among its counterparts.
+              </p>
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Aristotle and the members of his group carried out observations
+                in Assos, particularly in zoology and biology. Aristotle
+                probably began his work “Politics” in Assos as well as “On
+                Kingship” which is now lost. He began to develop a philosophy
+                different from that of Plato who had said “kings should become
+                philosophers or philosophers should become kings”.
               </p>
 
-              <div className="w-148 h-111  mb-4">
+              <div className="w-148 h-111  mb-6">
                 <img src={big} alt="object-cover w-148 max-h-111 " />
               </div>
-              <div className="w-148 h-111  mb-4">
+              <div className="w-148 h-111  mb-6">
                 <img src={big1} alt="object-cover w-148 max-h-111 " />
               </div>
 
+              <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
+                How to get Assos Ancient City?
+              </h2>
+
               <p className="tracking-wider font-light text-base font-noto my-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
-              </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
+                Assos is situated 87 km south of Canakkale on a volcanic
+                headland with magnificent views over the Aegean and island of
+                Lesbos.Also it is 1 hour away from the Troia ancient site.As
+                Assos has also an authentic small port at sea level and is
+                nearby the some local summer touristic places,it is easy to
+                reach by public transport from Ayvacık or Çanakkale
+                province.Also it is highly recommended to visit Assos by car in
+                order to feel the authenticity of region completeley.
               </p>
             </div>
 
@@ -173,7 +192,7 @@ export default function Assos() {
               </div>
               <Share />
 
-              <div className="w-72 h-123 mt-16 mb-4 ">
+              <div className="w-72 h-123 mt-16 mb-6 ">
                 <img src={side} alt="object-cover w-72 max-h-123 " />
               </div>
             </div>

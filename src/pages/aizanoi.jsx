@@ -14,17 +14,18 @@ export default function Aizanoi() {
           <img
             src={banner}
             alt="nature-2"
-            className="object-cover w-288 max-h-145 h-145 brightness-75 opacity-100 "s
+            className="object-cover w-288 max-h-145 h-145 brightness-75 opacity-100 "
+            
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-4xl mb-2 tracking-wider">
+            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider">
               No <span className="font-roboto font-medium">01</span>
             </h2>
-            <p className=" font-roboto font-bold text-white text-5xl  whitespace-nowrap mb-6 tracking-wide ">
-              ANCIENT SITES IN TURKEY
+            <p className=" font-roboto font-bold text-white text-4xl  whitespace-nowrap mb-6 tracking-wide ">
+              HOME OF THE BEST PRESERVED ZEUS TEMPLE
             </p>
             <p className="uppercase text-white font-mono text-xl tracking-wide">
-              The beauty of ASPENDOS
+              The beauty of AIZANOI
             </p>
           </div>
         </div>
@@ -35,7 +36,7 @@ export default function Aizanoi() {
           {/* .................... */}
           <div className="text-center mb-20 ">
             <h2 className="mb-6 text-2xl tracking-widest font-semibold ">
-              THE DASHING TRADERS CONVERGE , INDIA ONCE A YEAR
+              HOME OF THE BEST PRESERVED ZEUS TEMPLE
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>
@@ -45,39 +46,59 @@ export default function Aizanoi() {
           <div className="  w-full p-0 text-black grid grid-cols-6 gap-2">
             <div className="w-full  col-span-4 ">
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
-                No12
+                No01
               </h4>
-              <p className=" tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+              <p className=" tracking-wider font-light text-base font-noto mb-6 leading-7">
+                The Aizanoi ancient city is located in the inner Western
+                Anatolia Region, 48 km Southwest of the Kütahya Province, and
+                within the boundaries of the Çavdarhisar district.Although this
+                city is one of the greatest historical monuments in Turkey, it
+                doesn’t well-known enough by the people.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These traditional pastoralists come from hundreds of miles away.
-                They congregate on a dusty plain outside the town, where they
-                sip masala tea around the campfire and smoke the conical clay
-                pipe known as a chillum. In their white tunics, leather
-                slippers, and jeweled earrings, they cut striking figures, never
-                moreso than when they let their luxurious mustaches run through
-                their fingers. More than mere styling, their colorful turbans
-                communicate caste and native region.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Aizanoi was the capital of Aizanitis, who belonged to Phrigia.
+                There was less information about Pre-Roman period for Aizanoi.
+                It is said that the early settlement in the region dates back to
+                the second millennium BC. During the excavations carried out
+                around the Zeus Temple, settlement layers dated to the third
+                millennium were unearthed.In the Hellenistic era, this area was
+                ruled by the Bergama and Bithynia. During the 2nd and 3rd
+                centuries BC, under the rule of the Roman Empire Arizona became
+                a rich region with its production of grains, wool and wine.
+                Starting from the 1st century BC Aizanoi started to transform to
+                city from town. .
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                After the 7th century, Aezani fell into decline. Later, in
+                Seljuk times, the temple hill was converted into a citadel
+                (Turkish: hisar) by Çavdar Tatars, after which the recent
+                settlement of Çavdarhisar is named.After the Byzantine Seljuk
+                Principality, Çavdar Tatars used this is as a military base and
+                fort around the 13th century. From that date, the area is called
+                Çavdarhisar. The ruins of Aezani/Aizanoi were noted by European
+                travellers in 1824. Survey work in the 1830s and 1840s was
+                followed by systematic excavation conducted by the German
+                Archaeological Institute from 1926, resumed in 1970, and still
+                ongoing
               </p>
-
-              <p className="tracking-wider font-light text-base font-noto mb-5 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+              <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
+                Ancient buildings and Zeus temple
+              </h2>
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Aizanoi is one of the most significant cities of the Roman
+                Period with the Zeus Temple, the Complex of Stadium-Theatre and
+                the Macellum. The structure of the Temple which is one of the
+                best preserved Zeus Temples in the world. The Temple of Zeus,
+                situated upon a hill, was the city's main sanctuary.The distance
+                between the columns and the walls of the inner rooms is twice as
+                much as the distance between the columns; that means the
+                building is a pseudodipteros. Since the space surrounded by the
+                columns in the temple is marble-covered, the Zeus Temple in
+                Aizanoi is unique in the pseudodipteros plan.The magnificent
+                Temple of Zeus contributed much to the city's prominence in
+                antiquity and it is among the rarest ancient buildings in
+                Anatolia which have survived till today by preserving its
+                original form.
               </p>
               <div className="w-148 h-90  mb-4">
                 <img src={big} alt="object-cover w-148 h-90  brightness-50 " />
@@ -86,57 +107,45 @@ export default function Aizanoi() {
                 <img src={big1} alt="object-cover w-148 h-90  brightness-50 " />
               </div>
 
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
+              <p className="tracking-wider font-light text-base font-noto my-8 leading-7">
+                The Complex of Stadium-Theatre is located in the north part of
+                the city and was one of the most intensive development
+                activities in the city during the Roman Period. The stadium with
+                a capacity of 13500 people and the theatre with the capacity of
+                20.000 people were constructed adjacently and as such it is
+                unique in the ancient world.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
-              </p>
-              <div className="w-148 h-83  mb-4">
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7"></p>
+              <div className="w-148 h-83  mb-8">
                 <img src={big2} alt="object-cover w-148 h-83 brightness-75 " />
               </div>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
+              <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
+                First STOCK EXCHANGE MARKET and Inflation
+              </h2>
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                One of the first stock exchange markets of the world was
+                established in Aizanoi. The Macellum (Round Building) is dated
+                to the midst of the 2nd century AD., probably serving as a food
+                market. Inscriptions on the walls of this building show the
+                prices of all goods sold in the markets of the Imperial that
+                were controlled by an edict issued in 301 A.D. by the Roman
+                Emperor Diocletianus in order to fight the inflation in that
+                period. The inscriptions survived till today and can be read
+                completely at present. It can be understood that Aizanoi was a
+                cradle of trade with such as the most significant inscription.
               </p>
-
-              <p className="tracking-wider font-light text-base font-noto my-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
-              </p>
+              <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
+                How to get Aizanoi Ancient City?
+              </h2>
               <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
+                Aizanoi is only accessible with local buses or car from the
+                Kutahya. There is no railway, unfortunately. As Çavdarhisar is a
+                bit out of the way, and the Aizanoi ruins a bit scattered, a car
+                is a great way to explore Aizanoi. Çavdarhisar sits along the
+                D240 highway, 55 kilometers south of Kütahya city.If you’re
+                coming to Aizanoi from Istanbul,you can come with intercity
+                buses to Kutahya bus terminal and take a local coach to go to
+                the Çavdarhisar.
               </p>
             </div>
 

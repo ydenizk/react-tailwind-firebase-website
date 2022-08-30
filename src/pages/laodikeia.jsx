@@ -18,13 +18,13 @@ export default function Laodikeia() {
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
             <h2 className="font-roboto font-medium text-white text-4xl mb-2 tracking-wider">
-              No <span className="font-roboto font-medium">17</span>
+              No <span className="font-roboto font-medium">11</span>
             </h2>
-            <p className=" font-roboto font-bold text-white text-5xl  whitespace-nowrap mb-6 tracking-wide ">
-              ANCIENT SITES IN TURKEY
+            <p className="uppercase font-roboto font-bold text-white text-5xl  whitespace-nowrap mb-6 tracking-wide ">
+              home of cicero once
             </p>
             <p className="uppercase text-white font-mono text-xl tracking-wide">
-              The beauty of ASPENDOS
+              The beauty of laodicea
             </p>
           </div>
         </div>
@@ -34,8 +34,8 @@ export default function Laodikeia() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 ">
-            <h2 className="mb-6 text-2xl tracking-widest font-semibold ">
-              THE DASHING TRADERS CONVERGE , INDIA ONCE A YEAR
+            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold ">
+              the city with many beautiful buildings
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>
@@ -45,86 +45,91 @@ export default function Laodikeia() {
           <div className="  w-full p-0 text-black grid grid-cols-6 gap-2">
             <div className="w-full  col-span-4 ">
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
-                No12
+                No11
               </h4>
-              <p className=" tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+              <p className=" tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Laodicea  was an ancient city in Asia Minor, now
+                Turkey, on the river Lycus (Çürüksu). It was located in the
+                Hellenistic regions of Caria and Lydia, which later became the
+                Roman Province of Phrygia Pacatiana. It is now situated near the
+                modern city of Denizli. In 2013 the archaeological site was
+                inscribed in the Tentative List of World Heritage Sites in
+                Turkey.It lay on a major trade route and in its neighbourhood
+                were many important ancient cities; it was 17 km west of
+                Colossae, 10 km south of Hierapolis and 160 km east of Ephesus.
+                One of the major bonuses of rambling through the ruins here is
+                the lack of crowds.Unlike Ephesus or Pamukkale's Hierapolis,
+                Laodikeia is much less known, so a visit here makes for a very
+                tranquil sightseeing experience.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These traditional pastoralists come from hundreds of miles away.
-                They congregate on a dusty plain outside the town, where they
-                sip masala tea around the campfire and smoke the conical clay
-                pipe known as a chillum. In their white tunics, leather
-                slippers, and jeweled earrings, they cut striking figures, never
-                moreso than when they let their luxurious mustaches run through
-                their fingers. More than mere styling, their colorful turbans
-                communicate caste and native region.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                The town was originally called Diospolis, "City of Zeus", and
+                afterwards Rhodas. Excavations in the northern necropolis have
+                shown that the settlement existed before the Hellenistic
+                foundation and was inhabited by the native population.During the
+                Roman period Laodicea was the chief city of a Roman conventus,
+                which comprised 24 cities besides itself; Cicero records holding
+                assizes there ca. 50 BC.Strabo (64 BC - 24 AD) attributes the
+                celebrity of the city to the fertility of the soil and the
+                wealth of some of its inhabitants, amongst whom may have been
+                Hiero of Laodicea, who adorned the city with many beautiful
+                buildings and bequeathed to it more than 2000 talents at his
+                death.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                The wealth of its inhabitants engendered a taste for the arts of
+                the Greeks, as is manifest from its ruins, and that it
+                contributed to the advancement of science and literature is
+                attested by the names of the sceptics Antiochus and Theiodas,
+                the successors of Aenesidemus (1st century BC), and by the
+                existence of a great medical school.The area often suffered from
+                earthquakes, especially from the great shock that occurred in
+                the reign of Nero (60 AD) in which the town was completely
+                destroyed. But the inhabitants declined imperial assistance to
+                rebuild the city and restored it from their own means.With its
+                large Jewish community, Laodicea very early became a seat of
+                Christianity and a bishopric.
               </p>
 
               <p className="tracking-wider font-light text-base font-noto mb-5 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+                The existing remains attest to its former greatness. Its many
+                buildings include a stadium, baths, temples, a gymnasium, two
+                theatres and a bouleuterion (Senate House). On the eastern side,
+                the line of the ancient wall may be distinctly traced, with the
+                remains of the Ephesus gate; there are streets traversing the
+                town, flanked by colonnades and numerous pedestals. North of the
+                town, towards the Lycus, are many sarcophagi, with their covers
+                lying near them, partly embedded in the ground, and all having
+                been long since rifled. The West theatre has been recently
+                restored (2022) with virtually complete banks of stone
+                seats.[36] Originally built in the Hellenistic period, it held
+                8000 spectators and was used until the 7th c. AD.
               </p>
-              <div className="w-148 h-90  mb-4">
+              <div className="w-148 h-90  mb-6">
                 <img src={big} alt="object-cover w-148 h-90 " />
               </div>
-              <div className="w-148 h-90  mb-4">
+              <div className="w-148 h-90  mb-6">
                 <img src={big1} alt="object-cover w-148 h-90 " />
               </div>
 
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                The stadium near the southern extremity of the city is in a good
+                state of preservation. The seats are arranged along two sides of
+                a narrow valley, which was taken advantage of for this purpose,
+                and was closed up at both ends. Towards the west are
+                considerable remains of a subterranean passage, by which
+                chariots and horses were admitted into the arena, with a long
+                inscription over the entrance.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
-              </p>
-
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
-              </p>
-
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
+              <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
+                How to get Laodiceia Ancient City?
+              </h2>
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                laodiceia is 6 km north of Denizli and 1 km west off the road to
+                Pamukkale, Laodicea is accessible via the Denizli-Pamukkale
+                minibus. The minibus to Pamukkale departs every 20 minutes or so
+                from peron (gate) 76 on the lower level of Denizli's otogar (bus
+                station).
               </p>
             </div>
 

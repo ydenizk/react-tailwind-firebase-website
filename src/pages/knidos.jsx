@@ -17,14 +17,14 @@ export default function Knidos() {
             className="object-cover w-288 max-h-145 h-145   "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-4xl mb-2 tracking-wider">
-              No <span className="font-roboto font-medium">17</span>
+            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider">
+              No <span className="font-roboto font-medium">10</span>
             </h2>
-            <p className=" font-roboto font-bold text-white text-5xl  whitespace-nowrap mb-6 tracking-wide ">
-              ANCIENT SITES IN TURKEY
+            <p className="uppercase font-roboto font-bold text-white text-4xl  whitespace-nowrap mb-6 tracking-wide ">
+              HOME OF the lion of knidos
             </p>
-            <p className="uppercase text-white font-mono text-xl tracking-wide">
-              The beauty of ASPENDOS
+            <p className="uppercase text-white font-mono text-lg tracking-wide">
+              The beauty of knidos
             </p>
           </div>
         </div>
@@ -34,8 +34,8 @@ export default function Knidos() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 ">
-            <h2 className="mb-6 text-2xl tracking-widest font-semibold ">
-              THE DASHING TRADERS CONVERGE , INDIA ONCE A YEAR
+            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold ">
+             Port of knidos that has demeter of knidos and lion of knidos
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>
@@ -45,97 +45,91 @@ export default function Knidos() {
           <div className="  w-full p-0 text-black grid grid-cols-6 gap-2">
             <div className="w-full  col-span-4 ">
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
-                No12
+                No10
               </h4>
-              <p className=" tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+              <p className=" tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Knidos or Cnidus was a Greek city in ancient Caria and part of
+                the Dorian Hexapolis, in south-western Anatolia(Asia Minor).It
+                was situated on the Datça peninsula.Founded by Greek settlers,
+                Knidos was an important cultural and political centre by the 5th
+                century BC and, with its large natural harbours, the city was
+                also an ancient trading hub. Throughout this period, Knidos was
+                a member of the Dorian Hexapolis – a federation of six cities of
+                Dorian Greek origin – along with Halicarnassus and Kos among
+                others.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These traditional pastoralists come from hundreds of miles away.
-                They congregate on a dusty plain outside the town, where they
-                sip masala tea around the campfire and smoke the conical clay
-                pipe known as a chillum. In their white tunics, leather
-                slippers, and jeweled earrings, they cut striking figures, never
-                moreso than when they let their luxurious mustaches run through
-                their fingers. More than mere styling, their colorful turbans
-                communicate caste and native region.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                The extreme length of the city was little less than a mile, and
+                the whole intramural area is still thickly strewn with
+                architectural remains.The walls, both of the island and on the
+                mainland, can be traced throughout their whole circuit; and in
+                many places, especially round the acropolis, at the northeast
+                corner of the city, they are remarkably perfect.During the
+                hellenistic age, Knidos boasted a medical school; however, the
+                theory that this school already existed at the beginning of the
+                classical age is an unwarranted extrapolation. In their
+                expansion into the region, the Romans easily obtained the
+                allegiance of Knidians, and rewarded them for help given against
+                Antiochus III the Great by leaving them the freedom of their
+                city.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                The city was famed for its association with Aphrodite and for
+                its famous statue of the goddess, sculpted by the renowned
+                classical sculptor Praxiteles of Athens. While this statue has
+                not survived, a number of copies exist, one of which can be
+                found in the Vatican Museums.At Knidos itself, the ornate marble
+                pedestal that the Aphrodite statue stood upon can still be seen.
+                Also the Knidos Lion is now displayed under the roof of the
+                Great Court in the British Museum.
               </p>
 
-              <p className="tracking-wider font-light text-base font-noto mb-5 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
-              </p>
-              <div className="w-148 h-90  mb-4">
+              <div className="w-148 h-90  mb-6">
                 <img src={big} alt="object-cover w-148 h-90 " />
               </div>
+              <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
+                lion of knidos
+              </h2>
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                There is some debate about the age of the sculpture, in general,
+                scholarly opinion dates it to the 2nd century BC. Since 2000, it
+                has been prominently displayed on a plinth under the roof of the
+                Queen Elizabeth II Great Court because soon after it was seen by
+                British archaeologists in 1858, the statue was taken by the
+                British to London where it became part of the British Museum's
+                collection.The lion is substantially complete; only the lower
+                jaw and front legs are missing; its eyes were probably once
+                inlaid with glass. The statue is greater than life-size; it
+                weighs six tonnes and measures 2.89 metres long and 1.82 metres
+                high.In 2008, the Turkish town of Datça petitioned the British
+                Ministry of Culture and Tourism for the return of the two
+                statues known as the Lion of Knidos and the Demeter of Knidos.
+              </p>
 
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                The first Western knowledge of the site was due to the mission
+                of the Dilettante Society in 1812, and the excavations executed
+                by C. T. Newton in 1857–1858.The agora, the theatre, an odeum, a
+                temple of Dionysus, a temple of the Muses, a temple of Aphrodite
+                and a great number of minor buildings have been identified, and
+                the general plan of the city has been very clearly made out.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
-              </p>
-              <div className="w-148 h-90  mb-4">
+
+              <div className="w-148 h-90  mb-6">
                 <img src={big1} alt="object-cover w-148 h-90 " />
               </div>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
-              </p>
+              <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
+                How to get Knidos Ancient City?
+              </h2>
 
-             
-
-              <p className="tracking-wider font-light text-base font-noto my-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
-              </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Knidos is located around 110 kilometres from central Marmaris,
+                although there is no direct public transport to Knidos from
+                Marmaris. The easiest way is to rent a car and take a day trip
+                to Knidos. Before you arrive the Datca junction on the
+                Marmaris-Datca road, you will see the sign of Knidos which is on
+                the far end of the peninsula.There are taxi boats and midi buses
+                from Datca as well.
               </p>
             </div>
 
@@ -186,9 +180,8 @@ export default function Knidos() {
                 >
                   Wikipedia
                 </a>
+                <Share />
               </div>
-
-              
             </div>
           </div>
 

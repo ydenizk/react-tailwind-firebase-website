@@ -20,14 +20,14 @@ export default function Apollon() {
             className="object-cover w-288 max-h-145 h-145 opacity-90 "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-4xl mb-2 tracking-wider">
-              No <span className="font-roboto font-medium">17</span>
+            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider">
+              No <span className="font-roboto font-medium">03</span>
             </h2>
-            <p className=" font-roboto font-bold text-white text-5xl  whitespace-nowrap mb-6 tracking-wide ">
-              ANCIENT SITES IN TURKEY
+            <p className=" font-roboto font-bold text-white text-4xl  whitespace-nowrap mb-6 tracking-wide ">
+              HOME OF THE TEMPLE OF APOLLO SMINTHEUS
             </p>
-            <p className="uppercase text-white font-mono text-xl tracking-wide">
-              The beauty of ASPENDOS
+            <p className="uppercase text-white font-mono text-lg tracking-wide">
+              The beauty of HAMAxitus
             </p>
           </div>
         </div>
@@ -38,7 +38,7 @@ export default function Apollon() {
           {/* .................... */}
           <div className="text-center mb-20 ">
             <h2 className="mb-6 text-2xl tracking-widest font-semibold ">
-              THE DASHING TRADERS CONVERGE , INDIA ONCE A YEAR
+              HOME OF THE TEMPLE OF APOLLO SMINTHEUS
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>
@@ -48,50 +48,57 @@ export default function Apollon() {
           <div className="  w-full p-0 text-black grid grid-cols-6 gap-2">
             <div className="w-full  col-span-4 ">
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
-                No12
+                No03
               </h4>
               <p className=" tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+                Hamaxitus(or better known name as Appollo Smintheus) has been located on a rise called Beşiktepe near the
+                village of Gülpınar in the Ayvacık district of Çanakkale
+                Province, Turkey.The city's name derives from (hamaxa) meaning
+                'wagon', hence the adjective (hamaxitos), 'traversed by wagons',
+                'carriage-road', 'high-road'.Hamaxitus was an ancient Greek city
+                in the south-west of the Troas region of Anatolia which was
+                considered to mark the boundary between the Troas and Aeolia.
               </p>
               <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These traditional pastoralists come from hundreds of miles away.
-                They congregate on a dusty plain outside the town, where they
-                sip masala tea around the campfire and smoke the conical clay
-                pipe known as a chillum. In their white tunics, leather
-                slippers, and jeweled earrings, they cut striking figures, never
-                moreso than when they let their luxurious mustaches run through
-                their fingers. More than mere styling, their colorful turbans
-                communicate caste and native region.
+                All foundation myths about Hamaxitus in Classical Antiquity were
+                related to the foundation of the nearby temple of Apollo
+                Smintheus. Hamaxitus is believed to have first been settled by
+                Mytilenaeans in the 8th or 7th centuries BC; however,
+                insufficient excavation has been done at the site to prove this
+                definitively.Following the defeat of Athens at the end of the
+                Peloponnesian War in 403 BC, Hamaxitus enjoyed a brief period of
+                freedom from outside interference. In 399 BC it was forcibly
+                re-incorporated into the Persian Empire before being freed once
+                more by the Spartan Dercylidas in 398 BC.Hamaxitus was also
+                enriched by its excellent harbour in this period. The Smintheum
+                continued to appear on Roman and early mediaeval itineraries
+                such as the Tabula Peutingeriana (4th or 5th century) and the
+                Ravenna Cosmography (7th or 8th century). It is therefore likely
+                that the port at Beşiktepe was still used by pilgrims, even if
+                the settlement of Hamaxitus had long since declined.
+              </p>
+
+              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
+                The settlement at Hamaxitus appears to have survived at least
+                until the early Roman period following its synoecism with
+                Alexandreia Troas (the city had been renamed from Antigoneia
+                Troas following the death of Antigonus at the Battle of Ipsus in
+                301 BC). The fame of Apollo Smintheus only increased following
+                the synoecism, which rebuilt the temple, created a new festival
+                in the god's honour, and featured Apollo Smintheus on its coins
+                until the mid-3rd century AD.The sacred road connects the
+                Sanctuary of Apollo Smintheus to the town of Alexandria Troas,
+                35 kilometers north.
               </p>
               <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
-              </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
-              </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
+                The temple was first made known to the world of archaeology by
+                Jean Baptista Le Chevalier in 1785 when he saw some remains of
+                the temple as he was traveling from Lectum-Babakale to
+                Alexandria Troas. In 1853 English Admiral R.N. Spratt visited
+                the site as he was working on the cartography of the environs.
+                He recognized that building as the sacred place of Apollon in
+                the ionic order. According to an inscription he announced the
+                temple as relating to the cult of Smintheus-mouse
               </p>
 
               <div className="w-148 h-83 ">
@@ -99,23 +106,22 @@ export default function Apollon() {
               </div>
 
               <p className="tracking-wider font-light text-base font-noto my-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
+                The Temple of Apollonn Smintheus also attacks attention with its
+                architectural design and style as well as embossings from
+                Homer's Iliad Epic for the Hellenistic period. The temple, which
+                was constructed in Ion style in 150 B.C, is the only remaining
+                example in northwest Anatolia and Troas region today.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
+              <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
+                How to get hamaxitus Ancient City?
+              </h2>
+
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Hamaxitus(or as commonly used Apollonn Smintheus ) is located in Gürpınar village,
+                1 hour from  Troia and 1.5 hours away from Çanakkale.As the location is far from the 
+                main roads,only public transport option is to take the regular dolmushes from Çanakkale 
+                to Gürpınar.However the best option is to have or hire a car and follow the signs that starts just after the exit 
+                of Çannakkale
               </p>
             </div>
 

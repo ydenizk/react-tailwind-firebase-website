@@ -19,14 +19,14 @@ export default function Myra() {
             className="object-cover w-288 max-h-145 h-145  "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-4xl mb-2 tracking-wider">
-              No <span className="font-roboto font-medium">17</span>
+            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider">
+              No <span className="font-roboto font-medium">13</span>
             </h2>
-            <p className=" font-roboto font-bold text-white text-5xl  whitespace-nowrap mb-6 tracking-wide ">
-              ANCIENT SITES IN TURKEY
+            <p className="uppercase font-roboto font-bold text-white text-3xl  whitespace-nowrap mb-6 tracking-wide ">
+              HOME OF one of the the most importanant towns of Lycia
             </p>
-            <p className="uppercase text-white font-mono text-xl tracking-wide">
-              The beauty of ASPENDOS
+            <p className="uppercase text-white font-mono text-lg tracking-wide">
+              The beauty of myra
             </p>
           </div>
         </div>
@@ -36,8 +36,9 @@ export default function Myra() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 ">
-            <h2 className="mb-6 text-2xl tracking-widest font-semibold ">
-              THE DASHING TRADERS CONVERGE , INDIA ONCE A YEAR
+            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold ">
+              St. Paul visited the city,and in the 4th century St. Nicholas
+              was its bishop
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>
@@ -47,98 +48,84 @@ export default function Myra() {
           <div className="  w-full p-0 text-black grid grid-cols-6 gap-2">
             <div className="w-full  col-span-4 ">
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
-                No12
+                No13
               </h4>
-              <p className=" tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+              <p className=" tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Myra was a Lycian, then ancient Greek, then Greco-Roman, then
+                Byzantine Greek, then Ottoman town in Lycia, which became the
+                small Turkish town of Kale, renamed Demre in 2005, in the
+                present-day Antalya Province of Turkey. In 1923, its Greek
+                inhabitants had been required to leave by the Population
+                exchange between Greece and Turkey, at which time its church was
+                finally abandoned. Its early history is unknown. St. Paul is
+                known to have visited the city, and in the 4th century St.
+                Nicholas was its bishop. The Eastern Roman emperor Theodosius II
+                made Myra the capital of Byzantine Lycia until the city fell to
+                the caliph Hārūn al-Rashīd in 808 CE.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These traditional pastoralists come from hundreds of miles away.
-                They congregate on a dusty plain outside the town, where they
-                sip masala tea around the campfire and smoke the conical clay
-                pipe known as a chillum. In their white tunics, leather
-                slippers, and jeweled earrings, they cut striking figures, never
-                moreso than when they let their luxurious mustaches run through
-                their fingers. More than mere styling, their colorful turbans
-                communicate caste and native region.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                The ancient Greek citizens worshiped Artemis Eleutheria, who was
+                the protective goddess of the town. Zeus, Athena and Tyche were
+                venerated as well. Pliny the Elder writes that in Myra there was
+                the spring of Apollo called Curium and when summoned three times
+                by the pipe the fishes come to give oracular responses.[ In the
+                Roman period Myra formed a part of the Koine Greek speaking
+                world that rapidly embraced Christianity. One of its early Greek
+                bishops was Saint Nicholas.The earliest church of St. Nicholas
+                at Myra was built by the Eastern Roman (Byzantine) Empire in the
+                6th century. The present-day church was constructed mainly from
+                the 8th century onward for the city's Byzantine Greek
+                inhabitants; a Greek Orthodox monastery was added in the second
+                half of the 11th century.The church is currently undergoing
+                restoration. In 2007 the Turkish Ministry of Culture gave
+                permission for the Divine Liturgy to be celebrated in the church
+                for the first time in centuries.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                There are two necropoleis of Lycian rock-cut tombs in the form
+                of temple fronts carved into the vertical faces of cliffs at
+                Myra: the river necropolis and the ocean necropolis. The ocean
+                necropolis is just northwest of the theatre. The best-known tomb
+                in the river necropolis.
               </p>
 
-              <p className="tracking-wider font-light text-base font-noto mb-5 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
-              </p>
-              <div className="w-148 h-90  mb-4">
+              <div className="w-148 h-90  mb-6">
                 <img src={big} alt="object-cover w-148 h-90 " />
               </div>
-              <div className="w-148 h-90  mb-4">
+              <div className="w-148 h-90  mb-6">
                 <img src={big1} alt="object-cover w-148 h-90 " />
               </div>
 
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                After a siege in 809, Myra fell to Abbasid troops under Caliph
+                Harun al-Rashid. Early in the reign of Alexius I Comnenus (ruled
+                between 1081 and 1118), Myra was again overtaken by Islamic
+                invaders, this time the Seljuk Turks. In the confusion, sailors
+                from Bari in Italy seized the relics of Saint Nicholas, over the
+                objections of the monks caring for them, and spirited the
+                remains away to Bari, where they arrived on May 9, 1087, and
+                soon brought that city visitors making pilgrimage to Saint
+                Nicholas.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Archaeologists first detected the ancient city in 2009 using
+                ground-penetrating radar that revealed anomalies whose shape and
+                size suggested walls and buildings. Over the next two years they
+                excavated a small, stunning 13th-century chapel sealed in an
+                uncanny state of preservation. Carved out of one wall is a cross
+                that, when sunlit, beams its shape onto the altar
               </p>
-              <div className="w-148 h-53  mb-4">
+              <div className="w-148 h-53  mb-6">
                 <img src={big2} alt="object-cover w-148 h-53 " />
               </div>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
-              </p>
+              <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
+                How to get Myria Ancient City?
+              </h2>
 
-              <p className="tracking-wider font-light text-base font-noto my-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
-              </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                The Ancient City of Myra is located approximately 1.5 km from
+                the town centre of Demre, which is located on the Kaş-Finike
+                road,on Antalya province.
               </p>
             </div>
 

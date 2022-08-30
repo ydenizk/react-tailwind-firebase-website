@@ -20,14 +20,14 @@ export default function  Aphrodisias() {
             className="object-cover w-288 max-h-145 h-145 brightness-75 opacity-100 "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-4xl mb-2 tracking-wider">
-              No <span className="font-roboto font-medium">17</span>
+            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider">
+              No <span className="font-roboto font-medium">02</span>
             </h2>
-            <p className=" font-roboto font-bold text-white text-5xl  whitespace-nowrap mb-6 tracking-wide ">
-              ANCIENT SITES IN TURKEYyy
+            <p className=" font-roboto font-bold text-white text-4xl  whitespace-nowrap mb-6 tracking-wide ">
+              HOME OF APHRODITE
             </p>
-            <p className="uppercase text-white font-mono text-xl tracking-wide">
-              The beauty of ASPENDOS
+            <p className="uppercase text-white font-mono text-lg tracking-wide">
+              The beauty of APHRODISIAS
             </p>
           </div>
         </div>
@@ -38,7 +38,7 @@ export default function  Aphrodisias() {
           {/* .................... */}
           <div className="text-center mb-20 ">
             <h2 className="mb-6 text-2xl tracking-widest font-semibold ">
-              THE DASHING TRADERS CONVERGE , INDIA ONCE A YEAR
+              HOME OF APHRODITE
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>
@@ -48,33 +48,39 @@ export default function  Aphrodisias() {
           <div className="  w-full p-0 text-black grid grid-cols-6 gap-2">
             <div className="w-full  col-span-4 ">
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
-                No12
+                No02
               </h4>
-              <p className=" tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+              <p className=" tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Aphrodisias,was a small Roman Hellenistic city in the historic
+                Caria cultural region of western Anatolia, Turkey. It is located
+                near the modern village of Geyre, about 100 km (62 mi)
+                east/inland from the coast of the Aegean Sea, and 230 km (140
+                mi) southeast of İzmir.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These traditional pastoralists come from hundreds of miles away.
-                They congregate on a dusty plain outside the town, where they
-                sip masala tea around the campfire and smoke the conical clay
-                pipe known as a chillum. In their white tunics, leather
-                slippers, and jeweled earrings, they cut striking figures, never
-                moreso than when they let their luxurious mustaches run through
-                their fingers. More than mere styling, their colorful turbans
-                communicate caste and native region.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                The city shared a close interest in the goddess Aphrodite with
+                Sulla, Julius Caesar and the emperor Augustus, Aphrodisias came
+                to have a close relationship with Rome. It obtained a privileged
+                ‘tax-free’ political status from the Roman senate, and developed
+                a strong artistic, sculptural tradition during the Imperial
+                Period. Many elaborately decorated structures were erected
+                during the period of Roman rule, all made from the local marble.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                The city had notable schools for sculpture, as well as
+                philosophy, remaining a centre of paganism until the end of the
+                5th century. It was destroyed by earthquake in the early 7th
+                century, and never recovered its former prosperity, being
+                reduced to a small fortified settlement on the site of the
+                ancient theatre.Around the same time, it was also renamed to
+                Stauropolis to remove pagan connotations, but already by the 8th
+                century it was known as Caria after the region, which later gave
+                rise to its modern Turkish name, Geyre.Another key aspect of
+                Aphrodisias was its cosmopolitan social structure (Greek, Roman,
+                Carian, pagan, Jewish, Christian) that is abundantly articulated
+                in the site’s 2,000 surviving inscriptions.
               </p>
-              <div className="w-224 h-123 grid grid-cols-2 gap-2 mb-4">
+              <div className="w-224 h-123 grid grid-cols-2 gap-2 mb-6">
                 <div className="w-110 h-123 ">
                   <img src={mid1} alt="object-cover w-110 h-123 " />
                 </div>
@@ -82,98 +88,85 @@ export default function  Aphrodisias() {
                   <img src={mid2} alt="object-cover w-110 h-123 " />
                 </div>
               </div>
+              <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
+                Ancient buildings and Temple of Aphrodite
+              </h2>
 
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                The Cult of Aphrodite was the most important cult of
+                Aphrodisias. The sanctuary at Aphrodisias had a distinctive cult
+                statue of Aphrodite which defined the city’s identity. The
+                Aphrodite of Aphrodisias combined aspects of a local Anatolian,
+                archaic fertility goddess with those of the Hellenic Aphrodite,
+                goddess of love and beauty. This identifying image has been
+                found from Anatolia across the Mediterranean, from the city of
+                Rome to the Levant. The importance of the Aphrodite of
+                Aphrodisias continued well beyond official imperial acceptance
+                of Christianity; the Temple did not become a church until c. AD
+                500.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                The Bouleuterion (council house), or Odeon, is centered on the
+                north side of the North Agora. As it stands today, it consists
+                of a semicircular auditorium fronted by a shallow stage
+                structure about 46 m wide. The lower part of the auditorium
+                survives intact, with nine rows of marble seats divided into
+                five wedges by radial stairways. The seating of the upper part,
+                amounting to an additional twelve rows, has collapsed together
+                with its supporting vaults. The plan is an extremely open one,
+                with numerous entrances at ground level and several stairways
+                giving access to the upper rows of seats. A system of massive
+                parallel buttresses shows that the building was originally
+                vaulted. The auditorium would have been lighted by a series of
+                tall, arched windows in the curved outer wall. Seating capacity
+                can be estimated at about 1,750.
               </p>
-              <div className="w-148 h-83 mb-4">
+              <div className="w-148 h-83 mb-6">
                 <img src={big2} alt="object-cover w-72 max-h-72 " />
               </div>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
-              </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                The stadium was used for athletic events until the theatre was
+                badly damaged by a 7th-century earthquake, requiring part of the
+                stadium to be converted for events previously staged in the
+                theatre. The stadium measures approximately 270 m by 60 m (200
+                ft). With 30 rows of seats on each side, and around each end, it
+                would have had a maximum capacity for around 30,000 spectators.
+                The track measures approximately 225 m (738 ft) by 30 m (98 ft).
+                As the stadium is considerably larger and structurally more
+                extensive than even the Stadium of Delphi; it is probably one of
+                the best preserved structures of its kind in the Mediterranean.
               </p>
 
               <div className="w-148 h-83 ">
                 <img src={big1} alt="object-cover w-72 max-h-72 " />
               </div>
 
-              <p className="tracking-wider font-light text-base font-noto my-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                The first formal excavations were undertaken in 1904–5, by a
+                French railroad engineer, Paul Augustin Gaudin. Some of the
+                architectural finds (mostly friezes, pilasters and capitals) he
+                discovered at the site are now in the British Museum.The most
+                recent, ongoing excavations were begun under the aegis of New
+                York University in 1962 and are currently ongoing.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
-              </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
-              </p>
-              <div className="w-148 h-83 mb-4">
+              <div className="w-148 h-83 mb-6">
                 <img src={big3} alt="object-cover w-72 max-h-72 " />
               </div>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
-              </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
+              <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
+                How to get Aphrodisias Ancient City?
+              </h2>
+
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Afrodisias is located inland in the Southern Aegean region of
+                Turkey,about 30 km west of Denizli,2 hours away from Ephesus and
+                2,5 hours from Pamukkale.The nearby village is named Geyre, less
+                than 10 km south of Karacasu.The easiest option is use a dolmush
+                (shared van) from Pamukkale for 30-40 TL.The dolmushes leave
+                Pamukkale at 9:30 am and return around 3:30 pm. This gives you
+                three hours at the ruins, which is sufficient.If you have a car
+                with you, it is quite easy to get to Aphrodisias. If you follow
+                the signboards on Nazilli road, you can easily find the Aphrodisias Ancient
+                City.
               </p>
             </div>
 
@@ -204,7 +197,7 @@ export default function  Aphrodisias() {
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Unesco Word Heritage List -
-                  <span className="text-black opacity-90">No</span>
+                  <span className="text-black opacity-90">Yes</span>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Read More -
@@ -226,8 +219,6 @@ export default function  Aphrodisias() {
                 </a>
               </div>
               <Share />
-
-           
             </div>
           </div>
 

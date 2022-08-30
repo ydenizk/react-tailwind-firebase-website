@@ -18,14 +18,14 @@ export default function Troia() {
             className="object-cover w-288 max-h-145 h-145  "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-4xl mb-2 tracking-wider">
-              No <span className="font-roboto font-medium">17</span>
+            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider">
+              No <span className="font-roboto font-medium">21</span>
             </h2>
-            <p className=" font-roboto font-bold text-white text-5xl  whitespace-nowrap mb-6 tracking-wide ">
-              ANCIENT SITES IN TURKEY
+            <p className="uppercase  font-roboto font-bold text-white text-3xl  whitespace-nowrap mb-6 tracking-wide ">
+              HOME of the one of the largest and oldest lycian city
             </p>
-            <p className="uppercase text-white font-mono text-xl tracking-wide">
-              The beauty of ASPENDOS
+            <p className="uppercase text-white font-mono text-lg tracking-wide">
+              The beauty of tlos
             </p>
           </div>
         </div>
@@ -35,8 +35,9 @@ export default function Troia() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 ">
-            <h2 className="mb-6 text-2xl tracking-widest font-semibold ">
-              THE DASHING TRADERS CONVERGE , INDIA ONCE A YEAR
+            <h2 className=" uppercase mb-6 text-2xl tracking-widest font-semibold ">
+              most glamorous metropolis of Lycian Union and a sports center of
+              the Federation.
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>
@@ -46,100 +47,80 @@ export default function Troia() {
           <div className="  w-full p-0 text-black grid grid-cols-6 gap-2">
             <div className="w-full  col-span-4 ">
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
-                No12
+                No21
               </h4>
-              <p className=" tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+              <p className=" tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Tlos was an ancient Lycian city near the modern town of
+                Seydikemer in the Mugla Province of southern Turkey. It was one
+                of the oldest and largest cities of Lycia.Tlos lies on the east
+                side of the Xanthos valley atop a rocky outcrop that slopes up
+                from a plateau from a modern village and ends on the west, north
+                and northeast in almost perpendicular cliffs.
               </p>
-              <div className="w-148 h-90  mb-4">
+              <div className="w-148 h-90  mb-6">
                 <img src={big} alt="object-cover w-148 h-90 " />
               </div>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These traditional pastoralists come from hundreds of miles away.
-                They congregate on a dusty plain outside the town, where they
-                sip masala tea around the campfire and smoke the conical clay
-                pipe known as a chillum. In their white tunics, leather
-                slippers, and jeweled earrings, they cut striking figures, never
-                moreso than when they let their luxurious mustaches run through
-                their fingers. More than mere styling, their colorful turbans
-                communicate caste and native region.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Archaeological remains from the city centre and at nearby sites
+                (the caves at Girmeler and Tavabaşı) suggest that the foundation
+                of the city started more than 4,000 years ago.Tlos seemingly
+                became part of the Persian Empire and lost its independence when
+                the Persians led by Harpagus invaded Lycia in 540 BC. It became
+                prosperous during this period of Persian rule from the 5th to
+                the late 4th century BC. Later, in the Hellenistic period, its
+                importance is shown by being one of the six principal cities of
+                the Lycian League to which in 168 BC Rome granted autonomy
+                instead of dependence on Rhodes.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Regular excavations have been undertaken by an interdisciplinary
+                team since 2005.The influence of many cultures upon Tlos has
+                resulted in a patchwork of buildings dominated by an acropolis
+                and fortress. In early Lycian times the city's settlement was
+                likely concentrated on the southern and western slopes. Wide
+                terraces with cisterns and the back walls of buildings carved
+                from the rock are found there, as well as an agora, a theatre
+                for plays and concerts, public Roman baths and the remains of an
+                early Byzantine church.
               </p>
 
-              <p className="tracking-wider font-light text-base font-noto mb-5 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
-              </p>
-              <div className="w-148 h-90  mb-4">
+              <div className="w-148 h-90  mb-6">
                 <img src={big1} alt="object-cover w-148 h-90 " />
               </div>
 
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                At the foot of the hill is a stadium with seating capacity for
+                2,500 people. It dates from the Hellenistic period with
+                additions and alterations from the Roman period.There are two
+                adjacent baths; the Great Bath is located on a slope southwest
+                of the city centre and consists of three rooms following the
+                plan of typical Lycian baths.The smaller public bath was
+                probably first built in the early Roman period and comprises
+                three rooms but does not have the plan of a typical Lycian
+                baths.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
-              </p>
-
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Most famous Lycian tomb is the tomb of Bellerophon nestled at
+                the bottom of the hill base. It is believed that this is the
+                family tomb of Tlos royal dynasties and its genus comes from the
+                mythical hero - Bellerophon. According to the legend Bellerophon
+                to redeem himself was sent by the Lycian king Iobates to kill
+                the fire-breathing monster Chimera that kept the whole district
+                in fear.
               </p>
 
-              <div className="w-148 h-90  mb-4">
+              <div className="w-148 h-90  mb-6">
                 <img src={big2} alt="object-cover w-148 h-90 " />
               </div>
 
-              <p className="tracking-wider font-light text-base font-noto my-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
-              </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
+              <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
+                How to get tlos Ancient City?
+              </h2>
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Tlos,42 km away from Fethiye town of Muğla province,is in a
+                village called Yaka. You can find regular minubuses from fethiye
+                to Yaka.You can reach to Tlos by private car in 30 minutes from
+                Fethiye.
               </p>
             </div>
 

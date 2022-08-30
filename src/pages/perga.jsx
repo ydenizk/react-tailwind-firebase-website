@@ -21,14 +21,14 @@ export default function Perga() {
             className="object-cover w-288 max-h-145 h-145  "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-4xl mb-2 tracking-wider">
-              No <span className="font-roboto font-medium">17</span>
+            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider">
+              No <span className="font-roboto font-medium">15</span>
             </h2>
-            <p className=" font-roboto font-bold text-white text-5xl  whitespace-nowrap mb-6 tracking-wide ">
-              ANCIENT SITES IN TURKEY
+            <p className="uppercase font-roboto font-bold text-white text-3xl  whitespace-nowrap mb-6 tracking-wide ">
+              HOME OF one of the largest ancient settleements 
             </p>
-            <p className="uppercase text-white font-mono text-xl tracking-wide">
-              The beauty of ASPENDOS
+            <p className="uppercase text-white font-mono text-lg tracking-wide">
+              The beauty of perga
             </p>
           </div>
         </div>
@@ -38,8 +38,8 @@ export default function Perga() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 ">
-            <h2 className="mb-6 text-2xl tracking-widest font-semibold ">
-              THE DASHING TRADERS CONVERGE , INDIA ONCE A YEAR
+            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold ">
+              a large greek-roman  city that has a great level in urban planning
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>
@@ -49,76 +49,70 @@ export default function Perga() {
           <div className="  w-full p-0 text-black grid grid-cols-6 gap-2">
             <div className="w-full  col-span-4 ">
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
-                No12
+                No15
               </h4>
-              <p className=" tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+              <p className=" tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Perga or Perge was an ancient Greek city in Anatolia, once the
+                capital of Pamphylia Secunda, now in Antalya Province on the
+                southwestern Mediterranean coast of Turkey.It was a centre of
+                native culture and was a seat of the worship of “Queen” Artemis,
+                a purely Anatolian nature goddess.A unique and prominent feature
+                for a Roman city was the long central water channel in the
+                centre of the main street which contained a series of cascading
+                pools and which would have been remarkable even today in a
+                semi-arid area where summer temperatures reach over 30 deg. C.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These traditional pastoralists come from hundreds of miles away.
-                They congregate on a dusty plain outside the town, where they
-                sip masala tea around the campfire and smoke the conical clay
-                pipe known as a chillum. In their white tunics, leather
-                slippers, and jeweled earrings, they cut striking figures, never
-                moreso than when they let their luxurious mustaches run through
-                their fingers. More than mere styling, their colorful turbans
-                communicate caste and native region.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Excavations in the original settlement on the acropolis date it
+                to the early Bronze Age, 4000-3000 BC. Perge was later a
+                Pamphylian Greek city, and came under successive rule by
+                Persians, Athenians, and Persians again.Alexander the Great,
+                after quitting Phaselis, occupied Perge with a part of his army
+                in 334 BC.The region was conquered by the Romans in 188 BC.
+                After 25 BC, the Romans built the Via Sebaste linking Pisidian
+                Antioch in Galatia with Perge.Under the Romans from the 1st to
+                the 3rd century AD the town became a magnificent city with many
+                impressive buildings. It became one of the most beautiful towns
+                in Anatolia, competing with Side for the status of most
+                important town in Pamphylia.In the first half of the 4th
+                century, during the reign of Constantine the Great (324-337),
+                Perga became an important centre of Christianity, which soon
+                became the official religion of the Roman Empire. The city
+                retained its status as a Christian centre in the 5th and 6th
+                centuries.Perga remained inhabited until the foundation of the
+                Seljuk Empire in roughly 1000.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                St. Paul the Apostle and his, companion St. Barnabas, twice
+                visited Perga as recorded in the biblical book, the Acts of the
+                Apostles, during their first missionary journey, where they
+                "preached the word
               </p>
 
-              <p className="tracking-wider font-light text-base font-noto mb-5 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
-              </p>
               <div className="w-148 h-90  mb-4">
                 <img src={big} alt="object-cover w-148 h-90 " />
               </div>
-              <div className="w-148 h-90  mb-4">
+              <div className="w-148 h-90  mb-6">
                 <img src={big1} alt="object-cover w-148 h-90 " />
               </div>
+              <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
+                Ancient buildings and excavations
+              </h2>
 
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Excavations started in 1946 and have uncovered many monumental
+                buildings: a theatre, a stadium, palaestra, a temple of Artemis
+                and two churches.The temple of Artemis was located outside the
+                town.One of the most impressive monuments is the theatre which
+                lies outside the walls near the stadium. It is larger than those
+                of Myra and Patara.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
-              </p>
-
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Perge has been dubbed as “Turkey’s second Zeugma” for the
+                alluring appearance of the mosaics that have been unearthed so
+                far. In 2003 archaeologists discovered well-preserved Greek
+                mosaics showing Oceanus and Medusa. In 2017 a mosaic depicting
+                the sacrifice of Iphigenia was discovered.
               </p>
 
               <div className="w-148 h-90  mb-4">
@@ -128,24 +122,18 @@ export default function Perga() {
                 <img src={big3} alt="object-cover w-148 h-90 " />
               </div>
 
-              <p className="tracking-wider font-light text-base font-noto my-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
-              </p>
+              <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
+                How to get perga Ancient City?
+              </h2>
+
               <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
+                Perge islocated  17 kms from the center of Antalya province. There are 2 ways to
+                get here.If you prefer to take a bus from the center of Antalya, take bus number
+                AC03 to the Aksu district. It takes about 1 hour to get to the
+                site with this bus. By Private car, after arriving in Aksu
+                following the "Perge" sign, continue on road in front of the
+                Gendarmerie unit for 2km. It takes 20 mins to get to the site by
+                car. 
               </p>
             </div>
 

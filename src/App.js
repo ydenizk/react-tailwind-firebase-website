@@ -20,7 +20,7 @@ import Hierapolis  from "./pages/hierapolis";
 import Kaunos  from "./pages/kaunos";
 import Knidos  from "./pages/knidos";
 import Laodikeia  from "./pages/laodikeia";
-import Letoon  from "./pages/letoon";
+/* import Letoon  from "./pages/letoon"; */
 import Miletus from "./pages/miletus";
 import Myra from "./pages/myra";
 /* import Olympos from "./pages/olympos"; */
@@ -48,6 +48,7 @@ function App() {
         <Route path="/regios" element={<Regios />} />
 
         <Route path="/destinations" element={<Home />} />
+        
         <Route path="/ephesus" element={<Ephesus />} />
         <Route path="/sardes" element={<Sardes />} />
         <Route path="/miletus" element={<Miletus />} />
@@ -62,7 +63,7 @@ function App() {
         <Route path="/Kaunos" element={<Kaunos />} />
         <Route path="/Knidos" element={<Knidos />} />
         <Route path="/laodikeia" element={<Laodikeia />} />
-        <Route path="/letoon" element={<Letoon />} />
+      {/*   <Route path="/letoon" element={<Letoon />} /> */}
         <Route path="/myra" element={<Myra />} />
        {/*  <Route path="/olympos" element={<Olympos />} /> */}
         <Route path="/patara" element={<Patara />} />

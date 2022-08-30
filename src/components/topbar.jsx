@@ -81,7 +81,7 @@ if (viso1) {
                         to="/sardes"
                         className="text-sm tracking-wide hover:text-amber-400 transition-all"
                       >
-                        Sardes
+                        Sardis
                       </Link>
                     </li>
                     <li className="p-2 flex">
@@ -126,7 +126,7 @@ if (viso1) {
                         to="/laodikeia"
                         className="text-sm tracking-wide hover:text-amber-400 transition-all"
                       >
-                        Laodikeia
+                        Laodiceia
                       </Link>
                     </li>
                     <li className="p-2 flex">
@@ -207,7 +207,7 @@ if (viso1) {
                         to="/troia"
                         className="text-sm tracking-wide hover:text-amber-400 transition-all"
                       >
-                        Troia
+                        Troy
                       </Link>
                     </li>
                     <li className="p-2 flex">
@@ -283,12 +283,12 @@ if (viso1) {
                       </Link>
                     </li>
                     <li className="p-2  flex">
-                      <FaUniversity className="mr-1 text-2xl text-amber-400" />
+                      <FaUniversity className="mr-1  text-amber-400" />
                       <Link
                         to="/apollon"
-                        className="text-xs tracking-wide hover:text-amber-400 transition-all"
+                        className="text-sm tracking-wide hover:text-amber-400 transition-all"
                       >
-                        Apollon Smintheus
+                      Hamaxitus
                       </Link>
                     </li>
                   </ul>

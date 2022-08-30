@@ -17,14 +17,14 @@ export default function Kaunos() {
             className="object-cover w-288 max-h-145 h-145 brightness-50 opacity-90 "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-4xl mb-2 tracking-wider">
-              No <span className="font-roboto font-medium">17</span>
+            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider">
+              No <span className="font-roboto font-medium">09</span>
             </h2>
-            <p className=" font-roboto font-bold text-white text-5xl  whitespace-nowrap mb-6 tracking-wide ">
-              ANCIENT SITES IN TURKEY
+            <p className="uppercase font-roboto font-bold text-white text-4xl  whitespace-nowrap mb-6 tracking-wide ">
+              HOME OF a port of Carians
             </p>
-            <p className="uppercase text-white font-mono text-xl tracking-wide">
-              The beauty of ASPENDOS
+            <p className="uppercase text-white font-mono text-lg tracking-wide">
+              The beauty of kaunos
             </p>
           </div>
         </div>
@@ -34,8 +34,8 @@ export default function Kaunos() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 ">
-            <h2 className="mb-6 text-2xl tracking-widest font-semibold ">
-              THE DASHING TRADERS CONVERGE , INDIA ONCE A YEAR
+            <h2 className=" uppercase mb-6 text-2xl tracking-widest font-semibold ">
+             mysterious ruins of carians and tombs of the kings
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>
@@ -45,73 +45,114 @@ export default function Kaunos() {
           <div className="  w-full p-0 text-black grid grid-cols-6 gap-2">
             <div className="w-full  col-span-4 ">
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
-                No12
+                No09
               </h4>
-              <p className=" tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+              <p
+                className=" tracking-wider font-light text-base font-noto mb-6
+               leading-7"
+              >
+                Kaunos was a city of ancient Caria and in Anatolia, a few
+                kilometres west of the modern town of Dalyan, Muğla Province,
+                Turkey.The Calbys river (now known as the Dalyan river) was the
+                border between Caria and Lycia. Initially Kaunos was a separate
+                state; then it became a part of Caria and later still of Lycia.
+                Kaunos was an important sea port, the history of which is
+                supposed to date back to the 10th century BC. Because of the
+                formation of İztuzu Beach and the silting of the former Bay of
+                Dalyan (from approx. 200 BC onwards), Kaunos is now located
+                about 8 km from the coast.After the capture of Caria by Turkish
+                tribes, and the serious malaria epidemic of the 15th century AD,
+                Kaunos was completely abandoned.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These traditional pastoralists come from hundreds of miles away.
-                They congregate on a dusty plain outside the town, where they
-                sip masala tea around the campfire and smoke the conical clay
-                pipe known as a chillum. In their white tunics, leather
-                slippers, and jeweled earrings, they cut striking figures, never
-                moreso than when they let their luxurious mustaches run through
-                their fingers. More than mere styling, their colorful turbans
-                communicate caste and native region.
+
+              <p
+                className="tracking-wider font-light text-base font-noto mb-6
+               leading-7"
+              >
+                Kaunos was an important sea port city with two ports; one is in
+                the south at the southeast of Küçük Kale (Small Castle) and the
+                inner port at its northwest, the present Sülüklü Göl (the Lake
+                of the Leeches). The southern port was used from the foundation
+                of the city till roughly the end of the Hellenistic era, after
+                which it became inaccessible due to its drying out. The latter
+                was used till the late days of Kaunos, but due to the silting of
+                the delta and the ports, Kaunos had by then lost its important
+                function as a trade port and started becoming poor.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+              <p
+                className="tracking-wider font-light text-base font-noto mb-6
+               leading-7"
+              >
+                According to mythology Kaunos was founded by King Kaunos, son of
+                the Carian King Miletus and Kyane, and grandson of Apollo.Life
+                style and language of Kaunos people share similarities with
+                Carian people. The existence of Kaunos had known by the scholars
+                but its location was a mystery until English archaeologist
+                Hoskyn discovered it in 1842. Swedish archaeologist P. Roos
+                defined the independent state boundaries of Kaunos.
               </p>
 
               <p className="tracking-wider font-light text-base font-noto mb-5 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+                Kaunos is a site that is interesting for both its archeological
+                and ecological importance. Situated in the Köyceğiz-Dalyan
+                Special Environmental Protection Area, it offers outstanding
+                vistas and is rich in wildlife. The ruins of the city are near
+                Dalyan, on the west bank of the ancient Kalbis river. The city
+                was constructed on terraces; significant religious structures
+                like Baselius Kaunios Temple, Apollon Sanctuary and Demeter
+                Sacred Rocks on one side and Bath, Theatre and other structures
+                including Palaestra on a large terrace which is called Upper
+                City on the other.
               </p>
-              <div className="w-148 h-90  mb-4">
+              <div
+                className="w-148 h-90  mb-6
+              "
+              >
                 <img src={big} alt="object-cover w-148 h-90 " />
               </div>
 
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
+              <p
+                className="tracking-wider font-light text-base font-noto mb-6
+               leading-7"
+              >
+                The Acropolis (Persikon), situated on a 152 m high rock,
+                fortified with Byzantine walls.The theater on the slope of the
+                acropolis featuring both Hellenistic and Roman characteristics.
+                The palaestra with its Roman baths, a wind measuring platform
+                and a domed Byzantine basilica Archaeological research has shown
+                that the palaestra was built over part of the old city that most
+                probably had been a place of worship. The Roman baths served as
+                a social meeting place and were meant to impress the Kaunians —
+                by their sheer dimensions — of the power of the Roman Empire.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
+              <p
+                className="tracking-wider font-light text-base font-noto mb-6
+               leading-7"
+              >
+                The port agora is located at the flat area in front of Sülüklü
+                Lake.It dates back to the 4th century BC and kept its function
+                as an economic, political and social meeting place until the end
+                of the Roman era. The remains of pedestals indicate that there
+                must have been many (bronze) statues of influential Romans, but
+                these have not been found. Most likely these were melted down in
+                the Byzantine era.The spectacular Kaunos city walls were erected
+                during the reign of Mausolos in the 4th century BC. They are
+                extraproportional in relation to the size of Kaunos and its
+                population, presumably because the satrap had high expectations
+                of the city's future as a marine and commercial port
               </p>
+              <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
+                How to get Kaunos Ancient City?
+              </h2>
 
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
+              <p
+                className="tracking-wider font-light text-base font-noto mb-6
+               leading-7"
+              >
+                Kaunos is located at Dalyan-Köyceğiz of Muğla province.
+                The best way to get Kaunos ancient city is by the rowing boat service that
+                takes you from the shores of the Dalyan side of the river over
+                to the opposite side.
               </p>
             </div>
 
@@ -142,7 +183,7 @@ export default function Kaunos() {
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Unesco Word Heritage List -
-                  <span className="text-black opacity-90">No</span>
+                  <span className="text-black opacity-90">Yes</span>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Read More -

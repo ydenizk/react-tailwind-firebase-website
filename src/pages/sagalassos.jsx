@@ -17,14 +17,14 @@ export default function Sagalassos() {
             className="object-cover w-288 max-h-145 h-145  "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-4xl mb-2 tracking-wider">
-              No <span className="font-roboto font-medium">17</span>
+            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider">
+              No <span className="font-roboto font-medium">18</span>
             </h2>
-            <p className=" font-roboto font-bold text-white text-5xl  whitespace-nowrap mb-6 tracking-wide ">
-              ANCIENT SITES IN TURKEY
+            <p className="uppercase font-roboto font-bold text-white text-4xl  whitespace-nowrap mb-6 tracking-wide ">
+              HOME OF the first city of Pisidia
             </p>
-            <p className="uppercase text-white font-mono text-xl tracking-wide">
-              The beauty of ASPENDOS
+            <p className="uppercase text-white font-mono text-lg tracking-wide">
+              The beauty of sagalassos
             </p>
           </div>
         </div>
@@ -34,8 +34,8 @@ export default function Sagalassos() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 ">
-            <h2 className="mb-6 text-2xl tracking-widest font-semibold ">
-              THE DASHING TRADERS CONVERGE , INDIA ONCE A YEAR
+            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold ">
+              almost completely preserved, with the monumental structures
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>
@@ -45,98 +45,92 @@ export default function Sagalassos() {
           <div className="  w-full p-0 text-black grid grid-cols-6 gap-2">
             <div className="w-full  col-span-4 ">
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
-                No12
+                No18
               </h4>
-              <p className=" tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+              <p className=" tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Sagalassos is located in Ağlasun, Burdur Province, about 100 km
+                north of Antalya.In Roman Imperial times, the town was known as
+                the "first city of Pisidia", a region in the western Taurus
+                mountains, currently known as the Turkish Lakes Region. During
+                the Hellenistic period it was already one of the major Pisidian
+                towns.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These traditional pastoralists come from hundreds of miles away.
-                They congregate on a dusty plain outside the town, where they
-                sip masala tea around the campfire and smoke the conical clay
-                pipe known as a chillum. In their white tunics, leather
-                slippers, and jeweled earrings, they cut striking figures, never
-                moreso than when they let their luxurious mustaches run through
-                their fingers. More than mere styling, their colorful turbans
-                communicate caste and native region.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                The first traces of hunter/gatherers in the territory of
+                Sagalassos date back to some 12 000 years BP.Under Phrygian and
+                Lydian domination the site gradually developed into an urban
+                centre. During the Persian period, Pisidia became known for its
+                warlike and rebellious factions; a reputation to which the
+                region certainly lived up in 332 BC, when Alexander the Great
+                experienced fierce resistance at Sagalassos while conquering the
+                region as part of his conquest of the Persian kingdom.isidia
+                changed hands many times among the successors of Alexander.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Rapidly, under Roman Imperial rule, Sagalassos became the
+                metropolis of Pisidia. Trouble only started around 400 AD, when
+                the town had to fortify its civic centre against, among others,
+                rebellious Isaurian tribes. Sagalassos seems to have remained
+                rather prosperous even under these conditions. After the
+                earthquake around 500 AD, it was restored with a great sense of
+                monumentality.As a result of recurring epidemics after the
+                middle of the 6th century and related general decline of the
+                economic system in Asia Minor, the city started to lose
+                population. Large parts of the town were abandoned and the urban
+                life was replaced by a more rural way of living.
               </p>
 
               <p className="tracking-wider font-light text-base font-noto mb-5 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+                Sagalassos was destroyed in mid 13th century, by which time
+                Seljuk's had already build a bath and a caravanserai in the
+                village in the valley (Ağlasun). The abandoned ancient city was
+                then rapidly covered under vegetation and erosion layers. As a
+                result of its remote location, Sagalassos was not really looted
+                in later periods and remained to be one of the best preserved
+                ancient cities in the Mediterranean.
               </p>
-              <div className="w-148 h-90  mb-4">
+              <div className="w-148 h-90  mb-6">
                 <img src={big} alt="object-cover w-148 h-90 " />
               </div>
 
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
-              </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
-              </p>
-              <div className="w-148 h-90  mb-4">
-                <img src={big1} alt="object-cover w-148 h-90 " />
-              </div>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                The site of Sagalassos remains almost completely preserved, with
+                the monumental structures, where in some cases almost all the
+                original building stones can be recovered. It is an exceptional
+                and unique case to find a middle sized but highly flourished
+                town in such a well preserved state. An interdisciplinary
+                archaeological research conducted on the site for the last
+                nineteen years has documented all layers and kinds of
+                occupation, delivering a coherent set of archaeological and
+                environmental results that contribute to the history of the
+                region. All these remains document at least a thousand years of
+                continuous occupation (3rd century BC-13th century AD).
               </p>
 
-              <div className="w-148 h-90  mb-4">
+              <div className="w-148 h-90  mb-6">
+                <img src={big1} alt="object-cover w-148 h-90 " />
+              </div>
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                In the following centuries, erosion covered the ruins of
+                Sagalassos. It was not looted to a significant extent, possibly
+                because of its location. Explorer Paul Lucas, who was traveling
+                in Turkey on a mission , visited the ruins in 1706. After 1824,
+                when Francis Vyvyan Jago Arundell (1780–1846), the British
+                chaplain at Smyrna and an antiquarian, visited the site and
+                deciphered its name in inscriptions, Western travelers began to
+                visit the ruins. Polish historian of art,K. Lanckoroński
+                produced the first map of Sagalassos.
+              </p>
+
+              <div className="w-148 h-90  mb-6">
                 <img src={big2} alt="object-cover w-148 h-90 " />
               </div>
-              <p className="tracking-wider font-light text-base font-noto my-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
-              </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
+              <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
+                How to get sagalassos Ancient City?
+              </h2>
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Sagalassos,is located in Ağlasun,110 km away from Antalya
+                province and 41 km away from Isparta province,
               </p>
             </div>
 
@@ -167,7 +161,7 @@ export default function Sagalassos() {
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Unesco Word Heritage List -
-                  <span className="text-black opacity-90">No</span>
+                  <span className="text-black opacity-90">Yes</span>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Read More -

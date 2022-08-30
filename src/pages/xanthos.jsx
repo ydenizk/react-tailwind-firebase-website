@@ -4,6 +4,8 @@ import Share from "./../components/share";
 import banner from "./../assets/xanthos/banner.jpg";
 import big from "./../assets/xanthos/592*360.jpg";
 import big1 from "./../assets/xanthos/592**332.jpg";
+import big2 from "./../assets/xanthos/592-444.jpg";
+import big3 from "./../assets/xanthos/592-332.jpg";
 
 
 export default function Xanthos() {
@@ -17,14 +19,14 @@ export default function Xanthos() {
             className="object-cover w-288 max-h-145 h-145  "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-4xl mb-2 tracking-wider">
-              No <span className="font-roboto font-medium">17</span>
+            <h2 className="font-roboto font-medium text-white text-2xl mb-2 tracking-wider">
+              No <span className="font-roboto font-medium">22</span>
             </h2>
-            <p className=" font-roboto font-bold text-white text-5xl  whitespace-nowrap mb-6 tracking-wide ">
-              ANCIENT SITES IN TURKEY
+            <p className="uppercase  font-roboto font-bold text-white text-3xl  whitespace-nowrap mb-6 tracking-wide ">
+              HOME OF capital city of Lycia
             </p>
-            <p className="uppercase text-white font-mono text-xl tracking-wide">
-              The beauty of ASPENDOS
+            <p className="uppercase text-white font-mono text-lg tracking-wide">
+              The beauty of xanthos
             </p>
           </div>
         </div>
@@ -34,8 +36,8 @@ export default function Xanthos() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 ">
-            <h2 className="mb-6 text-2xl tracking-widest font-semibold ">
-              THE DASHING TRADERS CONVERGE , INDIA ONCE A YEAR
+            <h2 className="uppercase smb-6 text-2xl tracking-widest font-semibold ">
+              xanthos and letoon,heart of lycia
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>
@@ -45,100 +47,123 @@ export default function Xanthos() {
           <div className="  w-full p-0 text-black grid grid-cols-6 gap-2">
             <div className="w-full  col-span-4 ">
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
-                No12
+                No22
               </h4>
-              <p className=" tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+              <p className=" tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Xanthos was an ancient major city near present-day Kınık,
+                Antalya Province, Turkey. The remains of Xanthos lie on a hill
+                on the left bank of the Xanthos river. The number and quality of
+                the monumental tombs still standing is a remarkable feature of
+                the site. Xanthos is a UNESCO World Heritage Site. Xanthos was a
+                centre of culture and commerce for the Lycians, and later for
+                the Persians, Greeks and Romans who in turn conquered the city.
+                Made up of two neighboring settlements located in the
+                southwestern part of Anatolia, respectively within the
+                boundaries of Antalya and Muğla Provinces, Xanthos-Letoon is a
+                remarkable archaeological complex. As an important city in
+                Lycia, it exerted significant architectural influences upon
+                other cities of the region, with the Nereid Monument directly
+                inspiring the Mausoleum at Halicarnassus in Caria. It represents
+                the most unique extant architectural example of the ancient
+                Lycian Civilization, which was one of the most important
+                cultures of the Iron Age in Anatolia.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These traditional pastoralists come from hundreds of miles away.
-                They congregate on a dusty plain outside the town, where they
-                sip masala tea around the campfire and smoke the conical clay
-                pipe known as a chillum. In their white tunics, leather
-                slippers, and jeweled earrings, they cut striking figures, never
-                moreso than when they let their luxurious mustaches run through
-                their fingers. More than mere styling, their colorful turbans
-                communicate caste and native region.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Trojan War heroes and Lycian leaders Glaucus and Sarpedon,
+                founder of Xanthos, are described in the Iliad as allies of the
+                Trojans. In the same text, Achilles' immortal, talking horse is
+                named Xanthos. The acropolis of Xanthos dates from the 8th c.
+                BC. The city is mentioned by numerous ancient Greek and Roman
+                writers and Strabo notes Xanthos as the largest city in Lycia.
+                The important religious sanctuary of Leto at Letoon, 4 km south
+                of Xanthos, dates from the late 6th century BC and was closely
+                associated with the city and linked by a sacred road.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Xanthos, which was the capital of ancient Lycia, illustrates the
+                blending of Lycian traditions with the Hellenic influence,
+                especially in its funerary art. The rock-cut tombs, pillar tombs
+                and pillar-mounted sarcophagi in Xanthos are unique examples of
+                ancient funerary architecture.The rock-cut tombs, pillar tombs
+                and pillar-mounted sarcophagi in Xanthos are unique examples of
+                ancient funerary architecture. As an important city in Lycia, it
+                exerted significant architectural influences upon other cities
+                of the region, with the Nereid Monument directly inspiring the
+                Mausoleum at Halicarnassus in Caria. Their value was already
+                recognized in Antiquity and they influenced the art of
+                neighboring provinces: the Mausoleum of Halicarnassus is for
+                instance directly influenced by the Xanthos Nereid Monument.
               </p>
 
               <p className="tracking-wider font-light text-base font-noto mb-5 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+                Letoon, on the other hand, was the cult center of Xanthos, the
+                ancient federal sanctuary of the Lycian province and Lycian
+                League of Cities. As many inscriptions found at the site
+                demonstrate, the federal sanctuary was the place where all
+                religious and political decisions of the ruling powers were
+                declared to the public.
               </p>
-              <div className="w-148 h-90  mb-4">
+              <div className="w-148 h-111  mb-6">
                 <img src={big} alt="object-cover w-148 h-90 " />
               </div>
-              <a href="https://www.facebook.com/campaign/landing.php?&campaign_id=1603087355&extra_1=s%7Cc%7C305038450781%7Ce%7Cfacebook%27%7C&placement=&creative=305038450781&keyword=facebook%27&partner_id=googlesem&extra_2=campaignid%3D1603087355%26adgroupid%3D61834755758%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-362360550869%26loc_physical_ms%3D1012782%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAjwgaeYBhBAEiwAvMgp2uT-njBK1_HDp8n2UXHHIxYu9R0g3nHfpgxsDfB2cc5C_X3CUUKbWBoCTK0QAvD_BwE">
-                xxxx
-              </a>
+              <div className="w-148 h-111  mb-6">
+                <img src={big2} alt="object-cover w-148 h-90 " />
+              </div>
 
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Xanthos has been a mecca for students of Anatolian civilisation
+                since the early 19th century. Of the monumental tombs, three,
+                the Nereid Monument the Tomb of Payava and the sculptures of the
+                Harpy tomb, are now exhibited in the British Museum on account
+                of their splendid sculptural decoration and architecture. The
+                Harpy Tomb, of equal merit but less well preserved, is still
+                located in Xanthos with replica reliefs. The archeological
+                excavations and surface investigations at Xanthos have yielded
+                many texts in Lycian and Greek, including bilingual texts that
+                are useful in the understanding of Lycian. The Xanthian Obelisk
+                and the Letoon trilingual are two trilingual stelae which were
+                found in the city and Letoon and record an older Anatolian
+                language conventionally called Milyan language.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Xanthos-Letoon has retained the authenticity of its features,
+                largely due to the property’s distance from any modern
+                settlement. The monuments revealed during archaeological
+                excavations have gone through important restoration and
+                conservations works, which have not impacted their authenticity
+                in terms of design and layout. The most important project was
+                the reconstruction of the temple of Leto in its original setting
+                between 2000 and 2007. The architectural pieces that belonged to
+                the temple of Leto, which were found during excavations carried
+                out since 1950s, enabled the successful completion of this
+                project. Some important restoration, conservation and
+                consolidation works were also carried out on the Early Christian
+                Church and monumental nymphaeum.
               </p>
-
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
-              </p>
-
+              <div className="w-148 h-83  mb-6">
+                <img src={big3} alt="object-cover w-148 h-83 " />
+              </div>
               <div className="w-148 h-83  mb-4">
                 <img src={big1} alt="object-cover w-148 h-83 " />
               </div>
 
               <p className="tracking-wider font-light text-base font-noto my-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
+                Today the site of Xanthos overlooks the modern Turkish village
+                of Kınık. Once over 500 m long, the Roman Kemer Bridge crossed
+                the upper reaches of the river near the present-day village of
+                Kemer. The modern Turkish name of the river is Eşen Çayı.
               </p>
+              <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
+                How to get Xanthos and Letoon Ancient Cities?
+              </h2>
               <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
+                Xanthos is located near the village of Kınık on a hillside in a
+                beautiful natural site overlooking the Eşen river. The ancient
+                city of Xanthos is 45 km from Kaş, 20 km from Kalkan, 65 km from
+                Fethiye, and 235 km from Antalya. If you travel with a private
+                vehicle, you can follow the D400 highway from Antalya to get
+                Xanthos. Rent a car in Antalya.From Kaş and Kalkan take one of
+                the Kınık minibuses .Letoon is 4 km from Xanthos.
               </p>
             </div>
 
@@ -169,7 +194,7 @@ export default function Xanthos() {
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Unesco Word Heritage List -
-                  <span className="text-black opacity-90">No</span>
+                  <span className="text-black opacity-90">Yes</span>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Read More -

@@ -8,7 +8,7 @@ import big2 from "./../assets/priene/592--360.jpeg";
 import sideSmall from "./../assets/priene/288-288.jpg";
 import sideSmall1 from "./../assets/priene/288*288.jpg";
 
-export default function Ephesus() {
+export default function Priene() {
   return (
     <div className="w-full bg-neutral-100">
       <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-10 ">
@@ -19,14 +19,14 @@ export default function Ephesus() {
             className="object-cover w-288 max-h-145 h-145 "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-4xl mb-2 tracking-wider">
+            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider">
               No <span className="font-roboto font-medium">17</span>
             </h2>
-            <p className=" font-roboto font-bold text-white text-5xl  whitespace-nowrap mb-6 tracking-wide ">
-              ANCIENT SITES IN TURKEY
+            <p className="uppercase font-roboto font-bold text-white text-3xl  whitespace-nowrap mb-6 tracking-wide ">
+              HOME OF high-quality Hellenistic art and architecture
             </p>
-            <p className="uppercase text-white font-mono text-xl tracking-wide">
-              The beauty of ASPENDOS
+            <p className="uppercase text-white font-mono text-lg tracking-wide">
+              The beauty of priene
             </p>
           </div>
         </div>
@@ -36,8 +36,8 @@ export default function Ephesus() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 ">
-            <h2 className="mb-6 text-2xl tracking-widest font-semibold ">
-              THE DASHING TRADERS CONVERGE , INDIA ONCE A YEAR
+            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold ">
+              a port city situated at the then mouth of the Maeander(Menderes)
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>
@@ -47,99 +47,121 @@ export default function Ephesus() {
           <div className="  w-full p-0 text-black grid grid-cols-6 gap-2">
             <div className="w-full  col-span-4 ">
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
-                No12
+                No17
               </h4>
-              <p className=" tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+              <p className=" tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Priene was an ancient Greek city of Ionia (and member of the
+                Ionian League) located 6 kilometres (3.7 mi) north of what was
+                then the course of the Maeander River (now called the Büyük
+                Menderes or "Big Maeander"). It was also 25 kilometres (16 mi)
+                from ancient Miletus.The city was built on the sea coast,
+                overlooking the former Latmian Gulf of the Aegean. It was
+                developed on steep slopes and terraces extending from sea level
+                to a height of 380 metres (1,250 ft) above sea level at the top
+                of the escarpment.Its well-preserved remains are a major source
+                of information about ancient Greek town planning.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These traditional pastoralists come from hundreds of miles away.
-                They congregate on a dusty plain outside the town, where they
-                sip masala tea around the campfire and smoke the conical clay
-                pipe known as a chillum. In their white tunics, leather
-                slippers, and jeweled earrings, they cut striking figures, never
-                moreso than when they let their luxurious mustaches run through
-                their fingers. More than mere styling, their colorful turbans
-                communicate caste and native region.
-              </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Priene is known to have been the site of high-quality
+                Hellenistic art and architecture. The city's original position
+                on Mount Mycale has never been discovered; however, it is
+                believed that it was on a peninsula with two harbours. Priene
+                never held a great deal of political importance due to the
+                city's relatively limited size, as it is believed around four to
+                five thousand inhabitants occupied the region.The city was
+                arranged into four districts, firstly the political district,
+                which consisted of the bouleuterion and the prytaneion; the
+                cultural district containing the theatre; the commercial, where
+                the agora was located; and finally the religious district, which
+                contained sanctuaries dedicated to Zeus, Demeter and, most
+                importantly, the Temple of Athena.
               </p>
 
               <p className="tracking-wider font-light text-base font-noto mb-5 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+                The city visible on the slopes and escarpment of Mycale was
+                constructed according to plan entirely during the 4th century
+                BCE. The original Priene had been a port city situated at the
+                then mouth of the Maeander(Menderes) River. This location caused
+                insuperable environmental difficulties, due to slow aggradation
+                of the riverbed and progradation in the direction of the Aegean
+                Sea.
               </p>
-              <div className="w-148 h-90  mb-4">
+              <div className="w-148 h-90  mb-6">
                 <img src={big} alt="object-cover w-148 h-90 " />
               </div>
 
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                The Greek city (there may have been unknown habitations of other
+                ethnicities, as at Miletus) was founded by a colony from the
+                ancient Greek city of Thebes in the vicinity of ancient Aneon at
+                about 1000 BCE.By the 8th century BC Priene was a member of the
+                Ionian League, whose central shrine, the Panionion, lay within
+                the city’s territory.While Miletus apparently still had an open
+                port then, according to recent geoarchaeological research,
+                Priene had already lost the port and open connection to the sea
+                in about the 1st century BCE.Today Miletus is many miles from
+                the sea. Priene stands at the edge of a fertile plain, now a
+                checkerboard of privately owned fields. A Greek village remained
+                after the population decline. After the 12th century CE, more
+                Turkish people moved into the area. In the 13th century CE
+                Priene was known as "Sampson".The area remained under Byzantine
+                control until the late 13th century.By 1923, whatever Greek
+                population remained was expelled in the population exchange
+                between Greece and Turkey following World War I.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
+              <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
+                Ancient buildings
+              </h2>
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                The city’s remains lie on successive terraces that rise from a
+                plain to a steep hill upon which stands the Temple of Athena
+                Polias. Priene is laid out on a grid plan, with 6 main streets
+                running east-west and 15 streets crossing at right angles, all
+                being evenly spaced. The town was thereby divided into about 80
+                blocks, or insulae, each averaging 46 by 34 m. In the centre of
+                the town stand not only the Temple of Athena but an agora, a
+                stoa, an assembly hall, and a theatre with well-preserved stage
+                buildings. A gymnasium and stadium are in the lowest section.
+                The private houses typically consisted of a rectangular
+                courtyard enclosed by living quarters and storerooms and opening
+                to the south onto the street by way of a small vestibule.
               </p>
-              <div className="w-148 h-90  mb-4">
+              <div className="w-148 h-90  mb-6">
                 <img src={big1} alt="object-cover w-148 h-90 " />
               </div>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                The ruins, which fell on the successive terraces where they were
+                built, were the object of investigatory missions sent out by the
+                English Society of Dilettanti in 1765 and 1868. They were
+                excavated by Theodor Wiegand (1895–1899) for the Berlin Museum.
               </p>
 
-              <div className="w-148 h-90  mb-4">
+              <div className="w-148 h-90  mb-6">
                 <img src={big2} alt="object-cover w-148 h-90 " />
               </div>
 
               <p className="tracking-wider font-light text-base font-noto my-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
+                Priene was a wealthy city, as the plenitude of fine urban homes
+                in marble and the private dedications of public buildings
+                suggests. In addition, historical references to the interest of
+                Mausolus and Alexander the Great indicate its standing. One
+                third of the houses had indoor toilets, a rarity in this
+                society.Typically cities had public banks of outdoor seats, side
+                by side, an arrangement for which the flowing robes of the
+                ancients were suitably functional. Indoor plumbing requires more
+                extensive water supply and sewage systems.The source of Ionian
+                wealth was maritime activity; Ionia had a reputation among the
+                other Greeks for being luxurious. The intellectuals, such as
+                Heraclitus, often railed against their practices.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
+              <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
+                How to get priene Ancient City?
+              </h2>
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Priene is located on the town of Güllübahçe,15 km way from
+                Didim,34 km south of Kuşadası and 54 km south of Selçuk and
+                Ephesus by way of Söke.
               </p>
             </div>
 
@@ -170,7 +192,7 @@ export default function Ephesus() {
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Unesco Word Heritage List -
-                  <span className="text-black opacity-90">No</span>
+                  <span className="text-black opacity-90">Yes</span>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Read More -

@@ -18,14 +18,17 @@ export default function Patara() {
             className="object-cover w-288 max-h-145 h-145  "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-4xl mb-2 tracking-wider">
-              No <span className="font-roboto font-medium">17</span>
+            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider">
+              No <span className="font-roboto font-medium">14</span>
             </h2>
-            <p className=" font-roboto font-bold text-white text-5xl  whitespace-nowrap mb-6 tracking-wide ">
-              ANCIENT SITES IN TURKEY
+            <p className="uppercase font-roboto font-bold text-white text-2xl  whitespace-nowrap mb-1 tracking-wide ">
+              HOME OF one of the most powerful cities of the Lycian league
             </p>
-            <p className="uppercase text-white font-mono text-xl tracking-wide">
-              The beauty of ASPENDOS
+            <p className="uppercase font-roboto font-bold text-white text-2xl  whitespace-nowrap mb-6 tracking-wide ">
+              league and the birhplace of gof apollo
+            </p>
+            <p className="uppercase text-white font-mono text-lg tracking-wide">
+              The beauty of patara
             </p>
           </div>
         </div>
@@ -35,8 +38,9 @@ export default function Patara() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 ">
-            <h2 className="mb-6 text-2xl tracking-widest font-semibold ">
-              THE DASHING TRADERS CONVERGE , INDIA ONCE A YEAR
+            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold ">
+              Lighthouse of patara is believed to the oldest one in the world
+              and was built in 60 AD.
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>
@@ -46,45 +50,64 @@ export default function Patara() {
           <div className="  w-full p-0 text-black grid grid-cols-6 gap-2">
             <div className="w-full  col-span-4 ">
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
-                No12
+                No14
               </h4>
-              <p className=" tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+              <p className=" tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Patara was an ancient and flourishing maritime and commercial
+                city, capital of Lycia, on the south-west coast of Turkey near
+                the modern small town of Gelemiş,Kalkan in Antalya Province.t is
+                the birthplace of Saint Nicholas in 270 AD, who lived most of
+                his life in the nearby town of Myra (Demre).
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These traditional pastoralists come from hundreds of miles away.
-                They congregate on a dusty plain outside the town, where they
-                sip masala tea around the campfire and smoke the conical clay
-                pipe known as a chillum. In their white tunics, leather
-                slippers, and jeweled earrings, they cut striking figures, never
-                moreso than when they let their luxurious mustaches run through
-                their fingers. More than mere styling, their colorful turbans
-                communicate caste and native region.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                In myth, Patara was said to have been founded by Patarus a son
+                of Apollo. Ancient writers mentioned Patara as one of the
+                principal cities of Lycia. It was Lycia's primary seaport, and a
+                leading city of the Lycian League, having 3 votes, the
+                maximum.The city, with the rest of Lycia, surrendered to
+                Alexander the Great in 333 BC.In this period the first city
+                walls were built. Strabo informs us that Ptolemy Philadelphus of
+                Egypt, who enlarged the city, gave it the name of Arsinoë after
+                Arsinoe II of Egypt.Patara.Antiochus III captured Patara in 196
+                BC and it became the capital of Lycia. The Lycian League was
+                formally established in 176 BC.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                In the 5th century AD the city was reduced in size through the
+                construction of a strong fortification wall adjoining the
+                Bouleuterion using stone from the nearby structures.he city
+                remained of some importance during the Byzantine Empire as a
+                way-point for trade and pilgrims. After the Seljuk Sultanate of
+                Rum acquisition in 1211 the city declined and appears to have
+                been deserted by 1340.
               </p>
+              <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
+                Ancient buildings
+              </h2>
 
               <p className="tracking-wider font-light text-base font-noto mb-5 leading-7">
-                The Pushkar Mela, which happens every fall in a lakeside town in
-                western India, is a carnivalesque blend of spiritual, touristic,
-                and commercial activities. Much of the latter revolves around
-                camels, thousands of them, and is undertaken by herdsmen who
-                arrive in Pushkar from all over the deserts of Rajasthan.
+                The theatre was rebuilt under Antoninus Pius in 147 AD after an
+                earthquake;its diameter is 265 feet, and held about 6000
+                spectators.The Bouleuterion or prytaneion is well-preserved and
+                has been further restored. It was the capital's assembly hall of
+                the Lycian League and overlooked the theatre the Agora in the
+                East.The main street connected the inner harbour to the Agora
+                and is one of the widest and best-preserved streets in Lycia.
+                Both sides of the street are lined with Ionic-order colonnades,
+                with granite columns on the east and marble columns on the west.
               </p>
-              <div className="w-148 h-90  mb-4">
+              <div className="w-148 h-90  mb-6">
                 <img src={big1} alt="object-cover w-148 h-90 " />
               </div>
 
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                The lighthouse stood at the entrance to the major naval and
+                trading port of Lycia, which had an outer and an inner harbour.
+                It was built in 60 AD during the reign of Nero, according to an
+                inscription, and is one of the oldest surviving.The site of the
+                oracle and temple of Apollo have not been found.
+              </p>
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
                 Sadly, it is getting harder for these tribesmen to do business.
                 Camel trading has declined in recent years; whereas 30,000
                 animals might have changed hands at Pushkar in decades past,
@@ -92,52 +115,37 @@ export default function Patara() {
                 Pushkar are now sold for meat, a transaction that herdsmen would
                 have once considered disgraceful. But with pastureland getting
                 scarce and their profession waning in prestige, they have little
-                choice.
+                choice.The harbour is still apparent but it is a swamp, choked
+                up with sand and bushes.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
-              </p>
-              <div className="w-148 h-72  mb-4">
+              <div className="w-148 h-72  mb-6">
                 <img src={big} alt="object-cover w-148 h-72 " />
               </div>
-              <div className="w-148 h-111  mb-4">
+              <div className="w-148 h-111  mb-6">
                 <img src={big2} alt="object-cover w-148 h-111 " />
               </div>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                In 1836 the French archaeologist Charles Texier explored the
+                site followed by Charles Fellows in 1838.In 1993 the Stadiasmus
+                Patarensis was unearthed, a monumental Roman pillar on which is
+                inscribed in Greek a dedication to Claudius and an official
+                announcement of roads being built by the governor, Quintus
+                Veranius Nepos, in the province of Lycia et Pamphylia, giving
+                place names and distances, essentially a monumental public
+                itinerarium.The pillar is on display in the garden of the
+                Antalya Museum.The site is currently being excavated each year
+                by a team of Turkish archaeologists.
               </p>
+              <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
+                How to get patara Ancient City?
+              </h2>
 
-              <p className="tracking-wider font-light text-base font-noto my-4 leading-7">
-                Sadly, it is getting harder for these tribesmen to do business.
-                Camel trading has declined in recent years; whereas 30,000
-                animals might have changed hands at Pushkar in decades past,
-                5,000 is the present norm. Moreover, the majority of camels at
-                Pushkar are now sold for meat, a transaction that herdsmen would
-                have once considered disgraceful. But with pastureland getting
-                scarce and their profession waning in prestige, they have little
-                choice.
-              </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                These changes are particularly disturbing for the Raika, a
-                Rajasthani ethnic group that believes itself to have been
-                specially chosen by Shiva, the Hindu god, to practice camel
-                husbandry. Dr. Ilse Koehler-Rollefson, who has spent more than
-                two decades studying pastoral peoples in Rajasthan, estimates
-                that about 50% of camel traders at Pushkar are Raika. Beneath
-                all their individual panache lies an uncertain future.
+              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+                Patara is located about 475km west of Antalya province, 45km
+                west of Kaş and 20km west of Kalkan. You can reach Patara by
+                car, bus or taxi on D-400. Minibuses(dolmushes) from Kalkan or
+                Kaş will take you at Ovaköy and you can take a 3.5km taxi drive
+                to the village of Gelemiş, or Patara.
               </p>
             </div>
 
