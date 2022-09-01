@@ -23,7 +23,7 @@ export default function Aspendos() {
               No <span className="font-roboto font-medium">04</span>
             </h2>
             <p className="uppercase font-roboto font-bold text-white text-4xl  whitespace-nowrap mb-6 tracking-wide ">
-              HOME OF the best preserved roman theater 
+              HOME OF the best preserved roman theater
             </p>
             <p className="uppercase text-white font-mono text-lg tracking-wide">
               The beauty of Aspendos
@@ -37,7 +37,8 @@ export default function Aspendos() {
           {/* .................... */}
           <div className="text-center mb-20 ">
             <h2 className="mb-6 text-2xl tracking-widest font-semibold uppercase ">
-              a surreal atmosphere of ancient ruins and great sounds of acoustics of  theater  
+              a surreal atmosphere of ancient ruins and great sounds of
+              acoustics of theater
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>
@@ -149,21 +150,35 @@ export default function Aspendos() {
                   Search on Map -
                   <a
                     className="text-black opacity-90 underline font-medium text-base font-garamond tracking-wider"
-                    href=""
+                    href="https://goo.gl/maps/8wuMN6cQcXg4e9dW8"
                     target="_blank"
                   >
                     Google Maps
                   </a>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
+                  TR Museum Passcard -
+                  <span className="text-black opacity-90">Valid</span>
+                </p>
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Unesco Word Heritage List -
-                  <span className="text-black opacity-90">No</span>
+                  <span className="text-black opacity-90">Yes</span>
+                </p>
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
+                  Brochure -
+                  <a
+                    href="https://muze.gov.tr/s3/MysFileLibrary/Antalya%20Aspendos%20ENG-b8a89bfc-78ab-47ad-a39c-2fba0fabddaf.pdf"
+                    className="text-black opacity-90 underline"
+                    target="_blank"
+                  >
+                    Check out or Download
+                  </a>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Read More -
                   <a
                     className="text-black opacity-90 font-medium text-base font-garamond tracking-wider underline ml-2"
-                    href="https://whc.unesco.org/en/tentativelists/5829/"
+                    href="https://whc.unesco.org/en/tentativelists/6036/"
                     target="_blank"
                   >
                     Unesco
@@ -172,7 +187,7 @@ export default function Aspendos() {
 
                 <a
                   className="text-black font-medium text-base font-garamond tracking-wider underline ml-24"
-                  href="https://en.wikipedia.org/wiki/Sardis"
+                  href="https://en.wikipedia.org/wiki/Aspendos"
                   target="_blank"
                 >
                   Wikipedia

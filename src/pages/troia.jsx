@@ -27,12 +27,12 @@ export default function Troia() {
               No <span className="font-roboto font-medium">21</span>
             </h2>
             <p className="uppercase font-roboto font-bold text-white text-3xl  whitespace-nowrap mb-1 tracking-wide ">
-              HOME OF one of the most famous ancient 
+              HOME OF one of the most famous ancient
             </p>
             <p className="uppercase font-roboto font-bold text-white text-3xl  whitespace-nowrap mb-6 tracking-wide ">
               sites in history
             </p>
-            
+
             <p className="uppercase text-white font-mono text-lg tracking-wide">
               The beauty of troy
             </p>
@@ -45,7 +45,8 @@ export default function Troia() {
           {/* .................... */}
           <div className="text-center mb-20 ">
             <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold ">
-      not just one city,but nine,built one on top of the other:nine layers of diferent civilisation
+              not just one city,but nine,built one on top of the other:nine
+              layers of diferent civilisation
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>
@@ -124,9 +125,12 @@ export default function Troia() {
                 location at a point where the three cultures met.
               </p>
               <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-              As for the doubs about the exact location of Troy,no other city has been found in this area that fits the size and description,that 
-              is why experts are confident these are the ruin of Troy.Homer describes the location of troy very clearlyn in The Ilıad.Also the city was right by the beach but
-              it is totally solved now that the sea has retreated approx. 6 kms now.
+                As for the doubs about the exact location of Troy,no other city
+                has been found in this area that fits the size and
+                description,that is why experts are confident these are the ruin
+                of Troy.Homer describes the location of troy very clearlyn in
+                The Ilıad.Also the city was right by the beach but it is totally
+                solved now that the sea has retreated approx. 6 kms now.
               </p>
               <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
                 The Turkish government created the Historical National Park at
@@ -150,9 +154,11 @@ export default function Troia() {
                 How to get troy Ancient City?
               </h2>
               <p className="tracking-wider font-light text-base font-noto my-4 leading-7">
-             Troy   is located 32 km away from Çanakkale(Dardanelles) province on the aegean cost of Turkey.
-             As it is one of the top spots in region,there are plenty of options to come Troy by car,by direct minubuses or by
-              plane to Çanakkale airport from outside of the region.
+                Troy is located 32 km away from Çanakkale(Dardanelles) province
+                on the aegean cost of Turkey. As it is one of the top spots in
+                region,there are plenty of options to come Troy by car,by direct
+                minubuses or by plane to Çanakkale airport from outside of the
+                region.
               </p>
             </div>
 
@@ -175,21 +181,36 @@ export default function Troia() {
                   Search on Map -
                   <a
                     className="text-black opacity-90 underline font-medium text-base font-garamond tracking-wider"
-                    href=""
+                    href="https://goo.gl/maps/HfhRqiDQm7W3LVJ98"
                     target="_blank"
                   >
                     Google Maps
                   </a>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
+                  TR Museum Passcard -
+                  <span className="text-black opacity-90">Valid</span>
+                </p>
+
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Unesco Word Heritage List -
                   <span className="text-black opacity-90">Yes</span>
+                </p>
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
+                  Brochure -
+                  <a
+                    href="https://muze.gov.tr/s3/MysFileLibrary/Çanakkale%20Troya%20Ören%20Yeri-7518a4b2-5f6c-4554-a234-e1f8e06bbf76.pdf"
+                    className="text-black opacity-90 underline"
+                    target="_blank"
+                  >
+                    Check out or Download
+                  </a>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Read More -
                   <a
                     className="text-black opacity-90 font-medium text-base font-garamond tracking-wider underline ml-2"
-                    href="https://whc.unesco.org/en/tentativelists/5829/"
+                    href="https://whc.unesco.org/en/list/849/"
                     target="_blank"
                   >
                     Unesco
@@ -198,7 +219,7 @@ export default function Troia() {
 
                 <a
                   className="text-black font-medium text-base font-garamond tracking-wider underline ml-24"
-                  href="https://en.wikipedia.org/wiki/Sardis"
+                  href="https://en.wikipedia.org/wiki/Troy"
                   target="_blank"
                 >
                   Wikipedia

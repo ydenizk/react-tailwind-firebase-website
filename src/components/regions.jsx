@@ -1,6 +1,7 @@
-import React, { useEffect, useState, forwardRef } from "react";
-import items from "./../data";
 
+import items from "./../data";
+import React from "react"
+import { forwardRef } from "react";
 
 
 /* const Regions = React.forwardRef((props, ref) => {
@@ -10,12 +11,12 @@ import items from "./../data";
         {items.map((reg) => { */
 
 
-const Regions = ()=> {
+const Regions =React.forwardRef((props, ref)=> {
   
   
   
   return (
-    <section className="my-8 flex justify-center align-center bg-neutral-100 ">
+    <section ref={ref} className="my-8 flex justify-center align-center bg-neutral-100 ">
       <div className="max-w-6xl  w-full p-0 bg-neutral-100 ">
         {items.map((reg) => {
           const { url, name, text, places, mapp, id } = reg;
@@ -63,6 +64,6 @@ const Regions = ()=> {
       </div>
     </section>
   );
-};
+})
 
 export default Regions;

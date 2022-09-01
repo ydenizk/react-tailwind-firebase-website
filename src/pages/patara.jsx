@@ -168,34 +168,40 @@ export default function Patara() {
                   Search on Map -
                   <a
                     className="text-black opacity-90 underline font-medium text-base font-garamond tracking-wider"
-                    href=""
+                    href="https://goo.gl/maps/3E2KWEKA2WZHEBNXA"
                     target="_blank"
                   >
                     Google Maps
                   </a>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
+                  TR Museum Passcard -
+                  <span className="text-black opacity-90">Valid</span>
+                </p>
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Unesco Word Heritage List -
                   <span className="text-black opacity-90">No</span>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
-                  Read More -
+                  Brochure -
                   <a
-                    className="text-black opacity-90 font-medium text-base font-garamond tracking-wider underline ml-2"
-                    href="https://whc.unesco.org/en/tentativelists/5829/"
+                    href="https://muze.gov.tr/s3/MysFileLibrary/Antalya%20patara%20ören%20yeri_ENG-6b3008c1-5b63-435f-8af7-567c267c7ae5.pdf"
+                    className="text-black opacity-90 underline"
                     target="_blank"
                   >
-                    Unesco
+                    Check out or Download
                   </a>
                 </p>
-
-                <a
-                  className="text-black font-medium text-base font-garamond tracking-wider underline ml-24"
-                  href="https://en.wikipedia.org/wiki/Sardis"
-                  target="_blank"
-                >
-                  Wikipedia
-                </a>
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
+                  Read More -
+                  <a
+                    className="text-black font-medium text-base font-garamond tracking-wider underline "
+                    href="https://en.wikipedia.org/wiki/Sardis"
+                    target="_blank"
+                  >
+                    Wikipedia
+                  </a>
+                </p>
               </div>
               <Share />
 

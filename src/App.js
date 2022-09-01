@@ -20,7 +20,6 @@ import Hierapolis  from "./pages/hierapolis";
 import Kaunos  from "./pages/kaunos";
 import Knidos  from "./pages/knidos";
 import Laodikeia  from "./pages/laodikeia";
-/* import Letoon  from "./pages/letoon"; */
 import Miletus from "./pages/miletus";
 import Myra from "./pages/myra";
 /* import Olympos from "./pages/olympos"; */
@@ -35,16 +34,16 @@ import Troia from "./pages/troia";
 import Xanthos from "./pages/xanthos";
 
 function App() {
-/*   const scrollRef = useRef(null); */
+ 
+const regionsREf = useRef(null);
 
-  /* ; */
 
   return (
     <Router>
-      <Topbar /* scrollRef={scrollRef}  */ />
+      <Topbar />
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home />}   />
         <Route path="/regios" element={<Regios />} />
 
         <Route path="/destinations" element={<Home />} />
@@ -53,7 +52,6 @@ function App() {
         <Route path="/sardes" element={<Sardes />} />
         <Route path="/miletus" element={<Miletus />} />
         <Route path="/aphrodisias" element={<Aphrodisias />} />
-
         <Route path="/aizanoi" element={<Aizanoi />} />
         <Route path="/apollon" element={<Apollon />} />
         <Route path="/aspendos" element={<Aspendos />} />
@@ -62,8 +60,7 @@ function App() {
         <Route path="/Hierapolis" element={<Hierapolis />} />
         <Route path="/Kaunos" element={<Kaunos />} />
         <Route path="/Knidos" element={<Knidos />} />
-        <Route path="/laodikeia" element={<Laodikeia />} />
-      {/*   <Route path="/letoon" element={<Letoon />} /> */}
+        <Route path="/laodikeia" element={<Laodikeia />} />  
         <Route path="/myra" element={<Myra />} />
        {/*  <Route path="/olympos" element={<Olympos />} /> */}
         <Route path="/patara" element={<Patara />} />

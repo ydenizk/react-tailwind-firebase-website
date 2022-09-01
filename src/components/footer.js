@@ -7,7 +7,7 @@ export default function footer() {
 
 
   return (
-    <footer className="bg-neutral-200 flex justify-center align-center">
+    <footer className="bg-neutral-200 flex justify-center align-center ">
       <div className="max-w-6xl grid  grid-cols-2 bg-neutral-200 p-4">
         <div className="tracking-wider font-light text-xs font-roboto grid grid-rows-2 py-2">
           <p className="w-1/2 py-4 border-b border-neutral-400 tracking-wide leading-5 text-sm  ">

@@ -37,7 +37,7 @@ export default function Priene() {
           {/* .................... */}
           <div className="text-center mb-20 ">
             <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold ">
-              a port city situated at the then mouth of the Maeander(Menderes)
+              a port city situated at the mouth of the Maeander(Menderes)
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>
@@ -184,34 +184,40 @@ export default function Priene() {
                   Search on Map -
                   <a
                     className="text-black opacity-90 underline font-medium text-base font-garamond tracking-wider"
-                    href=""
+                    href="https://goo.gl/maps/mm5e5vFEmAagJLZh7"
                     target="_blank"
                   >
                     Google Maps
                   </a>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
+                  TR Museum Passcard -
+                  <span className="text-black opacity-90">Valid</span>
+                </p>
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Unesco Word Heritage List -
                   <span className="text-black opacity-90">Yes</span>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
-                  Read More -
+                  Brochure -
                   <a
-                    className="text-black opacity-90 font-medium text-base font-garamond tracking-wider underline ml-2"
-                    href="https://whc.unesco.org/en/tentativelists/5829/"
+                    href="https://muze.gov.tr/s3/MysFileLibrary/Aydın%20Priene%20Ören%20Yeri-Eng-aab9bb41-6149-4f16-bc29-dcabc99a7994.pdf"
+                    className="text-black opacity-90 underline"
                     target="_blank"
                   >
-                    Unesco
+                    Check out or Download
                   </a>
                 </p>
-
-                <a
-                  className="text-black font-medium text-base font-garamond tracking-wider underline ml-24"
-                  href="https://en.wikipedia.org/wiki/Sardis"
-                  target="_blank"
-                >
-                  Wikipedia
-                </a>
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
+                  Read More -
+                  <a
+                    className="text-black font-medium text-base font-garamond tracking-wider underline "
+                    href="https://en.wikipedia.org/wiki/Priene"
+                    target="_blank"
+                  >
+                    Wikipedia
+                  </a>
+                </p>
               </div>
               <Share />
 

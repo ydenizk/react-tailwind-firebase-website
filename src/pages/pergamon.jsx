@@ -197,27 +197,41 @@ export default function Pergamon() {
                 <h5 className="  tracking-wider font-semibold mt-6 opacity-80">
                   INFO
                 </h5>
-                <p className="font-normal text-sm font-garamond tracking-wider text-gray-500">
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Search on Map -
                   <a
-                    className="text-black opacity-90 underline font-medium text-sm font-garamond tracking-wider"
-                    href=""
+                    className="text-black opacity-90 underline font-medium text-medium font-garamond tracking-wider"
+                    href="https://goo.gl/maps/cMNXdtWjrNh9SeJh8"
                     target="_blank"
                   >
                     Google Maps
                   </a>
                 </p>
-                <p className="font-normal text-sm font-garamond tracking-wider text-gray-500">
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
+                  TR Museum Passcard -
+                  <span className="text-black opacity-90">Valid</span>
+                </p>
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Unesco Word Heritage List -
-                  <span className="text-black opacity-90 text-sm font-medium  font-garamond  ">
+                  <span className="text-black opacity-90 text-base font-medium  font-garamond  ">
                     Yes
                   </span>
                 </p>
-                <p className="font-normal text-sm font-garamond tracking-wider text-gray-500">
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
+                  Brochure -
+                  <a
+                    href="https://muze.gov.tr/s3/MysFileLibrary/2f9eef40-9c35-49dc-8100-051b251c90af.pdf"
+                    className="text-black opacity-90 underline"
+                    target="_blank"
+                  >
+                    Check out or Download
+                  </a>
+                </p>
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Read More -
                   <a
-                    className="text-black opacity-90 font-medium text-sm font-garamond tracking-wider underline ml-2"
-                    href="https://whc.unesco.org/en/tentativelists/5829/"
+                    className="text-black opacity-90 font-medium text-base font-garamond tracking-wider underline ml-2"
+                    href="https://whc.unesco.org/en/list/1457/"
                     target="_blank"
                   >
                     Unesco
@@ -226,7 +240,7 @@ export default function Pergamon() {
 
                 <a
                   className="text-black font-medium text-sm font-garamond tracking-wider underline ml-24"
-                  href="https://en.wikipedia.org/wiki/Sardis"
+                  href="https://en.wikipedia.org/wiki/Pergamon"
                   target="_blank"
                 >
                   Wikipedia

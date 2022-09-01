@@ -202,9 +202,9 @@ export default function Ephesus () {
               <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
                 Ephesus,15 minutes away from Selçuk,1 hours away from İzmir
                 province,is located in a pretty central area. You can get to
-                Ephesus Ancient City by dolmushes from Selcuk bus station.You can
-                also take a taxi from Selcuk or Kusadasi to Ephesus which can
-                cost higher. If you are coming from Izmir Adnan Menderes
+                Ephesus Ancient City by dolmushes from Selcuk bus station.You
+                can also take a taxi from Selcuk or Kusadasi to Ephesus which
+                can cost higher. If you are coming from Izmir Adnan Menderes
                 airport, you can take the TCDD train or Izban train from Izmir
                 Airport to Selcuk city center. The train station is directly in
                 front of the airport.
@@ -230,11 +230,15 @@ export default function Ephesus () {
                   Search on Map -
                   <a
                     className="text-black opacity-90 underline font-medium text-base font-garamond tracking-wider"
-                    href=""
+                    href="https://goo.gl/maps/5opuSXzhYuV5WuTz5"
                     target="_blank"
                   >
                     Google Maps
                   </a>
+                </p>
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
+                  TR Museum Passcard -
+                  <span className="text-black opacity-90">Valid</span>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Unesco Word Heritage List -
@@ -244,7 +248,7 @@ export default function Ephesus () {
                   Read More -
                   <a
                     className="text-black opacity-90 font-medium text-base font-garamond tracking-wider underline ml-2"
-                    href="https://whc.unesco.org/en/tentativelists/5829/"
+                    href="https://whc.unesco.org/en/list/1018/"
                     target="_blank"
                   >
                     Unesco
@@ -253,10 +257,18 @@ export default function Ephesus () {
 
                 <a
                   className="text-black font-medium text-base font-garamond tracking-wider underline ml-24"
-                  href="https://en.wikipedia.org/wiki/Sardis"
+                  href="https://en.wikipedia.org/wiki/Ephesus"
                   target="_blank"
                 >
                   Wikipedia
+                </a>
+                <br />
+                <a
+                  className="text-black font-medium text-base font-garamond tracking-wider underline ml-24"
+                  href="https://www.britannica.com/place/Ephesus"
+                  target="_blank"
+                >
+                  Britannica
                 </a>
               </div>
               <Share />

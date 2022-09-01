@@ -173,15 +173,29 @@ export default function Sardes() {
                   Search on Map -
                   <a
                     className="text-black opacity-90 underline font-medium text-base font-garamond tracking-wider"
-                    href=""
+                    href="https://muze.gov.tr/s3/MysFileLibrary/e68dacc4-fcef-4bb4-b6fa-efccf57b5249.pdf"
                     target="_blank"
                   >
                     Google Maps
                   </a>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
+                  TR Museum Passcard -
+                  <span className="text-black opacity-90">Valid</span>
+                </p>
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Unesco Word Heritage List -
                   <span className="text-black opacity-90">Yes</span>
+                </p>
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
+                  Brochure -
+                  <a
+                    href="https://muze.gov.tr/s3/MysFileLibrary/2f9eef40-9c35-49dc-8100-051b251c90af.pdf"
+                    className="text-black opacity-90 underline"
+                    target="_blank"
+                  >
+                    Check out or Download
+                  </a>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Read More -

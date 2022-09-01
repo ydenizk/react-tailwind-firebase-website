@@ -25,7 +25,7 @@ export default function Perga() {
               No <span className="font-roboto font-medium">15</span>
             </h2>
             <p className="uppercase font-roboto font-bold text-white text-3xl  whitespace-nowrap mb-6 tracking-wide ">
-              HOME OF one of the largest ancient settleements 
+              HOME OF one of the largest ancient settleements
             </p>
             <p className="uppercase text-white font-mono text-lg tracking-wide">
               The beauty of perga
@@ -39,7 +39,7 @@ export default function Perga() {
           {/* .................... */}
           <div className="text-center mb-20 ">
             <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold ">
-              a large greek-roman  city that has a great level in urban planning
+              a large greek-roman city that has a great level in urban planning
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>
@@ -127,13 +127,13 @@ export default function Perga() {
               </h2>
 
               <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
-                Perge islocated  17 kms from the center of Antalya province. There are 2 ways to
-                get here.If you prefer to take a bus from the center of Antalya, take bus number
-                AC03 to the Aksu district. It takes about 1 hour to get to the
-                site with this bus. By Private car, after arriving in Aksu
-                following the "Perge" sign, continue on road in front of the
-                Gendarmerie unit for 2km. It takes 20 mins to get to the site by
-                car. 
+                Perge islocated 17 kms from the center of Antalya province.
+                There are 2 ways to get here.If you prefer to take a bus from
+                the center of Antalya, take bus number AC03 to the Aksu
+                district. It takes about 1 hour to get to the site with this
+                bus. By Private car, after arriving in Aksu following the
+                "Perge" sign, continue on road in front of the Gendarmerie unit
+                for 2km. It takes 20 mins to get to the site by car.
               </p>
             </div>
 
@@ -156,34 +156,42 @@ export default function Perga() {
                   Search on Map -
                   <a
                     className="text-black opacity-90 underline font-medium text-base font-garamond tracking-wider"
-                    href=""
+                    href="https://g.page/perge-antik-kenti?share"
                     target="_blank"
                   >
                     Google Maps
                   </a>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
+                  TR Museum Passcard -
+                  <span className="text-black opacity-90">Valid</span>
+                </p>
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Unesco Word Heritage List -
                   <span className="text-black opacity-90">No</span>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
-                  Read More -
+                  Brochure -
                   <a
-                    className="text-black opacity-90 font-medium text-base font-garamond tracking-wider underline ml-2"
-                    href="https://whc.unesco.org/en/tentativelists/5829/"
+                    href="https://muze.gov.tr/s3/MysFileLibrary/Antalya%20Perge%20Ören%20Yeri%20ENG-66bc8cdf-754c-4846-bab5-97d4f780d53e.pdf"
+                    className="text-black opacity-90 underline"
                     target="_blank"
                   >
-                    Unesco
+                    Check out or Download
+                  </a>
+                </p>
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
+                  Read More -
+                  <a
+                    className="text-black font-medium text-base font-garamond tracking-wider underline "
+                    href="https://en.wikipedia.org/wiki/Perga"
+                    target="_blank"
+                  >
+                    Wikipedia
                   </a>
                 </p>
 
-                <a
-                  className="text-black font-medium text-base font-garamond tracking-wider underline ml-24"
-                  href="https://en.wikipedia.org/wiki/Sardis"
-                  target="_blank"
-                >
-                  Wikipedia
-                </a>
+               
               </div>
               <Share />
 

@@ -35,7 +35,7 @@ export default function Kaunos() {
           {/* .................... */}
           <div className="text-center mb-20 ">
             <h2 className=" uppercase mb-6 text-2xl tracking-widest font-semibold ">
-             mysterious ruins of carians and tombs of the kings
+              mysterious ruins of carians and tombs of the kings
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>
@@ -149,10 +149,10 @@ export default function Kaunos() {
                 className="tracking-wider font-light text-base font-noto mb-6
                leading-7"
               >
-                Kaunos is located at Dalyan-Köyceğiz of Muğla province.
-                The best way to get Kaunos ancient city is by the rowing boat service that
-                takes you from the shores of the Dalyan side of the river over
-                to the opposite side.
+                Kaunos is located at Dalyan-Köyceğiz of Muğla province. The best
+                way to get Kaunos ancient city is by the rowing boat service
+                that takes you from the shores of the Dalyan side of the river
+                over to the opposite side.
               </p>
             </div>
 
@@ -175,21 +175,35 @@ export default function Kaunos() {
                   Search on Map -
                   <a
                     className="text-black opacity-90 underline font-medium text-base font-garamond tracking-wider"
-                    href=""
+                    href="https://goo.gl/maps/WnfNzHjYvLB8sVE76"
                     target="_blank"
                   >
                     Google Maps
                   </a>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
+                  TR Museum Passcard -
+                  <span className="text-black opacity-90">Valid</span>
+                </p>
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Unesco Word Heritage List -
                   <span className="text-black opacity-90">Yes</span>
+                </p>
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
+                  Brochure -
+                  <a
+                    href="https://muze.gov.tr/s3/MysFileLibrary/e83b6ec8-f36b-4458-90aa-49a0e1561111.pdf"
+                    className="text-black opacity-90 underline"
+                    target="_blank"
+                  >
+                    Check out or Download
+                  </a>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Read More -
                   <a
                     className="text-black opacity-90 font-medium text-base font-garamond tracking-wider underline ml-2"
-                    href="https://whc.unesco.org/en/tentativelists/5829/"
+                    href="https://whc.unesco.org/en/tentativelists/5906/"
                     target="_blank"
                   >
                     Unesco
@@ -198,7 +212,7 @@ export default function Kaunos() {
 
                 <a
                   className="text-black font-medium text-base font-garamond tracking-wider underline ml-24"
-                  href="https://en.wikipedia.org/wiki/Sardis"
+                  href="https://en.wikipedia.org/wiki/Kaunos"
                   target="_blank"
                 >
                   Wikipedia

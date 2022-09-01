@@ -15,7 +15,6 @@ export default function Aizanoi() {
             src={banner}
             alt="nature-2"
             className="object-cover w-288 max-h-145 h-145 brightness-75 opacity-100 "
-            
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
             <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider">
@@ -35,8 +34,9 @@ export default function Aizanoi() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 ">
-            <h2 className="mb-6 text-2xl tracking-widest font-semibold ">
-              HOME OF THE BEST PRESERVED ZEUS TEMPLE
+            <h2 className="mb-6 text-2xl tracking-widest font-semibold uppercase ">
+              One of the first stock exchange markets of the world was
+              established in Aizanoi
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>
@@ -168,21 +168,35 @@ export default function Aizanoi() {
                   Search on Map -
                   <a
                     className="text-black opacity-90 underline font-medium text-base font-garamond tracking-wider"
-                    href=""
+                    href="https://goo.gl/maps/Qw3yub5phQxN2aRP7"
                     target="_blank"
                   >
                     Google Maps
                   </a>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
+                  TR Museum Passcard -
+                  <span className="text-black opacity-90">Valid</span>
+                </p>
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Unesco Word Heritage List -
-                  <span className="text-black opacity-90">No</span>
+                  <span className="text-black opacity-90">Yes</span>
+                </p>
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
+                  Brochure -
+                  <a
+                    href="https://muze.gov.tr/s3/MysFileLibrary/kutahya-Aizonai_eng%20pdf%20baskıya-2e7481b5-a202-4662-962e-b17032d803af.pdf"
+                    className="text-black opacity-90 underline"
+                    target="_blank"
+                  >
+                    Check out or Download
+                  </a>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Read More -
                   <a
                     className="text-black opacity-90 font-medium text-base font-garamond tracking-wider underline ml-2"
-                    href="https://whc.unesco.org/en/tentativelists/5829/"
+                    href="https://whc.unesco.org/en/tentativelists/5724/"
                     target="_blank"
                   >
                     Unesco
@@ -191,7 +205,7 @@ export default function Aizanoi() {
 
                 <a
                   className="text-black font-medium text-base font-garamond tracking-wider underline ml-24"
-                  href="https://en.wikipedia.org/wiki/Sardis"
+                  href="https://en.wikipedia.org/wiki/Aizanoi"
                   target="_blank"
                 >
                   Wikipedia

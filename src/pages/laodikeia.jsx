@@ -48,19 +48,19 @@ export default function Laodikeia() {
                 No11
               </h4>
               <p className=" tracking-wider font-light text-base font-noto mb-6 leading-7">
-                Laodicea  was an ancient city in Asia Minor, now
-                Turkey, on the river Lycus (Çürüksu). It was located in the
-                Hellenistic regions of Caria and Lydia, which later became the
-                Roman Province of Phrygia Pacatiana. It is now situated near the
-                modern city of Denizli. In 2013 the archaeological site was
-                inscribed in the Tentative List of World Heritage Sites in
-                Turkey.It lay on a major trade route and in its neighbourhood
-                were many important ancient cities; it was 17 km west of
-                Colossae, 10 km south of Hierapolis and 160 km east of Ephesus.
-                One of the major bonuses of rambling through the ruins here is
-                the lack of crowds.Unlike Ephesus or Pamukkale's Hierapolis,
-                Laodikeia is much less known, so a visit here makes for a very
-                tranquil sightseeing experience.
+                Laodicea was an ancient city in Asia Minor, now Turkey, on the
+                river Lycus (Çürüksu). It was located in the Hellenistic regions
+                of Caria and Lydia, which later became the Roman Province of
+                Phrygia Pacatiana. It is now situated near the modern city of
+                Denizli. In 2013 the archaeological site was inscribed in the
+                Tentative List of World Heritage Sites in Turkey.It lay on a
+                major trade route and in its neighbourhood were many important
+                ancient cities; it was 17 km west of Colossae, 10 km south of
+                Hierapolis and 160 km east of Ephesus. One of the major bonuses
+                of rambling through the ruins here is the lack of crowds.Unlike
+                Ephesus or Pamukkale's Hierapolis, Laodikeia is much less known,
+                so a visit here makes for a very tranquil sightseeing
+                experience.
               </p>
               <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
                 The town was originally called Diospolis, "City of Zeus", and
@@ -152,21 +152,35 @@ export default function Laodikeia() {
                   Search on Map -
                   <a
                     className="text-black opacity-90 underline font-medium text-base font-garamond tracking-wider"
-                    href=""
+                    href="https://goo.gl/maps/Wv5zBA23dgneWCVd6"
                     target="_blank"
                   >
                     Google Maps
                   </a>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
+                  TR Museum Passcard -
+                  <span className="text-black opacity-90">Valid</span>
+                </p>
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Unesco Word Heritage List -
-                  <span className="text-black opacity-90">No</span>
+                  <span className="text-black opacity-90">Yes</span>
+                </p>
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
+                  Brochure -
+                  <a
+                    href="https://muze.gov.tr/s3/MysFileLibrary/Denizli%20Laodikeia_ENG-f0da9482-2080-438d-b26d-dcfe057026ca.pdf"
+                    className="text-black opacity-90 underline"
+                    target="_blank"
+                  >
+                    Check out or Download
+                  </a>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Read More -
                   <a
                     className="text-black opacity-90 font-medium text-base font-garamond tracking-wider underline ml-2"
-                    href="https://whc.unesco.org/en/tentativelists/5829/"
+                    href="https://whc.unesco.org/en/tentativelists/5823/"
                     target="_blank"
                   >
                     Unesco
@@ -175,7 +189,7 @@ export default function Laodikeia() {
 
                 <a
                   className="text-black font-medium text-base font-garamond tracking-wider underline ml-24"
-                  href="https://en.wikipedia.org/wiki/Sardis"
+                  href="https://en.wikipedia.org/wiki/Laodicea_on_the_Lycus"
                   target="_blank"
                 >
                   Wikipedia

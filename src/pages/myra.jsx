@@ -23,7 +23,7 @@ export default function Myra() {
               No <span className="font-roboto font-medium">13</span>
             </h2>
             <p className="uppercase font-roboto font-bold text-white text-3xl  whitespace-nowrap mb-6 tracking-wide ">
-              HOME OF one of the the most importanant towns of Lycia
+              HOME OF one of the the most important towns of Lycia
             </p>
             <p className="uppercase text-white font-mono text-lg tracking-wide">
               The beauty of myra
@@ -37,8 +37,8 @@ export default function Myra() {
           {/* .................... */}
           <div className="text-center mb-20 ">
             <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold ">
-              St. Paul visited the city,and in the 4th century St. Nicholas
-              was its bishop
+              St. Paul visited the city,and in the 4th century St. Nicholas was
+              its bishop
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>
@@ -148,11 +148,15 @@ export default function Myra() {
                   Search on Map -
                   <a
                     className="text-black opacity-90 underline font-medium text-base font-garamond tracking-wider"
-                    href=""
+                    href="https://goo.gl/maps/2LccsWZvETLsv9so9"
                     target="_blank"
                   >
                     Google Maps
                   </a>
+                </p>
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
+                  TR Museum Passcard -
+                  <span className="text-black opacity-90">Valid</span>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Unesco Word Heritage List -
@@ -162,16 +166,16 @@ export default function Myra() {
                   Read More -
                   <a
                     className="text-black opacity-90 font-medium text-base font-garamond tracking-wider underline ml-2"
-                    href="https://whc.unesco.org/en/tentativelists/5829/"
+                    href="https://www.britannica.com/place/Myra"
                     target="_blank"
                   >
-                    Unesco
+                    Britannica
                   </a>
                 </p>
 
                 <a
                   className="text-black font-medium text-base font-garamond tracking-wider underline ml-24"
-                  href="https://en.wikipedia.org/wiki/Sardis"
+                  href="https://en.wikipedia.org/wiki/Myra"
                   target="_blank"
                 >
                   Wikipedia

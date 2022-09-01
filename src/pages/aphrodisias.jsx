@@ -37,8 +37,9 @@ export default function  Aphrodisias() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 ">
-            <h2 className="mb-6 text-2xl tracking-widest font-semibold ">
-              HOME OF APHRODITE
+            <h2 className="mb-6 text-2xl tracking-widest font-semibold uppercase ">
+              famous for being the best-preserved stadium of the ancient world
+              and its monumental temple gate
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>
@@ -165,8 +166,8 @@ export default function  Aphrodisias() {
                 Pamukkale at 9:30 am and return around 3:30 pm. This gives you
                 three hours at the ruins, which is sufficient.If you have a car
                 with you, it is quite easy to get to Aphrodisias. If you follow
-                the signboards on Nazilli road, you can easily find the Aphrodisias Ancient
-                City.
+                the signboards on Nazilli road, you can easily find the
+                Aphrodisias Ancient City.
               </p>
             </div>
 
@@ -189,21 +190,35 @@ export default function  Aphrodisias() {
                   Search on Map -
                   <a
                     className="text-black opacity-90 underline font-medium text-base font-garamond tracking-wider"
-                    href=""
+                    href="https://goo.gl/maps/M3emV8z3W2x9p1SD8"
                     target="_blank"
                   >
                     Google Maps
                   </a>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
+                  TR Museum Passcard -
+                  <span className="text-black opacity-90">Valid</span>
+                </p>
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Unesco Word Heritage List -
                   <span className="text-black opacity-90">Yes</span>
+                </p>
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
+                  Brochure -
+                  <a
+                    href="https://muze.gov.tr/s3/MysFileLibrary/Aydın-Afrodisyas_ENG-209e0669-6734-45bd-9f3f-bb0cf912c4f9.pdf"
+                    className="text-black opacity-90 underline"
+                    target="_blank"
+                  >
+                    Check out or Download
+                  </a>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Read More -
                   <a
                     className="text-black opacity-90 font-medium text-base font-garamond tracking-wider underline ml-2"
-                    href="https://whc.unesco.org/en/tentativelists/5829/"
+                    href="https://whc.unesco.org/en/list/1519/"
                     target="_blank"
                   >
                     Unesco
@@ -212,7 +227,7 @@ export default function  Aphrodisias() {
 
                 <a
                   className="text-black font-medium text-base font-garamond tracking-wider underline ml-24"
-                  href="https://en.wikipedia.org/wiki/Sardis"
+                  href="https://en.wikipedia.org/wiki/Aphrodisias"
                   target="_blank"
                 >
                   Wikipedia

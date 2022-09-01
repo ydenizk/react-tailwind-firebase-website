@@ -1,10 +1,15 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect} from "react";
+import { useNavigate } from "react-router-dom";
 import { FaSearch, FaUniversity } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { db } from "./../firebase-config";
 
-const Topbar = (/* { scrollRef } */) => {
+import { collection, getDocs } from "firebase/firestore";
+
+const Topbar = () => {
   const ref1 = useRef();
   const [viso1, setViso1] = useState(false);
+
   useEffect(() => {
     const drop1 = (e) => {
       if (viso1 && ref1.current && !ref1.current.contains(e.target)) {
@@ -12,12 +17,11 @@ const Topbar = (/* { scrollRef } */) => {
       }
     };
 
-if (viso1) {
+    /* if (viso1) {
     setTimeout(() => {
       setViso1(!viso1);
     }, 3000);
-  }
-
+  } */
 
     document.addEventListener("mousedown", drop1);
     return () => {
@@ -25,11 +29,37 @@ if (viso1) {
     };
   }, [viso1]);
 
-  
+  /* firebase get data and search filter area */
 
-/*   const scrollClick = () => {
-    scrollRef.current.scrollIntoView({ behavior: "smooth" });
-  }; */
+  const [places, setPlaces] = useState([]);
+  const [filteredData, setFilteredData] = useState([]);
+  const [overlay, setOverLay] = useState(true);
+
+const handleFilterChange=(e)=>{
+
+  const serachWord=e.target.value
+  const newFilter=places.filter((pl)=>{
+
+    return pl.place.toUpperCase().includes(serachWord.toUpperCase())
+  })
+  setFilteredData(newFilter)
+
+}
+//...............
+
+  const placesCollectionRef = collection(db, "places");
+
+  useEffect(() => {
+    const getUsers = async () => {
+      const data = await getDocs(placesCollectionRef);
+      setPlaces(data .docs.map((doc) => ({ ...doc.data(), id: doc.id })));
+    };
+    getUsers();
+  }, []);
+
+//............
+
+
 
   return (
     <>
@@ -57,19 +87,17 @@ if (viso1) {
               <li className="relative transition-all">
                 <Link
                   to="/regios"
-                  /*   onClick={scrollClick} */
                   className=" mx-2 font-extralight font-dosis  text-gray-700 hover:text-gray-900 transition-all"
                 >
                   Regions
                 </Link>
               </li>
 
-              <li ref={ref1} className="relative">
+              <li ref={ref1} className="relative ">
                 <Link
                   to="./destinations"
                   className=" mx-2 font-extralight font-dosis text-gray-700 hover:text-gray-900 transition-all"
                   onClick={() => setViso1((y) => !y)}
-                 
                 >
                   Destinations
                 </Link>
@@ -165,15 +193,7 @@ if (viso1) {
                         Kaunos
                       </Link>
                     </li>
-                    <li className="p-2 flex">
-                      <FaUniversity className="mr-1 text-amber-400" />
-                      <Link
-                        to="/letoon"
-                        className="text-sm tracking-wide hover:text-amber-400 transition-all"
-                      >
-                        Letoon
-                      </Link>
-                    </li>
+
                     <li className="p-2 flex">
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
@@ -237,7 +257,7 @@ if (viso1) {
                         Assos
                       </Link>
                     </li>
-               {/*      <li className="p-2 flex">
+                    {/*      <li className="p-2 flex">
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/olympos"
@@ -288,7 +308,7 @@ if (viso1) {
                         to="/apollon"
                         className="text-sm tracking-wide hover:text-amber-400 transition-all"
                       >
-                      Hamaxitus
+                        Hamaxitus
                       </Link>
                     </li>
                   </ul>
@@ -313,11 +333,64 @@ if (viso1) {
             </ul>
           </div>
           <div>
-            <ul>
-              <button className="mr-2">
+            <div
+              className={
+                overlay
+                  ? ""
+                  : "flex justify-center  text-black fixed w-full h-full z-50 left-0 top-0 overflow-x-hidden bg-neutral-300 opacity-90"
+              }
+              /* className=" flex justify-center  text-black fixed w-full h-full z-50 left-0 top-0 overflow-x-hidden bg-white opacity-80" */
+            >
+              {!overlay && (
+                <div className="mt-20 w-2/4 absolute text-center py-4">
+                  <div className="flex  my-0 mx-auto w-full mb-4 pt-4 border-b border-black ">
+                    <div className="text-black bg-neutral-300 pr-2 h-16 text-center pt-5">
+                      <FaSearch className=" pl-2 text-2xl text-neutral-600" />
+                    </div>
+                    <input
+                      type="text"
+                      className="w-3/4 h-16 text-xl  font-bold tracking-wide text-neutral-600 outline-none bg-neutral-300"
+                      placeholder="Find a place"
+                      onChange={handleFilterChange}
+                    />
+                  </div>
+                  {filteredData.length > 0 && (
+                    <div className="absolute w-full mt-2 flex flex-col text-left  shadow-lg text-xl h-28 overflow-hidden overflow-y-auto">
+                      {filteredData.map((pla) => {
+                        const { place, id } = pla;
+                        return (
+                          <>
+                            <Link
+                              to={`/${place}`}
+                              key={id}
+                              onClick={() => setOverLay(!overlay)}
+                              className=" uppercase py-1 px-2 w-full font-normal text-neutral-700 bg-neutral-300 font-roboto hover:bg-gray-400 transition duration-200 text-sm tracking-wider"
+                            >
+                              {place}
+                            </Link>
+                          </>
+                        );
+                      })}
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {/*   <button className="mr-2 cursor-pointer ">
                 <FaSearch className="text-gray-800" />
+              </button> */}
+              <button
+                className={
+                  overlay
+                    ? "text-gray-800"
+                    : "absolute cursor-pointer text-neutral-800  font-bold text-xl top-4 right-8 "
+                }
+                /*  className="absolute cursor-pointer text-black font-bold text-xl top-4 right-4 " */
+                onClick={() => setOverLay((n) => !n)}
+              >
+                {overlay ? <FaSearch className="text-gray-800" /> : "X"}
               </button>
-            </ul>
+            </div>
           </div>
         </div>
       </div>

@@ -37,8 +37,8 @@ export default function Apollon() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 ">
-            <h2 className="mb-6 text-2xl tracking-widest font-semibold ">
-              HOME OF THE TEMPLE OF APOLLO SMINTHEUS
+            <h2 className="mb-6 text-2xl tracking-widest font-semibold uppercase">
+              cult centers of Troas in ancient times
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>
@@ -51,13 +51,14 @@ export default function Apollon() {
                 No03
               </h4>
               <p className=" tracking-wider font-light text-base font-noto mb-4 leading-7">
-                Hamaxitus(or better known name as Appollo Smintheus) has been located on a rise called Beşiktepe near the
-                village of Gülpınar in the Ayvacık district of Çanakkale
-                Province, Turkey.The city's name derives from (hamaxa) meaning
-                'wagon', hence the adjective (hamaxitos), 'traversed by wagons',
-                'carriage-road', 'high-road'.Hamaxitus was an ancient Greek city
-                in the south-west of the Troas region of Anatolia which was
-                considered to mark the boundary between the Troas and Aeolia.
+                Hamaxitus(or better known name as Appollo Smintheus) has been
+                located on a rise called Beşiktepe near the village of Gülpınar
+                in the Ayvacık district of Çanakkale Province, Turkey.The city's
+                name derives from (hamaxa) meaning 'wagon', hence the adjective
+                (hamaxitos), 'traversed by wagons', 'carriage-road',
+                'high-road'.Hamaxitus was an ancient Greek city in the
+                south-west of the Troas region of Anatolia which was considered
+                to mark the boundary between the Troas and Aeolia.
               </p>
               <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
                 All foundation myths about Hamaxitus in Classical Antiquity were
@@ -117,11 +118,12 @@ export default function Apollon() {
               </h2>
 
               <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
-                Hamaxitus(or as commonly used Apollonn Smintheus ) is located in Gürpınar village,
-                1 hour from  Troia and 1.5 hours away from Çanakkale.As the location is far from the 
-                main roads,only public transport option is to take the regular dolmushes from Çanakkale 
-                to Gürpınar.However the best option is to have or hire a car and follow the signs that starts just after the exit 
-                of Çannakkale
+                Hamaxitus(or as commonly used Apollonn Smintheus ) is located in
+                Gürpınar village, 1 hour from Troia and 1.5 hours away from
+                Çanakkale.As the location is far from the main roads,only public
+                transport option is to take the regular dolmushes from Çanakkale
+                to Gürpınar.However the best option is to have or hire a car and
+                follow the signs that starts just after the exit of Çannakkale
               </p>
             </div>
 
@@ -144,34 +146,31 @@ export default function Apollon() {
                   Search on Map -
                   <a
                     className="text-black opacity-90 underline font-medium text-base font-garamond tracking-wider"
-                    href=""
+                    href="https://goo.gl/maps/k84B39WWsJbrXWv18"
                     target="_blank"
                   >
                     Google Maps
                   </a>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
+                  TR Museum Passcard -
+                  <span className="text-black opacity-90">Valid</span>
+                </p>
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Unesco Word Heritage List -
                   <span className="text-black opacity-90">No</span>
                 </p>
+
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Read More -
                   <a
                     className="text-black opacity-90 font-medium text-base font-garamond tracking-wider underline ml-2"
-                    href="https://whc.unesco.org/en/tentativelists/5829/"
+                    href="https://en.wikipedia.org/wiki/Hamaxitus"
                     target="_blank"
                   >
-                    Unesco
+                    Wikipedia
                   </a>
                 </p>
-
-                <a
-                  className="text-black font-medium text-base font-garamond tracking-wider underline ml-24"
-                  href="https://en.wikipedia.org/wiki/Sardis"
-                  target="_blank"
-                >
-                  Wikipedia
-                </a>
               </div>
               <Share />
 

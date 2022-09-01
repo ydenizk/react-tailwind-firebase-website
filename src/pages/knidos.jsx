@@ -35,7 +35,7 @@ export default function Knidos() {
           {/* .................... */}
           <div className="text-center mb-20 ">
             <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold ">
-             Port of knidos that has demeter of knidos and lion of knidos
+              Port of knidos that has demeter of knidos and lion of knidos
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>
@@ -152,34 +152,41 @@ export default function Knidos() {
                   Search on Map -
                   <a
                     className="text-black opacity-90 underline font-medium text-base font-garamond tracking-wider"
-                    href=""
+                    href="https://www.google.com/maps/place/Knidos+Antik+Kenti/@36.68803,27.3722022,17z/data=!3m1!4b1!4m5!3m4!1s0x14bfbc2f0f839d35:0xe750450734d22885!8m2!3d36.6880257!4d27.3743909"
                     target="_blank"
                   >
                     Google Maps
                   </a>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
+                  TR Museum Passcard -
+                  <span className="text-black opacity-90">Valid</span>
+                </p>
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Unesco Word Heritage List -
                   <span className="text-black opacity-90">No</span>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
-                  Read More -
+                  Brochure -
                   <a
-                    className="text-black opacity-90 font-medium text-base font-garamond tracking-wider underline ml-2"
-                    href="https://whc.unesco.org/en/tentativelists/5829/"
+                    href="https://muze.gov.tr/s3/MysFileLibrary/9a703123-dc00-489a-8ebb-ac10322764f9.pdf"
+                    className="text-black opacity-90 underline"
                     target="_blank"
                   >
-                    Unesco
+                    Check out or Download
+                  </a>
+                </p>
+                <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
+                  Read More -
+                  <a
+                    className="text-black font-medium text-base font-garamond tracking-wider underline "
+                    href="https://en.wikipedia.org/wiki/Knidos"
+                    target="_blank"
+                  >
+                    Wikipedia
                   </a>
                 </p>
 
-                <a
-                  className="text-black font-medium text-base font-garamond tracking-wider underline ml-24"
-                  href="https://en.wikipedia.org/wiki/Sardis"
-                  target="_blank"
-                >
-                  Wikipedia
-                </a>
                 <Share />
               </div>
             </div>

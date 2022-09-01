@@ -185,11 +185,15 @@ export default function Didyma() {
                   Search on Map -
                   <a
                     className="text-black opacity-90 underline font-medium text-base font-garamond tracking-wider"
-                    href=""
+                    href="https://goo.gl/maps/feABVaWRHMU6MEGs7"
                     target="_blank"
                   >
                     Google Maps
                   </a>
+                </p>
+                <p className="font-sm text-base font-garamond tracking-wider text-gray-500">
+                  TR Museum Passcard -
+                  <span className="text-black opacity-90">No Need</span>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Unesco Word Heritage List -
@@ -199,16 +203,16 @@ export default function Didyma() {
                   Read More -
                   <a
                     className="text-black opacity-90 font-medium text-base font-garamond tracking-wider underline ml-2"
-                    href="https://whc.unesco.org/en/tentativelists/5829/"
+                    href="https://www.worldhistory.org/article/640/the-temple-of-apollo-at-didyma/"
                     target="_blank"
                   >
-                    Unesco
+                    Worldhistory
                   </a>
                 </p>
 
                 <a
                   className="text-black font-medium text-base font-garamond tracking-wider underline ml-24"
-                  href="https://en.wikipedia.org/wiki/Sardis"
+                  href="https://en.wikipedia.org/wiki/Didyma"
                   target="_blank"
                 >
                   Wikipedia
