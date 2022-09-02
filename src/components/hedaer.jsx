@@ -26,7 +26,7 @@ export default function hedaer() {
         </div>
       </header>{" "} */}
 
-      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-20 pb-6  border-b-2 border-slate-500 ">
+      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-24 pb-6  border-b-2 border-slate-500 ">
         <div className="w-288 h-145 max-h-145 mx-4  max-w-6xl  pt-6   bg-neutral-100   ">
           <div className="grid grid-cols-2 gap-8 ">
             <div className="relative">

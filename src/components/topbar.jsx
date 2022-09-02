@@ -1,5 +1,4 @@
-import React, { useState, useRef, useEffect} from "react";
-import { useNavigate } from "react-router-dom";
+import React, { useState, useRef, useEffect } from "react";
 import { FaSearch, FaUniversity } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { db } from "./../firebase-config";
@@ -35,37 +34,32 @@ const Topbar = () => {
   const [filteredData, setFilteredData] = useState([]);
   const [overlay, setOverLay] = useState(true);
 
-const handleFilterChange=(e)=>{
-
-  const serachWord=e.target.value
-  const newFilter=places.filter((pl)=>{
-
-    return pl.place.toUpperCase().includes(serachWord.toUpperCase())
-  })
-  setFilteredData(newFilter)
-
-}
-//...............
+  const handleFilterChange = (e) => {
+    const serachWord = e.target.value;
+    const newFilter = places.filter((pl) => {
+      return pl.place.toUpperCase().includes(serachWord.toUpperCase());
+    });
+    setFilteredData(newFilter);
+  };
+  //...............
 
   const placesCollectionRef = collection(db, "places");
 
   useEffect(() => {
     const getUsers = async () => {
       const data = await getDocs(placesCollectionRef);
-      setPlaces(data .docs.map((doc) => ({ ...doc.data(), id: doc.id })));
+      setPlaces(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
     };
     getUsers();
   }, []);
 
-//............
-
-
+  //............
 
   return (
     <>
-      <div className="bg-neutral-200  m-0 p-0 shadow fixed top-0 w-full  z-50">
+      <div className="bg-neutral-200  shadow fixed top-0 w-full  z-50">
         <div
-          className="w-full h-16 bg-neutral-200 flex justify-between 
+          className="w-full h-20 bg-neutral-200 flex justify-between 
  items-center px-2.5 max-w-6xl my-0 mx-auto  "
         >
           <div>
@@ -102,7 +96,7 @@ const handleFilterChange=(e)=>{
                   Destinations
                 </Link>
                 {viso1 && (
-                  <ul className=" uppercase text-base absolute top-8   z-20  h-166  w-96 border border-gray-200 bg-white grid grid-cols-3 gap-2 mt-4  p-2 font-medium ">
+                  <ul className=" uppercase text-base absolute top-9   z-20  h-166  w-96 border border-gray-200 bg-white grid grid-cols-3 gap-2 mt-4  p-2 font-medium ">
                     <li className="p-2 flex">
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link

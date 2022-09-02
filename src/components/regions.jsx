@@ -1,8 +1,4 @@
-
 import items from "./../data";
-import React from "react"
-import { forwardRef } from "react";
-
 
 /* const Regions = React.forwardRef((props, ref) => {
   return (
@@ -10,13 +6,9 @@ import { forwardRef } from "react";
       <div className="max-w-6xl  w-full p-0">
         {items.map((reg) => { */
 
-
-const Regions =React.forwardRef((props, ref)=> {
-  
-  
-  
+const Regions = () => {
   return (
-    <section ref={ref} className="my-8 flex justify-center align-center bg-neutral-100 ">
+    <section className="my-8 flex justify-center align-center bg-neutral-100 ">
       <div className="max-w-6xl  w-full p-0 bg-neutral-100 ">
         {items.map((reg) => {
           const { url, name, text, places, mapp, id } = reg;
@@ -64,6 +56,6 @@ const Regions =React.forwardRef((props, ref)=> {
       </div>
     </section>
   );
-})
+};
 
 export default Regions;
