@@ -50,7 +50,7 @@ export default function Myra() {
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No13
               </h4>
-              <p className=" tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 Myra was a Lycian, then ancient Greek, then Greco-Roman, then
                 Byzantine Greek, then Ottoman town in Lycia, which became the
                 small Turkish town of Kale, renamed Demre in 2005, in the
@@ -63,7 +63,7 @@ export default function Myra() {
                 made Myra the capital of Byzantine Lycia until the city fell to
                 the caliph Hārūn al-Rashīd in 808 CE.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 The ancient Greek citizens worshiped Artemis Eleutheria, who was
                 the protective goddess of the town. Zeus, Athena and Tyche were
                 venerated as well. Pliny the Elder writes that in Myra there was
@@ -81,7 +81,7 @@ export default function Myra() {
                 permission for the Divine Liturgy to be celebrated in the church
                 for the first time in centuries.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 There are two necropoleis of Lycian rock-cut tombs in the form
                 of temple fronts carved into the vertical faces of cliffs at
                 Myra: the river necropolis and the ocean necropolis. The ocean
@@ -96,7 +96,7 @@ export default function Myra() {
                 <img src={big1} alt="object-cover w-148 h-90 " />
               </div>
 
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 After a siege in 809, Myra fell to Abbasid troops under Caliph
                 Harun al-Rashid. Early in the reign of Alexius I Comnenus (ruled
                 between 1081 and 1118), Myra was again overtaken by Islamic
@@ -107,7 +107,7 @@ export default function Myra() {
                 soon brought that city visitors making pilgrimage to Saint
                 Nicholas.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 Archaeologists first detected the ancient city in 2009 using
                 ground-penetrating radar that revealed anomalies whose shape and
                 size suggested walls and buildings. Over the next two years they
@@ -122,7 +122,7 @@ export default function Myra() {
                 How to get Myria Ancient City?
               </h2>
 
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 The Ancient City of Myra is located approximately 1.5 km from
                 the town centre of Demre, which is located on the Kaş-Finike
                 road,on Antalya province.

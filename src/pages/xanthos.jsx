@@ -49,7 +49,7 @@ export default function Xanthos() {
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No22
               </h4>
-              <p className=" tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 Xanthos was an ancient major city near present-day Kınık,
                 Antalya Province, Turkey. The remains of Xanthos lie on a hill
                 on the left bank of the Xanthos river. The number and quality of
@@ -68,7 +68,7 @@ export default function Xanthos() {
                 Lycian Civilization, which was one of the most important
                 cultures of the Iron Age in Anatolia.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 Trojan War heroes and Lycian leaders Glaucus and Sarpedon,
                 founder of Xanthos, are described in the Iliad as allies of the
                 Trojans. In the same text, Achilles' immortal, talking horse is
@@ -79,7 +79,7 @@ export default function Xanthos() {
                 of Xanthos, dates from the late 6th century BC and was closely
                 associated with the city and linked by a sacred road.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 Xanthos, which was the capital of ancient Lycia, illustrates the
                 blending of Lycian traditions with the Hellenic influence,
                 especially in its funerary art. The rock-cut tombs, pillar tombs
@@ -95,7 +95,7 @@ export default function Xanthos() {
                 instance directly influenced by the Xanthos Nereid Monument.
               </p>
 
-              <p className="tracking-wider font-light text-base font-noto mb-5 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-5 leading-7">
                 Letoon, on the other hand, was the cult center of Xanthos, the
                 ancient federal sanctuary of the Lycian province and Lycian
                 League of Cities. As many inscriptions found at the site
@@ -110,7 +110,7 @@ export default function Xanthos() {
                 <img src={big2} alt="object-cover w-148 h-90 " />
               </div>
 
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 Xanthos has been a mecca for students of Anatolian civilisation
                 since the early 19th century. Of the monumental tombs, three,
                 the Nereid Monument the Tomb of Payava and the sculptures of the
@@ -125,7 +125,7 @@ export default function Xanthos() {
                 found in the city and Letoon and record an older Anatolian
                 language conventionally called Milyan language.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 Xanthos-Letoon has retained the authenticity of its features,
                 largely due to the property’s distance from any modern
                 settlement. The monuments revealed during archaeological
@@ -147,7 +147,7 @@ export default function Xanthos() {
                 <img src={big1} alt="object-cover w-148 h-83 " />
               </div>
 
-              <p className="tracking-wider font-light text-base font-noto my-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg my-4 leading-7">
                 Today the site of Xanthos overlooks the modern Turkish village
                 of Kınık. Once over 500 m long, the Roman Kemer Bridge crossed
                 the upper reaches of the river near the present-day village of
@@ -156,7 +156,7 @@ export default function Xanthos() {
               <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
                 How to get Xanthos and Letoon Ancient Cities?
               </h2>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
                 Xanthos is located near the village of Kınık on a hillside in a
                 beautiful natural site overlooking the Eşen river. The ancient
                 city of Xanthos is 45 km from Kaş, 20 km from Kalkan, 65 km from

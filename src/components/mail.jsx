@@ -30,7 +30,7 @@ export default function Mail() {
           <h1 className="text-sm font-bold tracking-wide pb-8 font-roboto text-gray-800">
             DON'T BE A STRANGER
           </h1>
-      
+
           <form>
             <div className=" text-center mb-8 ">
               <label
@@ -41,7 +41,6 @@ export default function Mail() {
                 scenes, and offline.Stay plugged
               </label>
             </div>
-
             <div className="mb-6">
               <input
                 type="email"
@@ -58,7 +57,7 @@ export default function Mail() {
             <div>
               <button
                 onClick={createUser}
-                className="border w-12 h-12 text-center  rounded-full border-slate-600  hover:border-2"
+                className="border w-12 h-12 text-center  rounded-full border-slate-600    hover:bg-gray-200 transition duration-200"
               >
                 {" "}
                 <FaLongArrowAltRight className="w-full " />{" "}

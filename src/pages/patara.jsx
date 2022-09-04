@@ -52,14 +52,14 @@ export default function Patara() {
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No14
               </h4>
-              <p className=" tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 Patara was an ancient and flourishing maritime and commercial
                 city, capital of Lycia, on the south-west coast of Turkey near
                 the modern small town of Gelemiş,Kalkan in Antalya Province.t is
                 the birthplace of Saint Nicholas in 270 AD, who lived most of
                 his life in the nearby town of Myra (Demre).
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 In myth, Patara was said to have been founded by Patarus a son
                 of Apollo. Ancient writers mentioned Patara as one of the
                 principal cities of Lycia. It was Lycia's primary seaport, and a
@@ -72,7 +72,7 @@ export default function Patara() {
                 BC and it became the capital of Lycia. The Lycian League was
                 formally established in 176 BC.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 In the 5th century AD the city was reduced in size through the
                 construction of a strong fortification wall adjoining the
                 Bouleuterion using stone from the nearby structures.he city
@@ -85,7 +85,7 @@ export default function Patara() {
                 Ancient buildings
               </h2>
 
-              <p className="tracking-wider font-light text-base font-noto mb-5 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-5 leading-7">
                 The theatre was rebuilt under Antoninus Pius in 147 AD after an
                 earthquake;its diameter is 265 feet, and held about 6000
                 spectators.The Bouleuterion or prytaneion is well-preserved and
@@ -100,14 +100,14 @@ export default function Patara() {
                 <img src={big1} alt="object-cover w-148 h-90 " />
               </div>
 
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 The lighthouse stood at the entrance to the major naval and
                 trading port of Lycia, which had an outer and an inner harbour.
                 It was built in 60 AD during the reign of Nero, according to an
                 inscription, and is one of the oldest surviving.The site of the
                 oracle and temple of Apollo have not been found.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 Sadly, it is getting harder for these tribesmen to do business.
                 Camel trading has declined in recent years; whereas 30,000
                 animals might have changed hands at Pushkar in decades past,
@@ -124,7 +124,7 @@ export default function Patara() {
               <div className="w-148 h-111  mb-6">
                 <img src={big2} alt="object-cover w-148 h-111 " />
               </div>
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 In 1836 the French archaeologist Charles Texier explored the
                 site followed by Charles Fellows in 1838.In 1993 the Stadiasmus
                 Patarensis was unearthed, a monumental Roman pillar on which is
@@ -140,7 +140,7 @@ export default function Patara() {
                 How to get patara Ancient City?
               </h2>
 
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 Patara is located about 475km west of Antalya province, 45km
                 west of Kaş and 20km west of Kalkan. You can reach Patara by
                 car, bus or taxi on D-400. Minibuses(dolmushes) from Kalkan or

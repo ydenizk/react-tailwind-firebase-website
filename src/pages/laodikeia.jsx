@@ -47,7 +47,7 @@ export default function Laodikeia() {
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No11
               </h4>
-              <p className=" tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 Laodicea was an ancient city in Asia Minor, now Turkey, on the
                 river Lycus (Çürüksu). It was located in the Hellenistic regions
                 of Caria and Lydia, which later became the Roman Province of
@@ -62,7 +62,7 @@ export default function Laodikeia() {
                 so a visit here makes for a very tranquil sightseeing
                 experience.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 The town was originally called Diospolis, "City of Zeus", and
                 afterwards Rhodas. Excavations in the northern necropolis have
                 shown that the settlement existed before the Hellenistic
@@ -76,7 +76,7 @@ export default function Laodikeia() {
                 buildings and bequeathed to it more than 2000 talents at his
                 death.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 The wealth of its inhabitants engendered a taste for the arts of
                 the Greeks, as is manifest from its ruins, and that it
                 contributed to the advancement of science and literature is
@@ -91,7 +91,7 @@ export default function Laodikeia() {
                 Christianity and a bishopric.
               </p>
 
-              <p className="tracking-wider font-light text-base font-noto mb-5 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-5 leading-7">
                 The existing remains attest to its former greatness. Its many
                 buildings include a stadium, baths, temples, a gymnasium, two
                 theatres and a bouleuterion (Senate House). On the eastern side,
@@ -112,7 +112,7 @@ export default function Laodikeia() {
                 <img src={big1} alt="object-cover w-148 h-90 " />
               </div>
 
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 The stadium near the southern extremity of the city is in a good
                 state of preservation. The seats are arranged along two sides of
                 a narrow valley, which was taken advantage of for this purpose,
@@ -124,7 +124,7 @@ export default function Laodikeia() {
               <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
                 How to get Laodiceia Ancient City?
               </h2>
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 laodiceia is 6 km north of Denizli and 1 km west off the road to
                 Pamukkale, Laodicea is accessible via the Denizli-Pamukkale
                 minibus. The minibus to Pamukkale departs every 20 minutes or so

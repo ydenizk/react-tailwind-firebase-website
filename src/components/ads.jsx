@@ -23,19 +23,19 @@ export default function Ads({ showp, setShowP }) {
 
           <div>
             <div className="grid  grid-cols-3 gap-6 my-4 mt-12">
-              <div className="w-91 h-53 relative">
+              <div className="w-91 h-53 relative px-2">
                 {/* <div className="absolute text-white w-full  pt-4 text-center top-12  z-10 hover:translate-y-4 transition duration-700 ease-in-out "> */}
                 <h3 className=" absolute text-xl uppercase font-medium  top-16  text-center w-full text-white z-5">
                   Troy
                 </h3>
-                <p className=" absolute text-2xl uppercase font-bold whitespace-nowrap tracking-wide top-24 w-full text-white z-5 font-roboto">
+                <p className=" absolute text-xl uppercase font-bold whitespace-nowrap tracking-wide top-24 w-full text-white z-5 font-roboto">
                   one of the most famous
                 </p>
-                <p className=" absolute text-2xl uppercase font-bold   tracking-wide top-32 w-full text-white z-5 font-roboto">
+                <p className=" absolute text-xl uppercase font-bold   tracking-wide top-32 w-full text-white z-5 font-roboto">
                   ancient site
                 </p>
                 <Link to="/didyma" className="z-50 absolute bottom-4 right-4">
-                  <FaRegClone className=" text-right   text-neutral-200 text-xl z-5  hover:text-amber-200 transition  duration-200" />
+                  <FaRegClone className=" text-right   text-neutral-200 text-xl z-5  hover:text-orange-200  transition  duration-200" />
                 </Link>
                 <img src={ads1} className=" w-91 h-53 object-cover z-5  " />
 
@@ -46,14 +46,14 @@ export default function Ads({ showp, setShowP }) {
                 <h3 className="absolute text-xl uppercase font-medium top-16  text-center w-full text-white z-5">
                   aizanoi
                 </h3>
-                <p className="absolute  text-2xl uppercase font-bold whitespace-nowrap tracking-wide top-24 w-full text-white z-5 font-roboto">
+                <p className="absolute  text-xl uppercase font-bold whitespace-nowrap tracking-wide top-24 w-full text-white z-5 font-roboto">
                   first stock exchange
                 </p>
-                <p className="absolute  text-2xl uppercase font-bold  mb-2 tracking-wide top-32 w-full text-white z-5 font-roboto">
+                <p className="absolute  text-xl uppercase font-bold  mb-2 tracking-wide top-32 w-full text-white z-5 font-roboto">
                   market of the world
                 </p>
                 <Link to="/aizanoi" className="z-50 absolute bottom-4 right-4">
-                  <FaRegClone className=" text-right   text-neutral-200 text-xl z-5  hover:text-amber-200 transition  duration-200 " />
+                  <FaRegClone className=" text-right   text-neutral-200 text-xl z-5  hover:text-orange-200  transition  duration-200 " />
                 </Link>
 
                 <img
@@ -68,15 +68,15 @@ export default function Ads({ showp, setShowP }) {
                 <h3 className="absolute text-xl uppercase font-medium top-16  text-center w-full text-white z-5">
                   myra
                 </h3>
-                <p className="absolute  text-2xl uppercase font-bold whitespace-nowrap tracking-wide top-24 w-full text-white z-5 font-roboto">
+                <p className="absolute  text-xl uppercase font-bold whitespace-nowrap tracking-wide top-24 w-full text-white z-5 font-roboto">
                   important lycian city
                 </p>
-                <p className="absolute  text-2xl uppercase font-bold  mb-2 tracking-wide top-32 w-full text-white z-5 font-roboto">
+                <p className="absolute  text-xl uppercase font-bold  mb-2 tracking-wide top-32 w-full text-white z-5 font-roboto">
                   visited by st.paul
                 </p>
 
                 <Link to="/myra" className="z-50 absolute bottom-4 right-4">
-                  <FaRegClone className=" text-right   text-neutral-200 text-xl z-5 hover:text-amber-200 transition  duration-200  " />
+                  <FaRegClone className=" text-right   text-neutral-200 text-xl z-5 hover:text-orange-200  transition  duration-200  " />
                 </Link>
                 <img
                   src={ads3}
@@ -91,15 +91,15 @@ export default function Ads({ showp, setShowP }) {
                 <h3 className="text-2xl uppercase font-medium absolute w-full text-center top-40 text-white z-5">
                   perga
                 </h3>
-                <p className="absolute w-full text-center text-3xl uppercase font-bold whitespace-nowrap tracking-wide top-48 text-white z-5 font-roboto">
+                <p className="absolute w-full text-center text-2xl uppercase font-bold whitespace-nowrap tracking-wide top-48 text-white z-5 font-roboto">
                   A LARGE GREEK-ROMAN CITY THAT HAS A GREAT
                 </p>
-                <p className="absolute w-full text-center text-3xl uppercase font-bold whitespace-nowrap tracking-wide top-56 text-white z-5 font-roboto">
+                <p className="absolute w-full text-center text-2xl uppercase font-bold whitespace-nowrap tracking-wide top-56 text-white z-5 font-roboto">
                   LEVEL IN URBAN PLANNING
                 </p>
 
                 <Link to="/perga" className="z-50 absolute bottom-4 right-4">
-                  <FaRegClone className=" text-right   text-neutral-200 text-xl z-5  hover:text-amber-200 transition  duration-200 " />
+                  <FaRegClone className=" text-right   text-neutral-200 text-xl z-5  hover:text-orange-200  transition  duration-200 " />
                 </Link>
                 <img src={adsBig} className="w-190 h-112 object-cover  " />
                 <div className="w-190 h-112 absolute top-0 left-0  bg-slate-100 w-full h-full opacity-10  hover:opacity-0  transition-all  duration-200 "></div>
@@ -108,10 +108,10 @@ export default function Ads({ showp, setShowP }) {
                 <h3 className="absolute text-xl uppercase font-medium top-16  text-center w-full text-white z-5">
                   hierapolis
                 </h3>
-                <p className="absolute  text-2xl uppercase font-bold whitespace-nowrap tracking-wide top-24 w-full text-white z-5 font-roboto">
+                <p className="absolute  text-xl uppercase font-bold whitespace-nowrap tracking-wide top-24 w-full text-white z-5 font-roboto">
                   hot springs and
                 </p>
-                <p className="absolute  text-2xl uppercase font-bold  mb-2 tracking-wide top-32 w-full text-white z-5 font-roboto">
+                <p className="absolute  text-xl uppercase font-bold  mb-2 tracking-wide top-32 w-full text-white z-5 font-roboto">
                   LYCIA
                 </p>
 
@@ -119,28 +119,28 @@ export default function Ads({ showp, setShowP }) {
                   to="/hierapolis"
                   className="z-50 absolute bottom-4 right-4"
                 >
-                  <FaRegClone className=" text-right   text-neutral-200 text-xl z-5  hover:text-amber-200 transition  duration-200 " />
+                  <FaRegClone className=" text-right   text-neutral-200 text-xl z-5  hover:text-orange-200  transition  duration-200 " />
                 </Link>
                 <img
                   src={ads4}
                   alt="nat5"
                   className="w-91 h-53 object-cover "
                 />
-                <div className="w-91 h-53 absolute top-0 left-0  bg-slate-100 w-full h-full opacity-10  hover:opacity-0  transition-all  duration-200 "></div>
+                <div className="w-91 h-53 absolute top-0 left-0  bg-slate-100 w-full h-full opacity-10  hover:opacity-0  transition-all  duration-300 "></div>
               </div>
               <div className="w-91 h-53 relative">
                 <h3 className="absolute text-xl uppercase font-medium top-16  text-center w-full text-white z-5">
                   tlos
                 </h3>
-                <p className="absolute  text-2xl uppercase font-bold whitespace-nowrap tracking-wide top-24 w-full text-white z-5 font-roboto">
+                <p className="absolute  text-xl uppercase font-bold whitespace-nowrap tracking-wide top-24 w-full text-white z-5 font-roboto">
                   gLAMOROUS METROPOLIS
                 </p>
-                <p className="absolute  text-2xl uppercase font-bold  mb-2 tracking-wide top-32 w-full text-white z-5 font-roboto">
+                <p className="absolute  text-xl uppercase font-bold  mb-2 tracking-wide top-32 w-full text-white z-5 font-roboto">
                   OF LYCIans
                 </p>
 
                 <Link to="/patara" className="z-50 absolute bottom-4 right-4">
-                  <FaRegClone className=" text-right   text-neutral-200 text-xl z-50  hover:text-neutral-300  " />
+                  <FaRegClone className=" text-right   text-neutral-200 text-xl z-50  hover:text-orange-200  transition  duration-200  " />
                 </Link>
                 <img
                   src={ads5}

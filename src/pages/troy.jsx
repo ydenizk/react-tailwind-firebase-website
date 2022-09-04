@@ -1,5 +1,5 @@
 import React from "react";
-import Share from "./../components/share";
+import Share from "../components/share";
 
 import banner from "./../assets/troia/banner.jpg";
 import big from "./../assets/troia/592-360.jpg";
@@ -58,7 +58,7 @@ export default function Troia() {
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No21
               </h4>
-              <p className=" tracking-wider font-light text-base font-noto mb-4 leading-7">
+              <p className=" tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
                 Troy was an ancient city located at Hisarlik in present-day
                 Turkey, 30 kilometres south-west of Çanakkale,that holds an
                 enduring place in both literature and archaeology.It is known as
@@ -69,7 +69,7 @@ export default function Troia() {
               <div className="w-148 h-90  mb-4">
                 <img src={big} alt="object-cover w-148 h-90 " />
               </div>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
                 In Ancient Greek literature, Troy is portrayed as a powerful
                 kingdom of the Heroic Age, a mythic era when monsters roamed the
                 earth and gods interacted directly with humans. The city was
@@ -80,7 +80,7 @@ export default function Troia() {
                 as well as numerous other poems and plays. Its legacy played a
                 large role in Greek society,
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
                 Until the late 19th century, scholars regarded the Trojan War as
                 entirely legendary. However, starting in 1871, Heinrich
                 Schliemann and Frank Calvert excavated the site of the classical
@@ -98,7 +98,7 @@ export default function Troia() {
                 trade and the transmission of knowledge.
               </p>
 
-              <p className="tracking-wider font-light text-base font-noto mb-5 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-5 leading-7">
                 24 excavation campaigns, spread over the past 140 years, have
                 revealed many features from all the periods of occupation in the
                 citadel and the lower town. These include 23 sections of the
@@ -114,7 +114,7 @@ export default function Troia() {
                 <img src={big1} alt="object-cover w-148 h-111 " />
               </div>
 
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
                 The archaeological site of Troy is of immense significance in
                 the understanding of the development of European civilization at
                 a critical stage in its early development. It documents an
@@ -124,7 +124,7 @@ export default function Troia() {
                 between Anatolia, the Aegean, and the Balkans, given its
                 location at a point where the three cultures met.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
                 As for the doubs about the exact location of Troy,no other city
                 has been found in this area that fits the size and
                 description,that is why experts are confident these are the ruin
@@ -132,7 +132,7 @@ export default function Troia() {
                 The Ilıad.Also the city was right by the beach but it is totally
                 solved now that the sea has retreated approx. 6 kms now.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
                 The Turkish government created the Historical National Park at
                 Troy on September 30, 1996. It contains 136 square kilometres to
                 include Troy and its vicinity, centered on Troy. The purpose of
@@ -153,7 +153,7 @@ export default function Troia() {
               <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
                 How to get troy Ancient City?
               </h2>
-              <p className="tracking-wider font-light text-base font-noto my-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg my-4 leading-7">
                 Troy is located 32 km away from Çanakkale(Dardanelles) province
                 on the aegean cost of Turkey. As it is one of the top spots in
                 region,there are plenty of options to come Troy by car,by direct

@@ -51,7 +51,7 @@ export default function Perga() {
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No15
               </h4>
-              <p className=" tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 Perga or Perge was an ancient Greek city in Anatolia, once the
                 capital of Pamphylia Secunda, now in Antalya Province on the
                 southwestern Mediterranean coast of Turkey.It was a centre of
@@ -62,7 +62,7 @@ export default function Perga() {
                 pools and which would have been remarkable even today in a
                 semi-arid area where summer temperatures reach over 30 deg. C.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 Excavations in the original settlement on the acropolis date it
                 to the early Bronze Age, 4000-3000 BC. Perge was later a
                 Pamphylian Greek city, and came under successive rule by
@@ -82,7 +82,7 @@ export default function Perga() {
                 centuries.Perga remained inhabited until the foundation of the
                 Seljuk Empire in roughly 1000.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 St. Paul the Apostle and his, companion St. Barnabas, twice
                 visited Perga as recorded in the biblical book, the Acts of the
                 Apostles, during their first missionary journey, where they
@@ -99,7 +99,7 @@ export default function Perga() {
                 Ancient buildings and excavations
               </h2>
 
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 Excavations started in 1946 and have uncovered many monumental
                 buildings: a theatre, a stadium, palaestra, a temple of Artemis
                 and two churches.The temple of Artemis was located outside the
@@ -107,7 +107,7 @@ export default function Perga() {
                 lies outside the walls near the stadium. It is larger than those
                 of Myra and Patara.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 Perge has been dubbed as “Turkey’s second Zeugma” for the
                 alluring appearance of the mosaics that have been unearthed so
                 far. In 2003 archaeologists discovered well-preserved Greek
@@ -126,7 +126,7 @@ export default function Perga() {
                 How to get perga Ancient City?
               </h2>
 
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
                 Perge islocated 17 kms from the center of Antalya province.
                 There are 2 ways to get here.If you prefer to take a bus from
                 the center of Antalya, take bus number AC03 to the Aksu

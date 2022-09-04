@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaRegCopyright } from "react-icons/fa";
+import {Link} from "react-router-dom"
 
 export default function footer() {
 
@@ -50,36 +51,36 @@ export default function footer() {
               <h3 className="text-sm font-roboto">TOP PLACES</h3>
               <ul className="list-none">
                 <li>
-                  <a
-                    href=""
+                  <Link
+                    to="/pergamon"
                     className="font-light text-sm font-roboto  hover:text-amber-900 transition-all"
                   >
                     Pergamon
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href=""
+                  <Link
+                    to="/miletus"
                     className="font-light text-sm font-roboto  hover:text-amber-900  transition-all"
                   >
-                    Milet
-                  </a>
+                    Miletus
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href=""
+                  <Link
+                    to="/perga"
                     className="font-light text-sm font-roboto  hover:text-amber-900  transition-all"
                   >
                     Perga
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href=""
+                  <Link
+                    to="/ephesus"
                     className="font-light text-sm font-roboto    transition-all"
                   >
                     Ephesus
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -87,12 +88,12 @@ export default function footer() {
               <h3 className="text-sm font-roboto">EXPLORE</h3>
               <ul>
                 <li>
-                  <a
-                    href=""
+                  <Link
+                    to="/regios"
                     className="font-light text-sm font-roboto hover:text-amber-900  transition-all"
                   >
                     Regions
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a
@@ -103,12 +104,12 @@ export default function footer() {
                   </a>
                 </li>
                 <li>
-                  <a
-                    href=""
+                  <Link
+                    to="/contact"
                     className="font-light text-sm font-roboto hover:text-amber-900  transition-all"
                   >
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -116,37 +117,30 @@ export default function footer() {
               <h3 className="text-sm font-roboto">ABOUT US</h3>
               <ul>
                 <li>
-                  <a
-                    href=""
+                  <Link
+                    to="/about"
                     className="font-light text-sm font-roboto hover:text-amber-900  transition-all"
                   >
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li className="font-light text-sm font-roboto hover:text-amber-900   transition-all">
                   <a
-                    href=""
+                    href="https://twitter.com/home?lang=en"
+                    target="_blank"
                     className="font-light text-sm font-roboto hover:text-amber-900   transition-all"
                   >
-                    {" "}
                     Twitter
                   </a>
                 </li>
-                <li className="font-light text-sm font-roboto hover:text-amber-900   transition-all">
-                  <a
-                    href=""
-                    className="font-light text-sm font-roboto hover:text-amber-900   transition-all"
-                  >
-                    Privacy & Disclaimer
-                  </a>
-                </li>
+               
               </ul>
             </div>
           </div>
 
-          <div className="text-base flex justify-end align-center ">
+          <div className="text-base flex justify-end align-center pt-5 ">
             <h4 className="font-light text-xs font-roboto  pt-20 mr-2">
-              Design & Build by Ydenizk{" "}
+              Design & Build by Y.DenizK
             </h4>
 
             <h4 className="font-light text-xs font-roboto pt-20 ml-4 mr-12">

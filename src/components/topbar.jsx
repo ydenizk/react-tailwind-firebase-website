@@ -5,7 +5,7 @@ import { db } from "./../firebase-config";
 
 import { collection, getDocs } from "firebase/firestore";
 
-const Topbar = () => {
+const Topbar = ({scrollRef}) => {
   const ref1 = useRef();
   const [viso1, setViso1] = useState(false);
 
@@ -16,11 +16,11 @@ const Topbar = () => {
       }
     };
 
-    /* if (viso1) {
+    if (viso1) {
     setTimeout(() => {
       setViso1(!viso1);
-    }, 3000);
-  } */
+    }, 4000);
+  }
 
     document.addEventListener("mousedown", drop1);
     return () => {

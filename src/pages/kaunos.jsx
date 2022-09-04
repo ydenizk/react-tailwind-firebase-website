@@ -48,7 +48,7 @@ export default function Kaunos() {
                 No09
               </h4>
               <p
-                className=" tracking-wider font-light text-base font-noto mb-6
+                className=" tracking-wider font-light  font-roboto  text-lg mb-6
                leading-7"
               >
                 Kaunos was a city of ancient Caria and in Anatolia, a few
@@ -66,7 +66,7 @@ export default function Kaunos() {
               </p>
 
               <p
-                className="tracking-wider font-light text-base font-noto mb-6
+                className="tracking-wider font-light  font-roboto  text-lg mb-6
                leading-7"
               >
                 Kaunos was an important sea port city with two ports; one is in
@@ -80,7 +80,7 @@ export default function Kaunos() {
                 function as a trade port and started becoming poor.
               </p>
               <p
-                className="tracking-wider font-light text-base font-noto mb-6
+                className="tracking-wider font-light  font-roboto  text-lg mb-6
                leading-7"
               >
                 According to mythology Kaunos was founded by King Kaunos, son of
@@ -92,7 +92,7 @@ export default function Kaunos() {
                 defined the independent state boundaries of Kaunos.
               </p>
 
-              <p className="tracking-wider font-light text-base font-noto mb-5 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-5 leading-7">
                 Kaunos is a site that is interesting for both its archeological
                 and ecological importance. Situated in the Köyceğiz-Dalyan
                 Special Environmental Protection Area, it offers outstanding
@@ -112,7 +112,7 @@ export default function Kaunos() {
               </div>
 
               <p
-                className="tracking-wider font-light text-base font-noto mb-6
+                className="tracking-wider font-light  font-roboto  text-lg mb-6
                leading-7"
               >
                 The Acropolis (Persikon), situated on a 152 m high rock,
@@ -126,7 +126,7 @@ export default function Kaunos() {
                 by their sheer dimensions — of the power of the Roman Empire.
               </p>
               <p
-                className="tracking-wider font-light text-base font-noto mb-6
+                className="tracking-wider font-light  font-roboto  text-lg mb-6
                leading-7"
               >
                 The port agora is located at the flat area in front of Sülüklü
@@ -146,7 +146,7 @@ export default function Kaunos() {
               </h2>
 
               <p
-                className="tracking-wider font-light text-base font-noto mb-6
+                className="tracking-wider font-light  font-roboto  text-lg mb-6
                leading-7"
               >
                 Kaunos is located at Dalyan-Köyceğiz of Muğla province. The best

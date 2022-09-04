@@ -48,14 +48,14 @@ export default function Aizanoi() {
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No01
               </h4>
-              <p className=" tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 The Aizanoi ancient city is located in the inner Western
                 Anatolia Region, 48 km Southwest of the Kütahya Province, and
                 within the boundaries of the Çavdarhisar district.Although this
                 city is one of the greatest historical monuments in Turkey, it
                 doesn’t well-known enough by the people.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 Aizanoi was the capital of Aizanitis, who belonged to Phrigia.
                 There was less information about Pre-Roman period for Aizanoi.
                 It is said that the early settlement in the region dates back to
@@ -68,7 +68,7 @@ export default function Aizanoi() {
                 Starting from the 1st century BC Aizanoi started to transform to
                 city from town. .
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 After the 7th century, Aezani fell into decline. Later, in
                 Seljuk times, the temple hill was converted into a citadel
                 (Turkish: hisar) by Çavdar Tatars, after which the recent
@@ -84,7 +84,7 @@ export default function Aizanoi() {
               <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
                 Ancient buildings and Zeus temple
               </h2>
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 Aizanoi is one of the most significant cities of the Roman
                 Period with the Zeus Temple, the Complex of Stadium-Theatre and
                 the Macellum. The structure of the Temple which is one of the
@@ -107,7 +107,7 @@ export default function Aizanoi() {
                 <img src={big1} alt="object-cover w-148 h-90  brightness-50 " />
               </div>
 
-              <p className="tracking-wider font-light text-base font-noto my-8 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg my-8 leading-7">
                 The Complex of Stadium-Theatre is located in the north part of
                 the city and was one of the most intensive development
                 activities in the city during the Roman Period. The stadium with
@@ -115,14 +115,14 @@ export default function Aizanoi() {
                 20.000 people were constructed adjacently and as such it is
                 unique in the ancient world.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7"></p>
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7"></p>
               <div className="w-148 h-83  mb-8">
                 <img src={big2} alt="object-cover w-148 h-83 brightness-75 " />
               </div>
               <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
                 First STOCK EXCHANGE MARKET and Inflation
               </h2>
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 One of the first stock exchange markets of the world was
                 established in Aizanoi. The Macellum (Round Building) is dated
                 to the midst of the 2nd century AD., probably serving as a food
@@ -137,7 +137,7 @@ export default function Aizanoi() {
               <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
                 How to get Aizanoi Ancient City?
               </h2>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
                 Aizanoi is only accessible with local buses or car from the
                 Kutahya. There is no railway, unfortunately. As Çavdarhisar is a
                 bit out of the way, and the Aizanoi ruins a bit scattered, a car

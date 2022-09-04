@@ -50,7 +50,7 @@ export default function Sardes() {
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No19
               </h4>
-              <p className=" tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className=" tracking-wider font-light  font-roboto  text-lg text-black mb-6 leading-7">
                 Sardis was an ancient city at the location of modern Sart , near
                 Salihli, in Turkey's Manisa Province.Sardis was the capital of
                 the ancient kingdom of Lydia,one of the important cities of the
@@ -62,7 +62,7 @@ export default function Sardes() {
                 the Aegean coast, and thirdly to its commanding the wide and
                 fertile plain of the Hermus(Gediz river).
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light font-roboto text-lg text-black mb-6 leading-7">
                 As the capital city of the Lydians, a native Iron Age Anatolian
                 people, Sardis came to rule an empire that encompassed most of
                 western Anatolia in the seventh and sixth centuries BC. Lydian
@@ -70,7 +70,7 @@ export default function Sardes() {
                 seat of one of the most important satrapies of the Achaemenid
                 Empire. Alexander the Great captured the city in 330 BC.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg text-black mb-6 leading-7">
                 Sardis occupied a strategic location and drew on the fertile
                 agricultural land of the plain, the timber and mineral resources
                 of the mountains, the natural defenses of its impregnable
@@ -86,7 +86,7 @@ export default function Sardes() {
                 Lydians.
               </p>
 
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg text-black mb-6 leading-7">
                 A Lydian industrial sector outside the city walls, which
                 preserves the earliest evidence in the world for the refining of
                 electrum into pure gold and silver, the Lydian fortification,
@@ -108,7 +108,7 @@ export default function Sardes() {
                 <img src={big} alt="object-cover w-72 max-h-72 " />
               </div>
 
-              <p className="tracking-wider font-light text-base font-noto my-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg my-4 leading-7">
                 Disaster came to the great city under the reign of the emperor
                 Tiberius, when in 17 AD, Sardis was destroyed by an earthquake,
                 but it was rebuilt with the help of ten million sesterces from
@@ -121,7 +121,7 @@ export default function Sardes() {
                 entire Asia Minor was neglected and the region eventually fell
                 under the control of Ghazi emirs.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wide font-light  font-roboto  text-lg mb-6 leading-7">
                 Sardis holds a unique place in the history of Greece and the
                 Near East. As tradesmen, patrons and conquerors, the Lydians
                 played a vital role in the cultural interchanges between Greece
@@ -132,7 +132,7 @@ export default function Sardes() {
                 perverse; and they developed their own independent western
                 identity in part as distinct from such Oriental absolutists
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 Since 1958, both Harvard and Cornell Universities have sponsored
                 annual archeological expeditions to Sardis. These excavations
                 unearthed perhaps the most impressive synagogue in the western
@@ -145,7 +145,7 @@ export default function Sardes() {
                 How to get sardis Ancient City?
               </h2>
 
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 Sardis, capital of Lydia, is located in Salihli, Manisa province
                 ,a western city in Turkey and in a village called Sart. If you
                 don't have a car, to get to the Sart from Salihli, find the main

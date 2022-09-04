@@ -50,7 +50,7 @@ export default function Apollon() {
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No03
               </h4>
-              <p className=" tracking-wider font-light text-base font-noto mb-4 leading-7">
+              <p className=" tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
                 Hamaxitus(or better known name as Appollo Smintheus) has been
                 located on a rise called Beşiktepe near the village of Gülpınar
                 in the Ayvacık district of Çanakkale Province, Turkey.The city's
@@ -60,7 +60,7 @@ export default function Apollon() {
                 south-west of the Troas region of Anatolia which was considered
                 to mark the boundary between the Troas and Aeolia.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
                 All foundation myths about Hamaxitus in Classical Antiquity were
                 related to the foundation of the nearby temple of Apollo
                 Smintheus. Hamaxitus is believed to have first been settled by
@@ -79,7 +79,7 @@ export default function Apollon() {
                 the settlement of Hamaxitus had long since declined.
               </p>
 
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
                 The settlement at Hamaxitus appears to have survived at least
                 until the early Roman period following its synoecism with
                 Alexandreia Troas (the city had been renamed from Antigoneia
@@ -91,7 +91,7 @@ export default function Apollon() {
                 Sanctuary of Apollo Smintheus to the town of Alexandria Troas,
                 35 kilometers north.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
                 The temple was first made known to the world of archaeology by
                 Jean Baptista Le Chevalier in 1785 when he saw some remains of
                 the temple as he was traveling from Lectum-Babakale to
@@ -106,7 +106,7 @@ export default function Apollon() {
                 <img src={big} alt="object-cover w-148 max-h-166 " />
               </div>
 
-              <p className="tracking-wider font-light text-base font-noto my-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg my-4 leading-7">
                 The Temple of Apollonn Smintheus also attacks attention with its
                 architectural design and style as well as embossings from
                 Homer's Iliad Epic for the Hellenistic period. The temple, which
@@ -117,7 +117,7 @@ export default function Apollon() {
                 How to get hamaxitus Ancient City?
               </h2>
 
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 Hamaxitus(or as commonly used Apollonn Smintheus ) is located in
                 Gürpınar village, 1 hour from Troia and 1.5 hours away from
                 Çanakkale.As the location is far from the main roads,only public

@@ -47,7 +47,7 @@ export default function Knidos() {
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No10
               </h4>
-              <p className=" tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 Knidos or Cnidus was a Greek city in ancient Caria and part of
                 the Dorian Hexapolis, in south-western Anatolia(Asia Minor).It
                 was situated on the Datça peninsula.Founded by Greek settlers,
@@ -58,7 +58,7 @@ export default function Knidos() {
                 Dorian Greek origin – along with Halicarnassus and Kos among
                 others.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 The extreme length of the city was little less than a mile, and
                 the whole intramural area is still thickly strewn with
                 architectural remains.The walls, both of the island and on the
@@ -73,7 +73,7 @@ export default function Knidos() {
                 Antiochus III the Great by leaving them the freedom of their
                 city.
               </p>
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 The city was famed for its association with Aphrodite and for
                 its famous statue of the goddess, sculpted by the renowned
                 classical sculptor Praxiteles of Athens. While this statue has
@@ -90,7 +90,7 @@ export default function Knidos() {
               <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
                 lion of knidos
               </h2>
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 There is some debate about the age of the sculpture, in general,
                 scholarly opinion dates it to the 2nd century BC. Since 2000, it
                 has been prominently displayed on a plinth under the roof of the
@@ -106,7 +106,7 @@ export default function Knidos() {
                 statues known as the Lion of Knidos and the Demeter of Knidos.
               </p>
 
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 The first Western knowledge of the site was due to the mission
                 of the Dilettante Society in 1812, and the excavations executed
                 by C. T. Newton in 1857–1858.The agora, the theatre, an odeum, a
@@ -122,7 +122,7 @@ export default function Knidos() {
                 How to get Knidos Ancient City?
               </h2>
 
-              <p className="tracking-wider font-light text-base font-noto mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 Knidos is located around 110 kilometres from central Marmaris,
                 although there is no direct public transport to Knidos from
                 Marmaris. The easiest way is to rent a car and take a day trip
