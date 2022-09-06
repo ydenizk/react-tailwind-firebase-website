@@ -5,11 +5,12 @@ import image2 from "./../assets/ban-2.jpg";
 export default function Hedaer() {
   return (
     <>
-     
-
-      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-24 pb-6  border-b-2 border-slate-500 ">
+      <header
+        className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 
+      relative top-24 pb-6  border-b-2 border-slate-500 md:top-36"
+      >
         <div className="w-288 h-145 max-h-145 mx-4  max-w-6xl  pt-6   bg-neutral-100   ">
-          <div className="grid grid-cols-2 gap-8 ">
+          <div className="grid grid-cols-2 gap-8  md:grid-cols-1    md:justify-center md:items-center ">
             <div className="relative">
               <img
                 className="w-145  h-145 "
@@ -17,11 +18,11 @@ export default function Hedaer() {
                 alt="nature-2"
                 className=" w-145 max-h-145 h-145  object-cover"
               />
-              <div className="text-black uppercase font-roboto tracking-wider text-xs font-light pt-1">
+              <div className="text-black uppercase font-roboto tracking-wider text-xs font-light pt-1 md:text-center">
                 assos
               </div>
             </div>
-            <div className="w-145  h-145 relative ">
+            <div className="w-145  h-145 relative  md:hidden">
               <img
                 src={image2}
                 alt="nature-2"
@@ -37,10 +38,16 @@ export default function Hedaer() {
             <p className="uppercase text-orange-200  font-mono text-xl tracking-wide mb-6  ">
               The beauty of asıa mınor
             </p>
-            <p className=" uppercase font-garamond font-bold text-orange-200 text-5xl  whitespace-nowrap mb-1 tracking-wide ">
+            <p
+              className=" uppercase font-garamond font-semibold text-orange-200 text-5xl  
+            whitespace-nowrap mb-1 tracking-wide md:text-4xl "
+            >
               ANCIENT SITES and cities
             </p>
-            <p className=" uppercase font-garamond font-bold text-orange-200 text-5xl  whitespace-nowrap tracking-wide ">
+            <p
+              className=" uppercase font-garamond font-semibold text-orange-200 text-5xl  
+            whitespace-nowrap tracking-wide md:text-4xl "
+            >
               of turkey
             </p>
           </div>

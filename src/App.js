@@ -5,8 +5,6 @@ import Footer from "./components/footer";
 import { BrowserRouter as Router, Routes, Route,useLocation } from "react-router-dom";
 import { useLayoutEffect } from "react";
 
-
-
 import Home from "./pages/home";
 import Regios from "./pages/regios";
 import Contact from "./pages/contact";

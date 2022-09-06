@@ -1,21 +1,20 @@
-import React from 'react'
+import React from "react";
 import { FaRegCopyright } from "react-icons/fa";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 
-export default function footer() {
-
-
-
-
+export default function Footer() {
   return (
     <footer className="bg-neutral-200 flex justify-center align-center ">
       <div className="max-w-6xl grid  grid-cols-2 bg-neutral-200 p-4">
-        <div className="tracking-wider font-light text-xs font-roboto grid grid-rows-2 py-2">
+        <div className="tracking-wider font-light text-xs font-roboto grid grid-rows-2 ">
           <p className="w-1/2 py-4 border-b border-neutral-400 tracking-wide leading-5 text-sm  ">
-            ANCIENT Turkey is an independent media company championing outdoor
-            lifestyle, environmental stewardship and regenerative living. We
-            encourage people to connect with the natural world in meaningful
-            ways so they may become active stewards of our planet.
+            ANCIENT Asia Minor is an independent individual initiative to
+            promote ancient sites and cities of various civilizations that lived
+            in Asia Minor throughout centuries.You can find basic and clear
+            information about most of the top places including brief
+            history,location and options how to visit. As Asia Minor is one of
+            the oldest residental land in the world,it is the home of various
+            civilizations.For this reason,we keep adding new spots regularly.
           </p>
           <div className="grid grid-rows-2">
             <div className="w-1/2 border-b border-neutral-400">
@@ -36,7 +35,7 @@ export default function footer() {
               </h3>
               <p className="tracking-wide leading-5">
                 If you are interested in partnering, sponsoring or advertising
-                in Ancient Turkey, we'd love to hear from you. Please email{" "}
+                in Ancient Asia minor, we'd love to hear from you. Please email{" "}
                 <span className="font-medium opacity-70 tracking-wide leading-5">
                   ydkurt@yahoo.com
                 </span>
@@ -45,7 +44,7 @@ export default function footer() {
           </div>
         </div>
 
-        <div className="  py-2 p-4 ">
+        <div className="  p-2 ">
           <div className="grid grid-cols-3 h-3/4 place-content-center ">
             <div>
               <h3 className="text-sm font-roboto">TOP PLACES</h3>
@@ -133,12 +132,11 @@ export default function footer() {
                     Twitter
                   </a>
                 </li>
-               
               </ul>
             </div>
           </div>
 
-          <div className="text-base flex justify-end align-center pt-5 ">
+          <div className="text-base flex justify-end align-center pt-2 ">
             <h4 className="font-light text-xs font-roboto  pt-20 mr-2">
               Design & Build by Y.DenizK
             </h4>
@@ -151,4 +149,4 @@ export default function footer() {
       </div>
     </footer>
   );
-} 
+}

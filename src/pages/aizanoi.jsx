@@ -8,7 +8,7 @@ import big2 from "./../assets/aizanoi/592-332.jpg";
 
 export default function Aizanoi() {
   return (
-    <div className="w-full bg-neutral-100">
+    <div className="w-full bg-neutral-100 md:mt-20">
       <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-10 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
@@ -20,7 +20,7 @@ export default function Aizanoi() {
             <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider">
               No <span className="font-roboto font-medium">01</span>
             </h2>
-            <p className=" font-roboto font-bold text-white text-4xl  whitespace-nowrap mb-6 tracking-wide ">
+            <p className=" font-roboto font-bold text-white text-4xl md:text-2xl whitespace-nowrap mb-6 tracking-wide ">
               HOME OF THE BEST PRESERVED ZEUS TEMPLE
             </p>
             <p className="uppercase text-white font-mono text-xl tracking-wide">
@@ -43,17 +43,17 @@ export default function Aizanoi() {
 
           {/* .................... */}
 
-          <div className="  w-full p-0 text-black grid grid-cols-6 gap-2">
+          <div className="  w-full p-0 text-black grid grid-cols-6 gap-2 px-2">
             <div className="w-full  col-span-4 ">
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No01
               </h4>
               <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 The Aizanoi ancient city is located in the inner Western
-                Anatolia Region, 48 km Southwest of the Kütahya Province, and
-                within the boundaries of the Çavdarhisar district.Although this
-                city is one of the greatest historical monuments in Turkey, it
-                doesn’t well-known enough by the people.
+                Anatolia , 48 km Southwest of the Kütahya Province, and within
+                the boundaries of the Çavdarhisar district.Although this city is
+                one of the greatest historical monuments in Turkey, it doesn’t
+                well-known enough by the people.
               </p>
               <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 Aizanoi was the capital of Aizanitis, who belonged to Phrigia.
@@ -139,13 +139,12 @@ export default function Aizanoi() {
               </h2>
               <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
                 Aizanoi is only accessible with local buses or car from the
-                Kutahya. There is no railway, unfortunately. As Çavdarhisar is a
-                bit out of the way, and the Aizanoi ruins a bit scattered, a car
-                is a great way to explore Aizanoi. Çavdarhisar sits along the
-                D240 highway, 55 kilometers south of Kütahya city.If you’re
-                coming to Aizanoi from Istanbul,you can come with intercity
-                buses to Kutahya bus terminal and take a local coach to go to
-                the Çavdarhisar.
+                Kutahya. As Çavdarhisar is a bit out of the way, and the Aizanoi
+                ruins a bit scattered, a car is a great way to explore Aizanoi.
+                Çavdarhisar sits along the D240 highway, 55 kilometers south of
+                Kütahya city.If you’re coming to Aizanoi from Istanbul,you can
+                take the intercity buses to Kutahya bus terminal and take a
+                local minubues or hire a car to go to the Çavdarhisar.
               </p>
             </div>
 

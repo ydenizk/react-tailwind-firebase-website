@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import Share from "./../components/share";
 
 import aphro from "./../assets/aphrodisias/aphro.jpg";
@@ -8,10 +8,9 @@ import big1 from "./../assets/aphrodisias/aphro-592-360.jpeg";
 import big2 from "./../assets/aphrodisias/aphro-2-592-360.jpeg";
 import big3 from "./../assets/aphrodisias/aphro-3-592-360.jpg";
 
-
-export default function  Aphrodisias() {
+export default function Aphrodisias() {
   return (
-    <div className="w-full bg-neutral-100">
+    <div className="w-full bg-neutral-100 md:mt-20">
       <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-10 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
@@ -23,7 +22,7 @@ export default function  Aphrodisias() {
             <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider">
               No <span className="font-roboto font-medium">02</span>
             </h2>
-            <p className=" font-roboto font-bold text-white text-4xl  whitespace-nowrap mb-6 tracking-wide ">
+            <p className=" font-roboto font-bold text-white text-4xl md:text-3xl  whitespace-nowrap mb-6 tracking-wide ">
               HOME OF APHRODITE
             </p>
             <p className="uppercase text-white font-mono text-lg tracking-wide">
@@ -46,7 +45,7 @@ export default function  Aphrodisias() {
 
           {/* .................... */}
 
-          <div className="  w-full p-0 text-black grid grid-cols-6 gap-2">
+          <div className="  w-full p-0 text-black grid grid-cols-6 gap-2 px-2">
             <div className="w-full  col-span-4 ">
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No02
@@ -54,9 +53,8 @@ export default function  Aphrodisias() {
               <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 Aphrodisias,was a small Roman Hellenistic city in the historic
                 Caria cultural region of western Anatolia, Turkey. It is located
-                near the modern village of Geyre, about 100 km (62 mi)
-                east/inland from the coast of the Aegean Sea, and 230 km (140
-                mi) southeast of İzmir.
+                near the modern village of Geyre, about 100 km east/inland from
+                the coast of the Aegean Sea, and 230 km southeast of İzmir.
               </p>
               <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 The city shared a close interest in the goddess Aphrodite with

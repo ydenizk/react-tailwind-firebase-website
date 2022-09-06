@@ -12,7 +12,7 @@
          src="https://my.atlistmaps.com/map/0ea3388c-6c38-4168-9a18-d6ace5dbc720?share=true"
          allow="geolocation"
          width="100%"
-         height="290px"
+         height="280px"
          frameborder="0"
          scrolling="no"
          allowfullscreen
@@ -42,7 +42,7 @@
          src="https://my.atlistmaps.com/map/991c7b1c-5a51-463d-b44d-58c0104aa10b?share=true"
          allow="geolocation"
          width="100%"
-         height="210px"
+         height="220px"
          frameborder="0"
          scrolling="no"
          allowfullscreen
@@ -63,8 +63,8 @@
        "Letoon",
        "Xanthos",
        "Patara",
-      " Sagalassos",
-      "Tlos"
+       " Sagalassos",
+       "Tlos",
      ],
      mapp: (
        <iframe

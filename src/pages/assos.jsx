@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 import banner from "./../assets/assos/banner.jpg";
 import big from "./../assets/assos/592--444.jpeg";
@@ -6,13 +6,9 @@ import big1 from "./../assets/assos/592-444.JPG";
 import side from "./../assets/assos/side-big.jpg";
 import Share from "./../components/share";
 
-
 export default function Assos() {
-
-
-
   return (
-    <div className="w-full bg-neutral-100">
+    <div className="w-full bg-neutral-100 md:mt-20">
       <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-10 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
@@ -24,7 +20,7 @@ export default function Assos() {
             <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider">
               No <span className="font-roboto font-medium">05</span>
             </h2>
-            <p className="uppercase font-roboto font-bold text-white text-4xl  whitespace-nowrap mb-6 tracking-wide ">
+            <p className="uppercase font-roboto font-bold text-white text-4xl md:text-3xl whitespace-nowrap mb-6 tracking-wide ">
               HOME OF Aristotle
             </p>
             <p className="uppercase text-white font-mono text-lg tracking-wide">
@@ -46,7 +42,7 @@ export default function Assos() {
 
           {/* .................... */}
 
-          <div className="  w-full p-0 text-black grid grid-cols-6 gap-2">
+          <div className="  w-full p-0 text-black grid grid-cols-6 gap-2 px-2">
             <div className="w-full  col-span-4 ">
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No05
@@ -219,6 +215,4 @@ export default function Assos() {
       {/* .................... */}
     </div>
   );
-    
 }
-

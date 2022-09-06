@@ -5,7 +5,7 @@ import { db } from "./../firebase-config";
 
 import { collection, getDocs } from "firebase/firestore";
 
-const Topbar = ({scrollRef}) => {
+const Topbar = ({ scrollRef }) => {
   const ref1 = useRef();
   const [viso1, setViso1] = useState(false);
 
@@ -17,10 +17,10 @@ const Topbar = ({scrollRef}) => {
     };
 
     if (viso1) {
-    setTimeout(() => {
-      setViso1(!viso1);
-    }, 4000);
-  }
+      setTimeout(() => {
+        setViso1(!viso1);
+      }, 4000);
+    }
 
     document.addEventListener("mousedown", drop1);
     return () => {
@@ -60,12 +60,17 @@ const Topbar = ({scrollRef}) => {
       <div className="bg-neutral-200  shadow fixed top-0 w-full  z-50">
         <div
           className="w-full h-20 bg-neutral-200 flex justify-between 
- items-center px-2.5 max-w-6xl my-0 mx-auto  "
+ items-center px-2.5 max-w-6xl my-0 mx-auto md:flex-col md:h-40 md:align-center  "
         >
-          <div>
-            <h1 className="font-roboto tracking-wide font-bold text-3xl">
-              Ancient Turkey
-            </h1>
+          <div className="pl-2">
+            <Link to="/">
+              <h4 className="uppercase  font-semibold tracking-wider font-caveat text-3xl w-full opacity-80">
+                Ancient{" "}
+              </h4>
+              <h4 className=" font-caveat font-semibold text-orange-800  text-3xl tracking-wide w-full ">
+                Asia Minor
+              </h4>
+            </Link>
           </div>
           <div>
             <ul className="flex items-center justify-center ">
@@ -96,7 +101,10 @@ const Topbar = ({scrollRef}) => {
                   Destinations
                 </Link>
                 {viso1 && (
-                  <ul className=" uppercase text-base absolute top-9   z-20  h-166  w-96 border border-gray-200 bg-white grid grid-cols-3 gap-2 mt-4  p-2 font-medium ">
+                  <ul
+                    className=" uppercase text-base absolute top-9   z-20  h-166  w-96 border border-gray-200 
+                  bg-white grid grid-cols-3 gap-2 mt-4  p-2 font-medium  md:top-11 "
+                  >
                     <li className="p-2 flex">
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
@@ -376,7 +384,7 @@ const Topbar = ({scrollRef}) => {
               <button
                 className={
                   overlay
-                    ? "text-gray-800"
+                    ? "text-gray-800 pr-2"
                     : "absolute cursor-pointer text-neutral-800  font-bold text-xl top-4 right-8 "
                 }
                 /*  className="absolute cursor-pointer text-black font-bold text-xl top-4 right-4 " */

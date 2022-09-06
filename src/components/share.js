@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { RWebShare } from "react-web-share";
 import { IoLogoRss } from "react-icons/io";
 

@@ -9,10 +9,9 @@ import sideBig from "./../assets/ephesus/288-492.jpg";
 import sideSmall from "./../assets/ephesus/290-290.jpg";
 import sideSmall1 from "./../assets/ephesus/290x290.jpg";
 
-export default function Ephesus () {
-
+export default function Ephesus() {
   return (
-    <div className="w-full bg-neutral-100">
+    <div className="w-full bg-neutral-100 md:mt-20">
       <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-10 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
@@ -24,7 +23,7 @@ export default function Ephesus () {
             <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider">
               No <span className="font-roboto font-medium">07</span>
             </h2>
-            <p className="uppercase font-roboto font-bold text-white text-3xl  whitespace-nowrap mb-6 tracking-wide ">
+            <p className="uppercase font-roboto font-bold text-white text-3xl md:text-2xl whitespace-nowrap mb-6 tracking-wide ">
               HOME OF one of the Seven Wonders of the Ancient World
             </p>
             <p className="uppercase text-white font-mono text-lg tracking-wide">
@@ -47,7 +46,7 @@ export default function Ephesus () {
 
           {/* .................... */}
 
-          <div className="  w-full p-0 text-black grid grid-cols-6 gap-2">
+          <div className="  w-full p-0 text-black grid grid-cols-6 gap-2 px-2">
             <div className="w-full  col-span-4 ">
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No07

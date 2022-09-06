@@ -13,15 +13,13 @@ export default function Contact() {
     value = e.target.value;
     setContactData({ ...contactData, [name]: value });
   };
-//firebase le contatc form
+  //firebase le contatc form
   const submitData = async (e) => {
     e.preventDefault();
 
     const { fullname, email, message } = contactData;
     //asagıdakı linki realtime database den aldık,sonundakı userMessages/json kısmını,
     //ben ekledim.firebase de collection olusturuor
-
-
 
     if (fullname && email && message) {
       const res = fetch(
@@ -90,8 +88,12 @@ export default function Contact() {
             />
           </div>
 
-          <button type="submit" onClick={submitData} className="border border-neutral-600 
-          p-1 px-2 tracking-wide mt-2 w-full cursor-pointer bg-white hover:bg-gray-200 transition duration-200">
+          <button
+            type="submit"
+            onClick={submitData}
+            className="border border-neutral-600 
+          p-1 px-2 tracking-wide mt-2 w-full cursor-pointer bg-white hover:bg-gray-200 transition duration-200"
+          >
             SEND MESSAGE
           </button>
         </form>

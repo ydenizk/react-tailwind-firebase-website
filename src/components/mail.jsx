@@ -3,15 +3,6 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 import { db } from "./../firebase-config";
 import { collection, getDocs, addDoc } from "firebase/firestore";
 
-
-
-
-
-
-
-
-
-
 export default function Mail() {
   const usersCollectionRef = collection(db, "users");
 
@@ -20,8 +11,6 @@ export default function Mail() {
   const createUser = async () => {
     await addDoc(usersCollectionRef, { email: newEmail });
   };
-
-
 
   return (
     <>
@@ -37,8 +26,8 @@ export default function Mail() {
                 htmlFor=""
                 className="font-light tracking-wide w-3/4  text-grey font-roboto"
               >
-                Stay plugged in to what we are doing on the website, behind the
-                scenes, and offline.Stay plugged
+                Stay plugged in to when we add a new spot and a destination to
+                visit
               </label>
             </div>
             <div className="mb-6">

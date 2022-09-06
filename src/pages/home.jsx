@@ -12,13 +12,11 @@ export default function Home() {
   
 
   return (
-    <div className="bg-neutral-100 pb-4">
-      
+    <div className="bg-neutral-100 pb-4 ">
       <Hedaer />
       <Ads />
       <Regions />
       <Mail />
-     
     </div>
   );
  
