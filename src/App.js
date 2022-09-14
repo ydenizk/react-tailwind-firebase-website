@@ -42,8 +42,7 @@ const Wrapper = ({ children }) => {
   }, [location.pathname]);
   return children;
 }; 
-
-
+/* deneme */
 
 function App() {
 
