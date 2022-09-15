@@ -33,6 +33,7 @@ import Sardes from "./pages/sardes";
 import Tlos from "./pages/tlos";
 import Troy from "./pages/troy";
 import Xanthos from "./pages/xanthos";
+import { clear } from "@testing-library/user-event/dist/clear";
 
 //bu yapı sayfa degidimlerinde yeni sayfada top u gösterir.
 const Wrapper = ({ children }) => {
@@ -54,7 +55,7 @@ function App() {
         <Topbar />
 
         <Routes>
-          <Route path="/react-tailwind-firebase-website" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/regios" element={<Regios />} />
 
           <Route path="/destinations" element={<Home />} />
