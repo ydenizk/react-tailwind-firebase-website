@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 
 import Topbar from "./components/topbar";
 import Footer from "./components/footer";
-import { BrowserRouter as Router, Routes, Route,useLocation } from "react-router-dom";
+import { HashRouter as Router, Routes, Route,useLocation } from "react-router-dom";
 import { useLayoutEffect } from "react";
 
 import Home from "./pages/home";
@@ -56,7 +56,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
+     
           <Route path="/regios" element={<Regios />} />
 
           <Route path="/destinations" element={<Home />} />
