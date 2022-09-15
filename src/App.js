@@ -51,10 +51,10 @@ function App() {
   return (
     <Router>
       <Wrapper>
-        <Topbar  />
+        <Topbar />
 
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/react-tailwind-firebase-website" element={<Home />} />
           <Route path="/regios" element={<Regios />} />
 
           <Route path="/destinations" element={<Home />} />
