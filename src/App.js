@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 
 import Topbar from "./components/topbar";
 import Footer from "./components/footer";
-import { HashRouter as Router, Routes, Route,useLocation } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route,useLocation } from "react-router-dom";
 import { useLayoutEffect } from "react";
 
 import Home from "./pages/home";
@@ -56,6 +56,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/react-tailwind-firebase-website" element={<Home />} />
      
           <Route path="/regios" element={<Regios />} />
 
