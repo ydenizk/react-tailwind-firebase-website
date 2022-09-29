@@ -16,11 +16,11 @@ const Topbar = ({ scrollRef }) => {
       }
     };
 
-    if (viso1) {
+  /*   if (viso1) {
       setTimeout(() => {
         setViso1(!viso1);
       }, 4000);
-    }
+    } */
 
     document.addEventListener("mousedown", drop1);
     return () => {
@@ -93,23 +93,23 @@ const Topbar = ({ scrollRef }) => {
               </li>
 
               <li ref={ref1} className="relative ">
-                <Link
-                  to="./destinations"
-                  className=" mx-2 font-extralight font-dosis text-gray-700 hover:text-gray-900 transition-all"
+                <a
+                  className=" mx-2 font-extralight font-dosis text-gray-700 hover:text-gray-900 transition-all cursor-pointer"
                   onClick={() => setViso1((y) => !y)}
                 >
                   Destinations
-                </Link>
+                </a>
                 {viso1 && (
                   <ul
-                    className=" uppercase text-base absolute top-9   z-20  h-166  w-96 border border-gray-200 
+                    className=" uppercase text-base absolute top-9 -right-36  z-20  h-96  w-96 border border-gray-200 
                   bg-white grid grid-cols-3 gap-2 mt-4  p-2 font-medium  md:top-11 "
                   >
                     <li className="p-2 flex">
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/sardes"
-                        className="text-sm tracking-wide hover:text-amber-400 transition-all"
+                        onClick={() => setViso1((y) => !y)}
+                        className="text-xs tracking-wide hover:text-amber-400 transition-all"
                       >
                         Sardis
                       </Link>
@@ -118,7 +118,8 @@ const Topbar = ({ scrollRef }) => {
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/ephesus"
-                        className="text-sm tracking-wide hover:text-amber-400 transition-all"
+                        onClick={() => setViso1((y) => !y)}
+                        className="text-xs tracking-wide hover:text-amber-400 transition-all"
                       >
                         Ephesus
                       </Link>
@@ -127,7 +128,8 @@ const Topbar = ({ scrollRef }) => {
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/miletus"
-                        className="text-sm tracking-wide hover:text-amber-400 transition-all"
+                        onClick={() => setViso1((y) => !y)}
+                        className="text-xs tracking-wide hover:text-amber-400 transition-all"
                       >
                         Miletus
                       </Link>
@@ -136,7 +138,8 @@ const Topbar = ({ scrollRef }) => {
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/priene"
-                        className="text-sm tracking-wide hover:text-amber-400 transition-all"
+                        onClick={() => setViso1((y) => !y)}
+                        className="text-xs tracking-wide hover:text-amber-400 transition-all"
                       >
                         Priene
                       </Link>
@@ -145,7 +148,8 @@ const Topbar = ({ scrollRef }) => {
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/didyma"
-                        className="text-sm tracking-wide hover:text-amber-400 transition-all"
+                        onClick={() => setViso1((y) => !y)}
+                        className="text-xs tracking-wide hover:text-amber-400 transition-all"
                       >
                         Didyma
                       </Link>
@@ -154,7 +158,8 @@ const Topbar = ({ scrollRef }) => {
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/laodikeia"
-                        className="text-sm tracking-wide hover:text-amber-400 transition-all"
+                        onClick={() => setViso1((y) => !y)}
+                        className="text-xs tracking-wide hover:text-amber-400 transition-all"
                       >
                         Laodiceia
                       </Link>
@@ -163,6 +168,7 @@ const Topbar = ({ scrollRef }) => {
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/hierapolis"
+                        onClick={() => setViso1((y) => !y)}
                         className="text-xs tracking-wide hover:text-amber-400 transition-all"
                       >
                         Hierapolis
@@ -172,6 +178,7 @@ const Topbar = ({ scrollRef }) => {
                       <FaUniversity className="mr-1 text-xl text-amber-400" />
                       <Link
                         to="/aphrodisias"
+                        onClick={() => setViso1((y) => !y)}
                         className="text-xs hover:text-amber-400 transition-all"
                       >
                         Aphrodisias
@@ -181,7 +188,8 @@ const Topbar = ({ scrollRef }) => {
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/knidos"
-                        className="text-sm tracking-wide hover:text-amber-400 transition-all"
+                        onClick={() => setViso1((y) => !y)}
+                        className="text-xs tracking-wide hover:text-amber-400 transition-all"
                       >
                         Knidos
                       </Link>
@@ -190,7 +198,8 @@ const Topbar = ({ scrollRef }) => {
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/kaunos"
-                        className="text-sm tracking-wide hover:text-amber-400 transition-all"
+                        onClick={() => setViso1((y) => !y)}
+                        className="text-xs tracking-wide hover:text-amber-400 transition-all"
                       >
                         Kaunos
                       </Link>
@@ -200,7 +209,8 @@ const Topbar = ({ scrollRef }) => {
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/xanthos"
-                        className="text-sm tracking-wide hover:text-amber-400 transition-all"
+                        onClick={() => setViso1((y) => !y)}
+                        className="text-xs tracking-wide hover:text-amber-400 transition-all"
                       >
                         Xanthos
                       </Link>
@@ -209,7 +219,8 @@ const Topbar = ({ scrollRef }) => {
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/patara"
-                        className="text-sm tracking-wide hover:text-amber-400 transition-all"
+                        onClick={() => setViso1((y) => !y)}
+                        className="text-xs tracking-wide hover:text-amber-400 transition-all"
                       >
                         Patara
                       </Link>
@@ -218,7 +229,8 @@ const Topbar = ({ scrollRef }) => {
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/myra"
-                        className="text-sm tracking-wide hover:text-amber-400 transition-all"
+                        onClick={() => setViso1((y) => !y)}
+                        className="text-xs tracking-wide hover:text-amber-400 transition-all"
                       >
                         Myra
                       </Link>
@@ -227,7 +239,8 @@ const Topbar = ({ scrollRef }) => {
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/troia"
-                        className="text-sm tracking-wide hover:text-amber-400 transition-all"
+                        onClick={() => setViso1((y) => !y)}
+                        className="text-xs tracking-wide hover:text-amber-400 transition-all"
                       >
                         Troy
                       </Link>
@@ -236,7 +249,8 @@ const Topbar = ({ scrollRef }) => {
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/aspendos"
-                        className="text-sm tracking-wide hover:text-amber-400 transition-all"
+                        onClick={() => setViso1((y) => !y)}
+                        className="text-xs tracking-wide hover:text-amber-400 transition-all"
                       >
                         Aspendos
                       </Link>
@@ -245,7 +259,8 @@ const Topbar = ({ scrollRef }) => {
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/perga"
-                        className="text-sm tracking-wide hover:text-amber-400 transition-all"
+                        onClick={() => setViso1((y) => !y)}
+                        className="text-xs tracking-wide hover:text-amber-400 transition-all"
                       >
                         Perga
                       </Link>
@@ -254,7 +269,8 @@ const Topbar = ({ scrollRef }) => {
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/assos"
-                        className="text-sm tracking-wide hover:text-amber-400 transition-all"
+                        onClick={() => setViso1((y) => !y)}
+                        className="text-xs tracking-wide hover:text-amber-400 transition-all"
                       >
                         Assos
                       </Link>
@@ -263,7 +279,8 @@ const Topbar = ({ scrollRef }) => {
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/olympos"
-                        className="text-sm tracking-wide hover:text-amber-400 transition-all"
+                         onClick={() => setViso1((y) => !y)}
+                        className="text-xs tracking-wide hover:text-amber-400 transition-all"
                       >
                         Olympos
                       </Link>
@@ -272,6 +289,7 @@ const Topbar = ({ scrollRef }) => {
                       <FaUniversity className="mr-1 text-xl text-amber-400" />
                       <Link
                         to="/sagalassos"
+                        onClick={() => setViso1((y) => !y)}
                         className="text-xs tracking-wide hover:text-amber-400 transition-all"
                       >
                         Sagalassos
@@ -281,7 +299,7 @@ const Topbar = ({ scrollRef }) => {
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/tlos"
-                        className="text-sm tracking-wide hover:text-amber-400 transition-all"
+                        className="text-xs tracking-wide hover:text-amber-400 transition-all"
                       >
                         Tlos
                       </Link>
@@ -290,7 +308,8 @@ const Topbar = ({ scrollRef }) => {
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/aizanoi"
-                        className="text-sm tracking-wide hover:text-amber-400 transition-all"
+                        onClick={() => setViso1((y) => !y)}
+                        className="text-xs tracking-wide hover:text-amber-400 transition-all"
                       >
                         Aizanoi
                       </Link>
@@ -299,7 +318,8 @@ const Topbar = ({ scrollRef }) => {
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/pergamon"
-                        className="text-sm tracking-wide hover:text-amber-400 transition-all"
+                        onClick={() => setViso1((y) => !y)}
+                        className="text-xs tracking-wide hover:text-amber-400 transition-all"
                       >
                         Pergamon
                       </Link>
@@ -308,7 +328,8 @@ const Topbar = ({ scrollRef }) => {
                       <FaUniversity className="mr-1  text-amber-400" />
                       <Link
                         to="/apollon"
-                        className="text-sm tracking-wide hover:text-amber-400 transition-all"
+                        onClick={() => setViso1((y) => !y)}
+                        className="text-xs tracking-wide hover:text-amber-400 transition-all"
                       >
                         Hamaxitus
                       </Link>
@@ -327,6 +348,7 @@ const Topbar = ({ scrollRef }) => {
               <li className="relative">
                 <Link
                   to="/contact"
+                 
                   className=" mx-2 font-extralight font-dosis text-gray-700  hover:text-gray-900 transition-all"
                 >
                   Contact

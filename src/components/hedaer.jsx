@@ -13,7 +13,7 @@ export default function Hedaer() {
           <div className="grid grid-cols-2 gap-8  md:grid-cols-1    md:justify-center md:items-center ">
             <div className="relative">
               <img
-                className="w-145  h-145 "
+              
                 src={image1}
                 alt="nature-2"
                 className=" w-145 max-h-145 h-145  object-cover"

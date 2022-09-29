@@ -1,6 +1,8 @@
-import React, { useRef } from "react";
+
 import items from "./../data";
 import image from "./../assets/map.png";
+
+
 
 export default function Regios() {
   return (
@@ -38,7 +40,6 @@ export default function Regios() {
               <div className="w-180 h-135 flex-1 mr-12  md:mb-8 lg:mr-6 md:mr-0 ">
                 <img
                   src={url}
-                  yrt
                   alt={name}
                   className="w-180 h-135 object-cover"
                 />
