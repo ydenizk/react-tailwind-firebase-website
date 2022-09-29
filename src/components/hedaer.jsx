@@ -7,10 +7,10 @@ export default function Hedaer() {
     <>
       <header
         className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 
-      relative top-24 pb-6  border-b-2 border-slate-500 md:top-36"
+      relative top-24 pb-6  border-b-2 border-slate-500 "
       >
         <div className="w-288 h-145 max-h-145 mx-4  max-w-6xl  pt-6   bg-neutral-100   ">
-          <div className="grid grid-cols-2 gap-8  md:grid-cols-1    md:justify-center md:items-center ">
+          <div className="grid grid-cols-2 gap-8     ">
             <div className="relative">
               <img
               
@@ -18,11 +18,11 @@ export default function Hedaer() {
                 alt="nature-2"
                 className=" w-145 max-h-145 h-145  object-cover"
               />
-              <div className="text-black uppercase font-roboto tracking-wider text-xs font-light pt-1 md:text-center">
+              <div className="text-black uppercase font-roboto tracking-wider text-xs font-light pt-1">
                 assos
               </div>
             </div>
-            <div className="w-145  h-145 relative  md:hidden">
+            <div className="w-145  h-145 relative  ">
               <img
                 src={image2}
                 alt="nature-2"
@@ -40,13 +40,13 @@ export default function Hedaer() {
             </p>
             <p
               className=" uppercase font-garamond font-semibold text-orange-200 text-5xl  
-            whitespace-nowrap mb-1 tracking-wide md:text-4xl "
+            whitespace-nowrap mb-1 tracking-wide  "
             >
               ANCIENT SITES and cities
             </p>
             <p
               className=" uppercase font-garamond font-semibold text-orange-200 text-5xl  
-            whitespace-nowrap tracking-wide md:text-4xl "
+            whitespace-nowrap tracking-wide  "
             >
               of turkey
             </p>

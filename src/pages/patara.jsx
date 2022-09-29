@@ -9,7 +9,7 @@ import side from "./../assets/patara/288-492.jpg";
 
 export default function Patara() {
   return (
-    <div className="w-full bg-neutral-100 md:mt-20">
+    <div className="w-full bg-neutral-100 ">
       <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-10 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
@@ -21,10 +21,10 @@ export default function Patara() {
             <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider">
               No <span className="font-roboto font-medium">14</span>
             </h2>
-            <p className="uppercase font-roboto font-bold text-white text-2xl  md:text-base whitespace-nowrap mb-1 tracking-wide ">
+            <p className="uppercase font-roboto font-bold text-white text-2xl  whitespace-nowrap mb-1 tracking-wide ">
               HOME OF one of the most powerful cities of the Lycian league
             </p>
-            <p className="uppercase font-roboto font-bold text-white text-2xl md:text-base  whitespace-nowrap mb-6 tracking-wide ">
+            <p className="uppercase font-roboto font-bold text-white text-2xl  whitespace-nowrap mb-6 tracking-wide ">
               league and the birhplace of gof apollo
             </p>
             <p className="uppercase text-white font-mono text-lg tracking-wide">

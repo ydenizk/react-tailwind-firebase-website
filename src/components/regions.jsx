@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 const Regions = () => {
   return (
-    <section className="my-16 flex justify-center align-center bg-neutral-100 md:mt-10 ">
-      <div className="max-w-6xl  w-full p-0 bg-neutral-100 text-center grid grid-cols-2 md:grid-cols-1 ">
-        <div className="w-96 h-96  my-0 mx-auto md:hidden">
+    <section className="my-16 flex justify-center align-center bg-neutral-100  ">
+      <div className="max-w-6xl  w-full p-0 bg-neutral-100 text-center grid grid-cols-2  ">
+        <div className="w-96 h-96  my-0 mx-auto ">
           <img
             src={image}
             className="w-96 h-96 object-cover rounded-full contrast-125 "

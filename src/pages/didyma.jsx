@@ -8,7 +8,7 @@ import sideSmall from "./../assets/didyma/288-288.jpg";
 
 export default function Didyma() {
   return (
-    <div className="w-full bg-neutral-100 md:mt-20">
+    <div className="w-full bg-neutral-100 ">
       <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-10 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
@@ -20,7 +20,7 @@ export default function Didyma() {
             <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider">
               No <span className="font-roboto font-medium">06</span>
             </h2>
-            <p className="uppercase font-roboto font-bold text-white text-4xl md:text-2xl  whitespace-nowrap mb-6 tracking-wide ">
+            <p className="uppercase font-roboto font-bold text-white text-4xl   whitespace-nowrap mb-6 tracking-wide ">
               HOME OF the oracle of Apollo
             </p>
             <p className="uppercase text-white font-mono text-lg tracking-wide">

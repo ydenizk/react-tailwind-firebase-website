@@ -8,7 +8,7 @@ import big2 from "./../assets/aizanoi/592-332.jpg";
 
 export default function Aizanoi() {
   return (
-    <div className="w-full bg-neutral-100 md:mt-20">
+    <div className="w-full bg-neutral-100 ">
       <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-10 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
@@ -20,7 +20,7 @@ export default function Aizanoi() {
             <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider">
               No <span className="font-roboto font-medium">01</span>
             </h2>
-            <p className=" font-roboto font-bold text-white text-4xl md:text-2xl whitespace-nowrap mb-6 tracking-wide ">
+            <p className=" font-roboto font-bold text-white text-4xl whitespace-nowrap mb-6 tracking-wide ">
               HOME OF THE BEST PRESERVED ZEUS TEMPLE
             </p>
             <p className="uppercase text-white font-mono text-xl tracking-wide">

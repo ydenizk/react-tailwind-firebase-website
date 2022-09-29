@@ -7,7 +7,7 @@ import big1 from "./../assets/laodikeia/592*360.jpg";
 
 export default function Laodikeia() {
   return (
-    <div className="w-full bg-neutral-100 md:mt-20">
+    <div className="w-full bg-neutral-100 ">
       <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-10 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
@@ -19,7 +19,7 @@ export default function Laodikeia() {
             <h2 className="font-roboto font-medium text-white text-4xl mb-2 tracking-wider">
               No <span className="font-roboto font-medium">11</span>
             </h2>
-            <p className="uppercase font-roboto font-bold text-white text-5xl md:text-2xl  whitespace-nowrap mb-6 tracking-wide ">
+            <p className="uppercase font-roboto font-bold text-white text-5xl   whitespace-nowrap mb-6 tracking-wide ">
               home of cicero once
             </p>
             <p className="uppercase text-white font-mono text-xl tracking-wide">

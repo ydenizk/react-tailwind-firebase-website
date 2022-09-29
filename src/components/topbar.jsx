@@ -60,7 +60,7 @@ const Topbar = ({ scrollRef }) => {
       <div className="bg-neutral-200  shadow fixed top-0 w-full  z-50">
         <div
           className="w-full h-20 bg-neutral-200 flex justify-between 
- items-center px-2.5 max-w-6xl my-0 mx-auto md:flex-col md:h-40 md:align-center  "
+ items-center px-2.5 max-w-6xl my-0 mx-auto   "
         >
           <div className="pl-2">
             <Link to="/">
@@ -102,7 +102,7 @@ const Topbar = ({ scrollRef }) => {
                 {viso1 && (
                   <ul
                     className=" uppercase text-base absolute top-9 -right-36  z-20  h-96  w-96 border border-gray-200 
-                  bg-white grid grid-cols-3 gap-2 mt-4  p-2 font-medium  md:top-11 "
+                  bg-white grid grid-cols-3 gap-2 mt-4  p-2 font-medium   "
                   >
                     <li className="p-2 flex">
                       <FaUniversity className="mr-1 text-amber-400" />
