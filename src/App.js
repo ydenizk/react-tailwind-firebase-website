@@ -85,7 +85,6 @@ function App() {
           <Route path="/tlos" element={<Tlos />} />
           <Route path="/troy" element={<Troy />} />
           <Route path="/xanthos" element={<Xanthos />} />
-
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
         </Routes>

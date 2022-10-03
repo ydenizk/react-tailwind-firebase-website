@@ -32,10 +32,10 @@ const region = [
       "Didyma",
       "Laodicea",
       "Hierapolis",
-      "Aphrodisias",
       "Cnidus",
       "Sardes",
       "Aizanoi",
+      "Aphrodisias",
     ],
     mapp: (
       <iframe
@@ -63,8 +63,8 @@ const region = [
       "Letoon",
       "Xanthos",
       "Patara",
-      " Sagalassos",
       "Tlos",
+      " Sagalassos",
     ],
     mapp: (
       <iframe

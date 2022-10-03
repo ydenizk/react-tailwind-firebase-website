@@ -15,8 +15,8 @@ export default function Mail() {
   return (
     <>
       <div className=" flex justify-center align-center border-slate-500 border-t-2 my-0 mx-auto max-w-6xl bg-neutral-100  ">
-        <div className="text-center w-105 py-10">
-          <h1 className="text-sm font-bold tracking-wide pb-8 font-roboto text-gray-800">
+        <div className="text-center w-105 py-16">
+          <h1 className="text-lg font-bold tracking-wide pb-8 font-roboto text-gray-800">
             DON'T BE A STRANGER
           </h1>
 
@@ -24,7 +24,7 @@ export default function Mail() {
             <div className=" text-center mb-8 ">
               <label
                 htmlFor=""
-                className="font-light tracking-wide w-3/4  text-grey font-roboto"
+                className="font-light tracking-wide w-3/4  text-grey font-roboto sm:text-sm"
               >
                 Stay plugged in to when we add a new spot and a destination to
                 visit
@@ -39,7 +39,7 @@ export default function Mail() {
                 }}
                 placeholder="your email adress"
                 className="text-sm tracking-wide w-96 h-10 rounded-none px-2
-             border border-gray-500 outline-0 shadow  text-gray-700"
+             border border-gray-500 outline-0 shadow  text-gray-700 xs:w-80"
               />
             </div>
 

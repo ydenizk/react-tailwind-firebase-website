@@ -9,8 +9,8 @@ import big3 from "./../assets/xanthos/592-332.jpg";
 
 export default function Xanthos() {
   return (
-    <div className="w-full bg-neutral-100 ">
-      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-10 ">
+    <div className="w-full bg-neutral-100  md:mt-20">
+      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-6 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
             src={banner}
@@ -18,13 +18,16 @@ export default function Xanthos() {
             className="object-cover w-288 max-h-145 h-145  "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-2xl mb-2 tracking-wider">
+            <h2 className="font-roboto font-medium text-white text-2xl mb-2 tracking-wider md:text-lg xs:text-base">
               No <span className="font-roboto font-medium">22</span>
             </h2>
-            <p className="uppercase  font-roboto font-bold text-white text-3xl   whitespace-nowrap mb-6 tracking-wide ">
+            <p
+              className="uppercase  font-roboto font-bold text-white text-3xl   whitespace-nowrap mb-6 tracking-wide 
+             md:text-2xl sm:text-xl xs:text-lg"
+            >
               HOME OF capital city of Lycia
             </p>
-            <p className="uppercase text-white font-mono text-lg tracking-wide">
+            <p className="uppercase text-white font-mono text-lg tracking-wide md:text-base xs:text-sm">
               The beauty of xanthos
             </p>
           </div>
@@ -34,8 +37,8 @@ export default function Xanthos() {
       <div className="  flex justify-center align-center bg-neutral-100 relative my-24">
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
-          <div className="text-center mb-20 ">
-            <h2 className="uppercase smb-6 text-2xl tracking-widest font-semibold ">
+          <div className="text-center mb-20 px-2">
+            <h2 className="uppercase smb-6 text-2xl tracking-widest font-semibold md:text-lg ">
               xanthos and letoon,heart of lycia
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>

@@ -16,7 +16,7 @@ const Topbar = ({ scrollRef }) => {
       }
     };
 
-  /*   if (viso1) {
+    /*   if (viso1) {
       setTimeout(() => {
         setViso1(!viso1);
       }, 4000);
@@ -60,11 +60,11 @@ const Topbar = ({ scrollRef }) => {
       <div className="bg-neutral-200  shadow fixed top-0 w-full  z-50">
         <div
           className="w-full h-20 bg-neutral-200 flex justify-between 
- items-center px-2.5 max-w-6xl my-0 mx-auto   "
+             items-center px-2.5 max-w-6xl my-0 mx-auto    md:flex-col md:h-36 md:pt-2"
         >
-          <div className="pl-2">
+          <div className="pl-2   md:pl-0  ">
             <Link to="/">
-              <h4 className="uppercase  font-semibold tracking-wider font-caveat text-3xl w-full opacity-80">
+              <h4 className="uppercase  font-semibold tracking-wider font-caveat text-3xl w-full opacity-80 ">
                 Ancient{" "}
               </h4>
               <h4 className=" font-caveat font-semibold text-orange-800  text-3xl tracking-wide w-full ">
@@ -73,7 +73,7 @@ const Topbar = ({ scrollRef }) => {
             </Link>
           </div>
           <div>
-            <ul className="flex items-center justify-center ">
+            <ul className="flex items-center justify-center  ">
               <li className="relative">
                 <Link
                   to="/"
@@ -101,10 +101,10 @@ const Topbar = ({ scrollRef }) => {
                 </a>
                 {viso1 && (
                   <ul
-                    className=" uppercase text-base absolute top-9 -right-36  z-20  h-96  w-96 border border-gray-200 
-                  bg-white grid grid-cols-3 gap-2 mt-4  p-2 font-medium   "
+                    className=" uppercase text-base absolute top-9  -right-36  z-20  h-96  w-96 border border-gray-200 
+                  bg-white grid grid-cols-3 gap-2 mt-4  p-2 font-medium     md:top-10 md:gap-0 md:h-72  xs:h-72 "
                   >
-                    <li className="p-2 flex">
+                    <li className="p-2 flex xs:p-0 ">
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/sardes"
@@ -114,7 +114,7 @@ const Topbar = ({ scrollRef }) => {
                         Sardis
                       </Link>
                     </li>
-                    <li className="p-2 flex">
+                    <li className="p-2 flex xs:p-0">
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/ephesus"
@@ -124,7 +124,7 @@ const Topbar = ({ scrollRef }) => {
                         Ephesus
                       </Link>
                     </li>
-                    <li className="p-2 flex">
+                    <li className="p-2 flex xs:p-0">
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/miletus"
@@ -134,7 +134,7 @@ const Topbar = ({ scrollRef }) => {
                         Miletus
                       </Link>
                     </li>
-                    <li className="p-2 flex">
+                    <li className="p-2 flex xs:p-0">
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/priene"
@@ -144,7 +144,7 @@ const Topbar = ({ scrollRef }) => {
                         Priene
                       </Link>
                     </li>
-                    <li className="p-2 flex">
+                    <li className="p-2 flex xs:p-0">
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/didyma"
@@ -154,7 +154,7 @@ const Topbar = ({ scrollRef }) => {
                         Didyma
                       </Link>
                     </li>
-                    <li className="p-2 flex">
+                    <li className="p-2 flex xs:p-0">
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/laodikeia"
@@ -164,7 +164,7 @@ const Topbar = ({ scrollRef }) => {
                         Laodiceia
                       </Link>
                     </li>
-                    <li className="p-2 flex">
+                    <li className="p-2 flex xs:p-0">
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/hierapolis"
@@ -174,7 +174,7 @@ const Topbar = ({ scrollRef }) => {
                         Hierapolis
                       </Link>
                     </li>
-                    <li className="p-2 flex">
+                    <li className="p-2 flex xs:p-0">
                       <FaUniversity className="mr-1 text-xl text-amber-400" />
                       <Link
                         to="/aphrodisias"
@@ -184,7 +184,7 @@ const Topbar = ({ scrollRef }) => {
                         Aphrodisias
                       </Link>
                     </li>
-                    <li className="p-2 flex">
+                    <li className="p-2 flex xs:p-0">
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/knidos"
@@ -194,7 +194,7 @@ const Topbar = ({ scrollRef }) => {
                         Knidos
                       </Link>
                     </li>
-                    <li className="p-2 flex">
+                    <li className="p-2 flex xs:p-0">
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/kaunos"
@@ -205,7 +205,7 @@ const Topbar = ({ scrollRef }) => {
                       </Link>
                     </li>
 
-                    <li className="p-2 flex">
+                    <li className="p-2 flex xs:p-0">
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/xanthos"
@@ -215,7 +215,7 @@ const Topbar = ({ scrollRef }) => {
                         Xanthos
                       </Link>
                     </li>
-                    <li className="p-2 flex">
+                    <li className="p-2 flex xs:p-0">
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/patara"
@@ -225,7 +225,7 @@ const Topbar = ({ scrollRef }) => {
                         Patara
                       </Link>
                     </li>
-                    <li className="p-2 flex">
+                    <li className="p-2 flex xs:p-0">
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/myra"
@@ -235,17 +235,17 @@ const Topbar = ({ scrollRef }) => {
                         Myra
                       </Link>
                     </li>
-                    <li className="p-2 flex">
+                    <li className="p-2 flex xs:p-0">
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
-                        to="/troia"
+                        to="/troy"
                         onClick={() => setViso1((y) => !y)}
                         className="text-xs tracking-wide hover:text-amber-400 transition-all"
                       >
                         Troy
                       </Link>
                     </li>
-                    <li className="p-2 flex">
+                    <li className="p-2 flex xs:p-0">
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/aspendos"
@@ -255,7 +255,7 @@ const Topbar = ({ scrollRef }) => {
                         Aspendos
                       </Link>
                     </li>
-                    <li className="p-2 flex">
+                    <li className="p-2 flex xs:p-0">
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/perga"
@@ -265,7 +265,7 @@ const Topbar = ({ scrollRef }) => {
                         Perga
                       </Link>
                     </li>
-                    <li className="p-2 flex">
+                    <li className="p-2 flex xs:p-0">
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/assos"
@@ -275,7 +275,7 @@ const Topbar = ({ scrollRef }) => {
                         Assos
                       </Link>
                     </li>
-                    {/*      <li className="p-2 flex">
+                    {/*      <li className="p-2 flex xs:p-0">
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/olympos"
@@ -285,7 +285,7 @@ const Topbar = ({ scrollRef }) => {
                         Olympos
                       </Link>
                     </li> */}
-                    <li className="p-2 flex">
+                    <li className="p-2 flex xs:p-0">
                       <FaUniversity className="mr-1 text-xl text-amber-400" />
                       <Link
                         to="/sagalassos"
@@ -295,7 +295,7 @@ const Topbar = ({ scrollRef }) => {
                         Sagalassos
                       </Link>
                     </li>
-                    <li className="p-2 flex">
+                    <li className="p-2 flex xs:p-0">
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/tlos"
@@ -304,7 +304,7 @@ const Topbar = ({ scrollRef }) => {
                         Tlos
                       </Link>
                     </li>
-                    <li className="p-2 flex">
+                    <li className="p-2 flex xs:p-0">
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/aizanoi"
@@ -314,7 +314,7 @@ const Topbar = ({ scrollRef }) => {
                         Aizanoi
                       </Link>
                     </li>
-                    <li className="p-2 flex">
+                    <li className="p-2 flex xs:p-0">
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
                         to="/pergamon"
@@ -324,7 +324,7 @@ const Topbar = ({ scrollRef }) => {
                         Pergamon
                       </Link>
                     </li>
-                    <li className="p-2  flex">
+                    <li className="p-2 flex xs:p-0">
                       <FaUniversity className="mr-1  text-amber-400" />
                       <Link
                         to="/apollon"
@@ -348,7 +348,6 @@ const Topbar = ({ scrollRef }) => {
               <li className="relative">
                 <Link
                   to="/contact"
-                 
                   className=" mx-2 font-extralight font-dosis text-gray-700  hover:text-gray-900 transition-all"
                 >
                   Contact

@@ -8,8 +8,8 @@ import big2 from "./../assets/aizanoi/592-332.jpg";
 
 export default function Aizanoi() {
   return (
-    <div className="w-full bg-neutral-100 ">
-      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-10 ">
+    <div className="w-full bg-neutral-100 md:mt-20 ">
+      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-8 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
             src={banner}
@@ -17,13 +17,16 @@ export default function Aizanoi() {
             className="object-cover w-288 max-h-145 h-145 brightness-75 opacity-100 "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider">
+            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider md:text-xl xs:text-base">
               No <span className="font-roboto font-medium">01</span>
             </h2>
-            <p className=" font-roboto font-bold text-white text-4xl whitespace-nowrap mb-6 tracking-wide ">
+            <p
+              className=" font-roboto font-bold text-white text-4xl whitespace-nowrap mb-6 tracking-wide md:text-2xl sm:text-xl 
+            sm:whitespace-normal xs:text-base"
+            >
               HOME OF THE BEST PRESERVED ZEUS TEMPLE
             </p>
-            <p className="uppercase text-white font-mono text-xl tracking-wide">
+            <p className="uppercase text-white font-mono text-xl tracking-wide md:text-lg whitespace-nowrap xs:text-sm">
               The beauty of AIZANOI
             </p>
           </div>
@@ -33,8 +36,8 @@ export default function Aizanoi() {
       <div className="  flex justify-center align-center bg-neutral-100 relative my-24">
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
-          <div className="text-center mb-20 ">
-            <h2 className="mb-6 text-2xl tracking-widest font-semibold uppercase ">
+          <div className="text-center mb-20 px-2 ">
+            <h2 className="mb-6 text-2xl tracking-widest font-semibold uppercase  md:text-lg">
               One of the first stock exchange markets of the world was
               established in Aizanoi
             </h2>

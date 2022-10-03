@@ -9,7 +9,7 @@ import side from "./../assets/patara/288-492.jpg";
 
 export default function Patara() {
   return (
-    <div className="w-full bg-neutral-100 ">
+    <div className="w-full bg-neutral-100 md:mt-20 ">
       <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-10 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
@@ -18,16 +18,16 @@ export default function Patara() {
             className="object-cover w-288 max-h-145 h-145  "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider">
+            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider md:text-xl xs:text-sm">
               No <span className="font-roboto font-medium">14</span>
             </h2>
-            <p className="uppercase font-roboto font-bold text-white text-2xl  whitespace-nowrap mb-1 tracking-wide ">
+            <p className="uppercase font-roboto font-bold text-white text-2xl   mb-1 tracking-wide md:text-xl xs:text-sm">
               HOME OF one of the most powerful cities of the Lycian league
             </p>
-            <p className="uppercase font-roboto font-bold text-white text-2xl  whitespace-nowrap mb-6 tracking-wide ">
+            <p className="uppercase font-roboto font-bold text-white text-2xl  whitespace-nowrap mb-6 tracking-wide md:text-xl xs:text-sm ">
               league and the birhplace of gof apollo
             </p>
-            <p className="uppercase text-white font-mono text-lg tracking-wide">
+            <p className="uppercase text-white font-mono text-lg tracking-wide md:text-base xs:text-sm">
               The beauty of patara
             </p>
           </div>
@@ -37,8 +37,8 @@ export default function Patara() {
       <div className="  flex justify-center align-center bg-neutral-100 relative my-24">
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
-          <div className="text-center mb-20 ">
-            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold ">
+          <div className="text-center mb-20 px-2">
+            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg">
               Lighthouse of patara is believed to the oldest one in the world
               and was built in 60 AD.
             </h2>

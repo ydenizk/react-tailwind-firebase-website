@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="bg-neutral-200 flex justify-center align-center ">
       <div className="max-w-6xl grid  grid-cols-2 bg-neutral-200 p-4">
         <div className="tracking-wider font-light text-xs font-roboto grid grid-rows-2 ">
-          <p className="w-1/2 py-4 border-b border-neutral-400 tracking-wide leading-5 text-sm  ">
+          <p className="w-1/2 py-4 border-b border-neutral-400 tracking-wide leading-5 text-sm md:w-full ">
             ANCIENT Asia Minor is an independent individual initiative to
             promote ancient sites and cities of various civilizations that lived
             in Asia Minor throughout centuries.You can find basic and clear
@@ -17,7 +17,7 @@ export default function Footer() {
             civilizations.For this reason,we keep adding new spots regularly.
           </p>
           <div className="grid grid-rows-2">
-            <div className="w-1/2 border-b border-neutral-400">
+            <div className="w-1/2 border-b border-neutral-400 md:w-full">
               <h3 className="font-medium mb-2 tracking-wide leading-5">
                 General Enquiries
               </h3>
@@ -29,7 +29,7 @@ export default function Footer() {
               </p>
             </div>
 
-            <div className="py-2 w-1/2 tracking-wide leading-5">
+            <div className="py-2 w-1/2 tracking-wide leading-5 md:w-full">
               <h3 className="font-medium mb-2 tracking-wide leading-5 ">
                 Advertise with us
               </h3>
@@ -45,9 +45,9 @@ export default function Footer() {
         </div>
 
         <div className="  p-2 ">
-          <div className="grid grid-cols-3 h-3/4 place-content-center ">
-            <div>
-              <h3 className="text-sm font-roboto">TOP PLACES</h3>
+          <div className="grid grid-cols-3  place-content-center pt-16 md:grid-cols-1 md:gap-6 ">
+            <div className="md:pl-24">
+              <h3 className="text-sm font-roboto ">TOP PLACES</h3>
               <ul className="list-none">
                 <li>
                   <Link
@@ -76,14 +76,14 @@ export default function Footer() {
                 <li>
                   <Link
                     to="/ephesus"
-                    className="font-light text-sm font-roboto    transition-all"
+                    className="font-light text-sm font-roboto  hover:text-amber-900   transition-all"
                   >
                     Ephesus
                   </Link>
                 </li>
               </ul>
             </div>
-            <div>
+            <div className="md:pl-24">
               <h3 className="text-sm font-roboto">EXPLORE</h3>
               <ul>
                 <li>
@@ -112,7 +112,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div>
+            <div className="md:pl-24">
               <h3 className="text-sm font-roboto">ABOUT US</h3>
               <ul>
                 <li>
@@ -127,7 +127,7 @@ export default function Footer() {
                   <a
                     href="https://twitter.com/home?lang=en"
                     target="_blank"
-                    className="font-light text-sm font-roboto hover:text-amber-900   transition-all"
+                    className="font-light text-sm font-roboto hover:text-amber-900   transition-all "
                   >
                     Twitter
                   </a>
@@ -136,12 +136,15 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="text-base flex justify-end align-center pt-2 ">
-            <h4 className="font-light text-xs font-roboto  pt-20 mr-2">
-              Design & Build by Y.DenizK
+          <div className="text-base flex justify-left align-bottom pt-2 mt-40 lg:mt-60 md:pl-24 md:-mt-16 sm:mt-0 ">
+            <h4 className="font-light text-xs font-roboto  pt-20 mr-2 whitespace-nowrap md:whitespace-normal xs:mt-40">
+              <span className="font-medium tracking-wide ">
+                Design & Build by
+              </span>{" "}
+              Y.DenizK
             </h4>
 
-            <h4 className="font-light text-xs font-roboto pt-20 ml-4 mr-12">
+            <h4 className="font-light text-xs font-roboto pt-20 ml-4 mr-12 md:hidden ">
               2022 Ancient Turkey
             </h4>
           </div>

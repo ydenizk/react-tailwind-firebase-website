@@ -9,8 +9,8 @@ import sideSmall from "./../assets/miletus/280-280.jpg";
 
 export default function Miletus() {
   return (
-    <div className="w-full bg-neutral-100 ">
-      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-10 ">
+    <div className="w-full bg-neutral-100 md:mt-20 ">
+      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-6 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
             src={banner}
@@ -18,13 +18,16 @@ export default function Miletus() {
             className="object-cover w-288 max-h-145 h-145   "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-4xl mb-2 tracking-wider">
+            <h2 className="font-roboto font-medium text-white text-4xl mb-2 tracking-wider md:text-2xl xs:text-base">
               No <span className="font-roboto font-medium">12</span>
             </h2>
-            <p className="uppercase font-roboto font-bold text-white text-3xl  whitespace-nowrap mb-6 tracking-wide ">
+            <p
+              className="uppercase font-roboto font-bold text-white text-3xl  whitespace-nowrap mb-6 tracking-wide  
+            lg:whitespace-normal md:text-xl xs:text-sm"
+            >
               home of the greatest and wealthiest Greek city
             </p>
-            <p className="uppercase text-white font-mono text-xl tracking-wide">
+            <p className="uppercase text-white font-mono text-xl tracking-wide md:text-base whitespace-nowrap xs:text-sm">
               The beauty of miletus
             </p>
           </div>
@@ -34,8 +37,8 @@ export default function Miletus() {
       <div className="  flex justify-center align-center bg-neutral-100 relative my-24">
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
-          <div className="text-center mb-20 ">
-            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold ">
+          <div className="text-center mb-20 px-2">
+            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg ">
               the greatest Greek city in the east for 1400 years
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>

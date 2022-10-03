@@ -10,9 +10,9 @@ import img8 from "./../assets/sagalassos/592-360.jpg";
 export default function About() {
   return (
     <>
-      <div className="bg-neutral-100 flex justify-center align-center my-16 mt-32 ">
+      <div className="bg-neutral-100 flex justify-center align-center my-16 mt-32  ">
         <div className="max-w-6xl  w-full p-0 bg-neutral-100 ">
-          <h1 className="mt-24 mb-36 font-garamond text-4xl tracking-wide text-center px-4">
+          <h1 className="mt-24 mb-36 w-full font-garamond text-4xl tracking-wide text-center px-4 md:text-3xl xs:text-2xl   ">
             Ancient Asia Minor is an independent individual initiative to
             promote ancient sites and cities of various civilizations that lived
             in Asia Minor throughout centuries.Remembering most of these

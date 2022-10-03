@@ -10,7 +10,7 @@ import big2 from "./../assets/myra/592-212.jpg";
 
 export default function Myra() {
   return (
-    <div className="w-full bg-neutral-100 ">
+    <div className="w-full bg-neutral-100 md:mt-20">
       <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-10 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
@@ -19,13 +19,16 @@ export default function Myra() {
             className="object-cover w-288 max-h-145 h-145  "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider">
+            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider md:text-xl xs:text-lg">
               No <span className="font-roboto font-medium">13</span>
             </h2>
-            <p className="uppercase font-roboto font-bold text-white text-3xl m whitespace-nowrap mb-6 tracking-wide ">
+            <p
+              className="uppercase font-roboto font-bold text-white text-3xl  whitespace-nowrap mb-6 tracking-wide lg:whitespace-normal 
+            md:text-xl md:whitespace-normal sm:text-lg xs:text-base"
+            >
               HOME OF one of the the most important towns of Lycia
             </p>
-            <p className="uppercase text-white font-mono text-lg tracking-wide">
+            <p className="uppercase text-white font-mono text-lg tracking-wide md:text-base whitespace-nowrap">
               The beauty of myra
             </p>
           </div>
@@ -35,8 +38,8 @@ export default function Myra() {
       <div className="  flex justify-center align-center bg-neutral-100 relative my-24">
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
-          <div className="text-center mb-20 ">
-            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold ">
+          <div className="text-center mb-20 px-2 ">
+            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold  md:text-lg">
               St. Paul visited the city,and in the 4th century St. Nicholas was
               its bishop
             </h2>

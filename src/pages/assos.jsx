@@ -8,7 +8,7 @@ import Share from "./../components/share";
 
 export default function Assos() {
   return (
-    <div className="w-full bg-neutral-100 ">
+    <div className="w-full bg-neutral-100 md:mt-20 ">
       <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-10 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
@@ -16,14 +16,14 @@ export default function Assos() {
             alt="nature-2"
             className="object-cover w-288 max-h-145 h-145  opacity-90 "
           />
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider">
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center  ">
+            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider md:text-xl xs:text-base">
               No <span className="font-roboto font-medium">05</span>
             </h2>
-            <p className="uppercase font-roboto font-bold text-white text-4xl  whitespace-nowrap mb-6 tracking-wide ">
+            <p className="uppercase font-roboto font-bold text-white text-4xl  whitespace-nowrap mb-6 tracking-wide md:text-2xl  xs:text-xl">
               HOME OF Aristotle
             </p>
-            <p className="uppercase text-white font-mono text-lg tracking-wide">
+            <p className="uppercase text-white font-mono text-lg tracking-wide md:text-base xs:text-sm">
               The beauty of Assos
             </p>
           </div>
@@ -33,8 +33,8 @@ export default function Assos() {
       <div className="  flex justify-center align-center bg-neutral-100 relative my-24">
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
-          <div className="text-center mb-20 ">
-            <h2 className="mb-6 text-2xl tracking-widest font-semibold uppercase">
+          <div className="text-center mb-20 mx-2">
+            <h2 className="mb-6 text-2xl tracking-widest font-semibold uppercase md:text-lg">
               Temple of Goddess Athena, the protector of Assos Ancient city
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
