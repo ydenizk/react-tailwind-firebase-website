@@ -19,8 +19,8 @@ export default function Knidos() {
             <h2 className="font-roboto font-medium text-amber-50 text-3xl mb-2 tracking-wider md:text-xl xs:text-sm">
               No <span className="font-roboto font-medium">10</span>
             </h2>
-            <p className="uppercase font-roboto font-bold text-amber-50 text-4xl whitespace-nowrap mb-6 tracking-wide md:text-2xl xs:text-base">
-              HOME OF the lion of knidos
+            <p className="uppercase font-roboto font-bold text-amber-50 text-3xl  mb-6 tracking-wide md:text-2xl xs:text-base">
+              HOME OF an important trade center exporting wine in its period
             </p>
             <p className="uppercase text-amber-50 font-mono text-lg tracking-wide md:text-base xs:text-sm">
               The beauty of knidos
@@ -34,7 +34,8 @@ export default function Knidos() {
           {/* .................... */}
           <div className="text-center mb-20 px-2 ">
             <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg ">
-              Port of knidos that has demeter of knidos and lion of knidos
+           has a respected medical school and physicians whose fame had
+              spread throughout the ancient world
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>

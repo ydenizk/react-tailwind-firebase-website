@@ -18,15 +18,14 @@ export default function Patara() {
             className="object-cover w-288 max-h-145 h-145 brightness-75  "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium   text-amber-50 text-3xl mb-2 tracking-wider md:text-xl xs:text-sm">
+            <h2 className="font-roboto font-medium   text-amber-50 text-3xl mb-2 tracking-wider md:text-xl sm:text-lg xs:text-sm">
               No <span className="font-roboto font-medium">14</span>
             </h2>
-            <p className="uppercase font-roboto font-bold   text-amber-50 text-2xl   mb-1 tracking-wide md:text-xl xs:text-sm">
-              HOME OF one of the most powerful cities of the Lycian league
+            <p className="uppercase font-roboto font-bold   text-amber-50 text-2xl   mb-1 tracking-wide md:text-xl sm:text-lg xs:text-sm">
+              HOME OF one of the most powerful cities of the Lycian league and
+              the birhplace of gof apollo
             </p>
-            <p className="uppercase font-roboto font-bold   text-amber-50 text-2xl  whitespace-nowrap mb-6 tracking-wide md:text-xl xs:text-sm ">
-              league and the birhplace of gof apollo
-            </p>
+        
             <p className="uppercase text-amber-50 font-mono text-lg tracking-wide md:text-base xs:text-sm">
               The beauty of patara
             </p>

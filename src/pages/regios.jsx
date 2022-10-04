@@ -27,17 +27,22 @@ let navigate=useNavigate()
             Regions of Turkey
           </h1>
           <p className="tracking-wider font-light  font-roboto  text-medium w-1/2 my-0 mx-auto mb-4">
-            Get away for a mini-break exploring the cultural diversity Europe
-            has to offer by visiting some of our favourite has to offer by.
+            The geographical regions of Turkey comprise seven regions.From
+            classical cities scattered along the coast to archaeological sites
+            that go back to the earliest periods of human history,Turkey(or Asia Minor) is a kind of an outdoor museum and  one
+            of the most exciting countries on earth for anyone  who wants to discover the ancient
+            world.
           </p>
           <p className="tracking-wider font-light  font-roboto  text-medium w-1/2 my-0 mx-auto">
-            Dstinations. Here are some of our top European city breaks.
+          Located at the intersection in between East and west,Asia Minor is a central hub.It was occupied 
+          by everyone from Greeks to the Romans to the Persians to the Ottomans.As they all built remarkable cities and monuments,
+          many of which still stand today.
+          You will find  below the summary of top spots based on regions. 
           </p>
         </div>
 
-         {items.map((reg) => {
+        {items.map((reg) => {
           const { url, name, text, places, mapp, id } = reg;
-          
 
           return (
             <article
@@ -63,15 +68,15 @@ let navigate=useNavigate()
                   {places.map((pl, index) => {
                     return (
                       <>
-                 
-
                         <button
-                        onClick={()=>{navigate(`/${pl}`)}}
+                          onClick={() => {
+                            navigate(`/${pl}`);
+                          }}
                           key={index}
                           className="p-1  pl-0 whitespace-nowrap font-roboto text-left text-base 
                           tracking-wider hover:text-amber-400 transition-all xs:text-sm "
                         >
-                      {pl}
+                          {pl}
                         </button>
                       </>
                     );

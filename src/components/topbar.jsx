@@ -16,11 +16,11 @@ const Topbar = ({ scrollRef }) => {
       }
     };
 
-    /*   if (viso1) {
+      if (viso1) {
       setTimeout(() => {
         setViso1(!viso1);
       }, 4000);
-    } */
+    } 
 
     document.addEventListener("mousedown", drop1);
     return () => {
@@ -329,9 +329,9 @@ const Topbar = ({ scrollRef }) => {
                       <Link
                         to="/apollon"
                         onClick={() => setViso1((y) => !y)}
-                        className="text-xs tracking-wide hover:text-amber-400 transition-all"
+                        className="text-xs tracking-wide hover:text-amber-400 transition-all "
                       >
-                        Hamaxitus
+                        Appollo Smintheus
                       </Link>
                     </li>
                   </ul>

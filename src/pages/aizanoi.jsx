@@ -17,14 +17,14 @@ export default function Aizanoi() {
             className="object-cover w-288 max-h-145 h-145  "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider md:text-xl xs:text-base">
+            <h2 className="font-roboto font-medium text-white text-2xl mb-2 tracking-wider md:text-xl xs:text-base">
               No <span className="font-roboto font-medium">01</span>
             </h2>
             <p
-              className=" font-roboto font-bold text-white text-4xl whitespace-nowrap mb-6 tracking-wide md:text-2xl sm:text-xl 
+              className=" font-roboto uppercase font-bold text-white text-3xl  mb-6 tracking-wide md:text-2xl sm:text-xl 
             sm:whitespace-normal xs:text-base"
             >
-              HOME OF THE BEST PRESERVED ZEUS TEMPLE
+              HOME OF Phrygians with THE BEST PRESERVED ZEUS TEMPLE
             </p>
             <p className="uppercase text-white font-mono text-xl tracking-wide md:text-lg whitespace-nowrap xs:text-sm">
               The beauty of AIZANOI

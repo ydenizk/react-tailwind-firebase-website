@@ -21,11 +21,11 @@ export default function Laodikeia() {
             <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider md:text-xl xs:text-sm">
               No <span className="font-roboto font-medium">11</span>
             </h2>
-            <p className="uppercase font-roboto font-bold text-white text-4xl   whitespace-nowrap mb-6 tracking-wide md:text-xl xs:text-lg">
-              home of cicero once
+            <p className="uppercase font-roboto font-bold text-white text-3xl    mb-6 tracking-wide md:text-xl xs:text-lg">
+              home of cicero once,an important center of rich commerce and arts.
             </p>
             <p className="uppercase text-white font-mono text-xl tracking-wide md:text-base whitespace-nowrap xs:text-sm">
-              The beauty of laodicea
+              The beauty of laodiceia
             </p>
           </div>
         </div>
@@ -36,7 +36,8 @@ export default function Laodikeia() {
           {/* .................... */}
           <div className="text-center mb-20 px-2">
             <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg">
-              the city with many beautiful buildings
+              the huge city located on trade route, an important center of
+              Christianity and one of the Seven Churches of Revelation
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>

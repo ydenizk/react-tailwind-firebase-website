@@ -24,8 +24,8 @@ export default function Aphrodisias() {
             <h2 className="font-roboto font-medium text-amber-50 text-3xl mb-2 tracking-wider md:text-xl">
               No <span className="font-roboto font-medium">02</span>
             </h2>
-            <p className=" font-roboto font-bold text-amber-50 text-4xl   whitespace-nowrap mb-6 tracking-wide md:text-2xl xs:text-xl ">
-              HOME OF APHRODITE
+            <p className=" font-roboto font-bold text-amber-50 text-3xl uppercase  whitespace-nowrap mb-6 tracking-wide md:text-2xl sm:whitespace-normal sm:text-xl  xs:text-xl ">
+              HOME OF  APHRODITE,greek goddess of love
             </p>
             <p className="uppercase text-amber-50 font-mono text-lg tracking-wide md:text-base xs:text-sm whitespace-nowrap">
               The beauty of APHRODISIAS
@@ -39,8 +39,7 @@ export default function Aphrodisias() {
           {/* .................... */}
           <div className="text-center mb-20 px-2 ">
             <h2 className="mb-6 text-2xl tracking-widest font-semibold uppercase md:text-lg ">
-              famous for being the best-preserved stadium of the ancient world
-              and its monumental temple gate
+              famous for being the best-preserved stadium of the ancient world,its monumental temple gate and marbles
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>

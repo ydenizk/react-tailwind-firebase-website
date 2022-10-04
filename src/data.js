@@ -3,9 +3,9 @@
 const region = [
   {
     id: 1,
-    url: "https://drive.google.com/uc?export=view&id=1P2K37wSnRy9bCU_mvzgTJJ3ixtEx1Yqa",
+    url: "https://drive.google.com/uc?export=view&id=1CHdBwTRPQjwoxzXB449HV0KXUhe2WS5w",
     name: "MARMARA REGION",
-    text: "Lorem ipsum dolor sit amet consecteturm  amet consecteturm sint molestiae aliquam sequi tenetur id?",
+    text: "Located in northwestern Turkey,bordered by Greece and the Aegean sea to the west.",
     places: ["Assos", "Troy", "Apollon Smintheion"],
     mapp: (
       <iframe
@@ -21,19 +21,19 @@ const region = [
   },
   {
     id: 2,
-    url: "https://drive.google.com/uc?export=view&id=1r7YiP5BIxBHwUl6iABtXuHzNRFUzUs9z",
-    name: "EAGEAN REGION",
-    text: "Lorem ipsum dolor sit amet consecteturm ipsum dolor sit  amet consecteturm sint molestiae aliquam sequi tenetur id?",
+    url: "https://drive.google.com/uc?export=view&id=11X47RjTORCcLFV0DzPo-ZNiZuvWFwmG_",
+    name: "AEGEAN REGION",
+    text: "Located in western Turkey,bordered by the Aegean Sea to the west,the Aegean Region has the longest coastline.",
     places: [
       "Pergamon",
       "Ephesus",
       "Miletus",
       "Priene",
       "Didyma",
-      "Laodicea",
+      "Laodikeia",
       "Hierapolis",
       "Cnidus",
-      "Sardes",
+      "Sardis",
       "Aizanoi",
       "Aphrodisias",
     ],
@@ -53,7 +53,7 @@ const region = [
     id: 3,
     url: "https://drive.google.com/uc?export=view&id=1WhEbyQ-vG7MaF50giFJc92Tbd8EoWS1q",
     name: "MEDITERRANEAN  REGION",
-    text: "Lorem ipsum dolor sit amet consecteturm  amet consecteturm sint molestiae aliquam sequi tenetur id?",
+    text: "Bordered by the Aegean  to the west,the Central Anatolia to the north, Syria to the southeast, and the Mediterranean Sea to the south",
     places: [
       "Myria",
       "Aspendos",

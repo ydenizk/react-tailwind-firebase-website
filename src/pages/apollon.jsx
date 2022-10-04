@@ -25,7 +25,7 @@ export default function Apollon() {
               HOME OF THE TEMPLE OF APOLLO SMINTHEION
             </p>
             <p className="uppercase text-white font-mono text-lg tracking-wide md:text-base whitespace-nowrap">
-              The beauty of HAMAxitus
+              The beauty of Appollo Smintheus
             </p>
           </div>
         </div>
