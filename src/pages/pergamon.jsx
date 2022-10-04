@@ -184,13 +184,13 @@ export default function Pergamon() {
                 <h5 className="  tracking-wider font-semibold opacity-80">
                   CREDITS
                 </h5>
-                <p className="font-normal text-sm font-garamond tracking-wider text-gray-500">
-                  Text - <span className="text-black opacity-90">YDenizK</span>
+                <p className="font-normal text-base font-garamond tracking-wider text-gray-500">
+                  Text - <span className="text-black  opacity-90">YDenizK , Unesco , Wikipedia</span>
                 </p>
-                <p className="font-normal text-sm font-garamond tracking-wider text-gray-500">
+                <p className="font-normal text-base font-garamond tracking-wider text-gray-500">
                   Photographs -
-                  <span className="text-black opacity-90 font-medium text-sm font-garamond ">
-                    YDenizK
+                  <span className="text-black opacity-90 font-medium text-base font-garamond ">
+                    YDenizK , Unesco
                   </span>
                 </p>
                 <h5 className="  tracking-wider font-semibold mt-6 opacity-80">

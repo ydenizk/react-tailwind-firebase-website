@@ -1,11 +1,16 @@
 
 import items from "./../data";
 import image from "./../assets/map.png";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 
 
 export default function Regios() {
+
+
+let navigate=useNavigate()
+
+
   return (
     <div className="bg-neutral-100 mt-16 flex justify-center align-center pt-16 pb-12  md:pt-32">
       <div className="max-w-6xl  w-full p-0 bg-neutral-100 ">
@@ -32,6 +37,7 @@ export default function Regios() {
 
          {items.map((reg) => {
           const { url, name, text, places, mapp, id } = reg;
+          
 
           return (
             <article
@@ -57,14 +63,16 @@ export default function Regios() {
                   {places.map((pl, index) => {
                     return (
                       <>
-                        <a
-                           
+                 
+
+                        <button
+                        onClick={()=>{navigate(`/${pl}`)}}
                           key={index}
-                          className="p-1  pl-0 whitespace-nowrap font-roboto text-base cursor-pointer
+                          className="p-1  pl-0 whitespace-nowrap font-roboto text-left text-base 
                           tracking-wider hover:text-amber-400 transition-all xs:text-sm "
                         >
-                          {pl}
-                        </a>
+                      {pl}
+                        </button>
                       </>
                     );
                   })}

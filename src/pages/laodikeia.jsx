@@ -4,6 +4,8 @@ import Share from "./../components/share";
 import banner from "./../assets/laodikeia/banner.jpg";
 import big from "./../assets/laodikeia/592-360.jpg";
 import big1 from "./../assets/laodikeia/592*360.jpg";
+import big2 from "./../assets/laodikeia/592x360-1.jpg";
+import big3 from "./../assets/laodikeia/592x360-2.jpg";
 
 export default function Laodikeia() {
   return (
@@ -13,7 +15,7 @@ export default function Laodikeia() {
           <img
             src={banner}
             alt="nature-2"
-            className="object-cover w-288 max-h-145 h-145  "
+            className="object-cover w-288 max-h-145 h-145 brightness-75  "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
             <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider md:text-xl xs:text-sm">
@@ -75,6 +77,13 @@ export default function Laodikeia() {
                 buildings and bequeathed to it more than 2000 talents at his
                 death.
               </p>
+              <div className="w-148 h-90  mb-6">
+                <img src={big2} alt="object-cover w-148 h-90 " />
+              </div>
+              <div className="w-148 h-90  mb-6">
+                <img src={big3} alt="object-cover w-148 h-90 " />
+              </div>
+
               <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 The wealth of its inhabitants engendered a taste for the arts of
                 the Greeks, as is manifest from its ruins, and that it
@@ -138,11 +147,16 @@ export default function Laodikeia() {
                   CREDITS
                 </h5>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
-                  Text - <span className="text-black opacity-90">YDenizK</span>
+                  Text -{" "}
+                  <span className="text-black opacity-90">
+                    YDenizK , Wikipedia
+                  </span>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Photographs -
-                  <span className="text-black opacity-90">YDenizK</span>
+                  <span className="text-black opacity-90">
+                    YDenizK , Wikipedia
+                  </span>
                 </p>
                 <h5 className="  tracking-wider font-semibold mt-6 opacity-80">
                   INFO

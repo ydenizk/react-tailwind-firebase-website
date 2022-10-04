@@ -15,7 +15,7 @@ export default function Sardes() {
           <img
             src={sardes}
             alt="nature-2"
-            className="object-cover w-288 max-h-145 h-145  "
+            className="object-cover w-288 max-h-145 h-145 brightness-75   "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
             <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider md:text-xl ">
@@ -160,11 +160,14 @@ export default function Sardes() {
                   CREDITS
                 </h5>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
-                  Text - <span className="text-black opacity-90">YDenizK</span>
+                  Text -{" "}
+                  <span className="text-black opacity-90">
+                    Wikipedia , YDenizK
+                  </span>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Photographs -
-                  <span className="text-black opacity-90">YDenizK</span>
+                  <span className="text-black opacity-90">Wikipedia</span>
                 </p>
                 <h5 className="  tracking-wider font-semibold mt-6 opacity-80">
                   INFO

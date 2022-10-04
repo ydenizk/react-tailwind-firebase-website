@@ -18,13 +18,13 @@ export default function Troia() {
             className="object-cover w-288 max-h-145 h-145  "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider md:text-xl xs:text-base">
+            <h2 className="font-roboto font-medium text-orange-100 text-3xl mb-2 tracking-wider md:text-xl xs:text-base">
               No <span className="font-roboto font-medium">21</span>
             </h2>
-            <p className="uppercase  font-roboto font-bold text-white text-3xl    mb-6 tracking-wide  md:text-xl  sm:text-lg xs:text-base">
+            <p className="uppercase  font-roboto font-bold text-orange-100 text-3xl    mb-6 tracking-wide  md:text-xl  sm:text-lg xs:text-base">
               HOME of the one of the largest and oldest lycian city
             </p>
-            <p className="uppercase text-white font-mono text-lg tracking-wide md:text-base whitespace-nowrap">
+            <p className="uppercase first-line:text-orange-100 font-mono text-lg tracking-wide md:text-base whitespace-nowrap">
               The beauty of tlos
             </p>
           </div>
@@ -130,11 +130,11 @@ export default function Troia() {
                   CREDITS
                 </h5>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
-                  Text - <span className="text-black opacity-90">YDenizK</span>
+                  Text - <span className="text-black opacity-90">YDenizK , Wikipedia</span>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Photographs -
-                  <span className="text-black opacity-90">YDenizK</span>
+                  <span className="text-black opacity-90">Wikipedia</span>
                 </p>
                 <h5 className="  tracking-wider font-semibold mt-6 opacity-80">
                   INFO

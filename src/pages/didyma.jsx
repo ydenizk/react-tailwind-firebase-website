@@ -14,16 +14,16 @@ export default function Didyma() {
           <img
             src={banner}
             alt="nature-2"
-            className="object-cover w-288 max-h-145 h-145  opacity-100 "
+            className="object-cover w-288 max-h-145 h-145  brightness-75  "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider md:text-xl xs:text-base">
+            <h2 className="font-roboto font-medium text-amber-100 text-3xl mb-2 tracking-wider md:text-xl xs:text-base">
               No <span className="font-roboto font-medium">06</span>
             </h2>
-            <p className="uppercase font-roboto font-bold text-white text-4xl whitespace-nowrap mb-6 tracking-wide md:text-2xl xs:text-lg ">
+            <p className="uppercase font-roboto font-bold text-amber-100 text-4xl whitespace-nowrap mb-6 tracking-wide md:text-2xl xs:text-lg ">
               HOME OF the oracle of Apollo
             </p>
-            <p className="uppercase text-white font-mono text-lg tracking-wide md:text-base xs:text-sm">
+            <p className="uppercase text-amber-100 font-mono text-lg tracking-wide md:text-base xs:text-sm">
               The beauty of didyma
             </p>
           </div>

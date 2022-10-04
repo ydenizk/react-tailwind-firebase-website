@@ -16,19 +16,19 @@ export default function Myra() {
           <img
             src={banner}
             alt="nature-2"
-            className="object-cover w-288 max-h-145 h-145  "
+            className="object-cover w-288 max-h-145 h-145    "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider md:text-xl xs:text-lg">
+            <h2 className="font-roboto font-medium text-orange-100 text-3xl mb-2 tracking-wider md:text-xl xs:text-lg">
               No <span className="font-roboto font-medium">13</span>
             </h2>
             <p
-              className="uppercase font-roboto font-bold text-white text-3xl  whitespace-nowrap mb-6 tracking-wide lg:whitespace-normal 
+              className="uppercase font-roboto font-bold text-orange-100 text-3xl  whitespace-nowrap mb-6 tracking-wide lg:whitespace-normal 
             md:text-xl md:whitespace-normal sm:text-lg xs:text-base"
             >
               HOME OF one of the the most important towns of Lycia
             </p>
-            <p className="uppercase text-white font-mono text-lg tracking-wide md:text-base whitespace-nowrap">
+            <p className="uppercase text-orange-100 font-mono text-lg tracking-wide md:text-base whitespace-nowrap">
               The beauty of myra
             </p>
           </div>

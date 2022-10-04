@@ -6,7 +6,7 @@ const region = [
     url: "https://drive.google.com/uc?export=view&id=1P2K37wSnRy9bCU_mvzgTJJ3ixtEx1Yqa",
     name: "MARMARA REGION",
     text: "Lorem ipsum dolor sit amet consecteturm  amet consecteturm sint molestiae aliquam sequi tenetur id?",
-    places: ["Assos", "Troia", "Apollon Smintheion"],
+    places: ["Assos", "Troy", "Apollon Smintheion"],
     mapp: (
       <iframe
         src="https://my.atlistmaps.com/map/0ea3388c-6c38-4168-9a18-d6ace5dbc720?share=true"
@@ -64,7 +64,7 @@ const region = [
       "Xanthos",
       "Patara",
       "Tlos",
-      " Sagalassos",
+      "Sagalassos",
     ],
     mapp: (
       <iframe

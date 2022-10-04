@@ -15,19 +15,19 @@ export default function Xanthos() {
           <img
             src={banner}
             alt="nature-2"
-            className="object-cover w-288 max-h-145 h-145  "
+            className="object-cover w-288 max-h-145 h-145 brightness-75  "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-2xl mb-2 tracking-wider md:text-lg xs:text-base">
+            <h2 className="font-roboto font-medium text-amber-100 text-2xl mb-2 tracking-wider md:text-lg xs:text-base">
               No <span className="font-roboto font-medium">22</span>
             </h2>
             <p
-              className="uppercase  font-roboto font-bold text-white text-3xl   whitespace-nowrap mb-6 tracking-wide 
+              className="uppercase  font-roboto font-bold text-amber-100 text-3xl   whitespace-nowrap mb-6 tracking-wide 
              md:text-2xl sm:text-xl xs:text-lg"
             >
               HOME OF capital city of Lycia
             </p>
-            <p className="uppercase text-white font-mono text-lg tracking-wide md:text-base xs:text-sm">
+            <p className="uppercase text-amber-100 font-mono text-lg tracking-wide md:text-base xs:text-sm">
               The beauty of xanthos
             </p>
           </div>
@@ -179,7 +179,9 @@ export default function Xanthos() {
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Photographs -
-                  <span className="text-black opacity-90">YDenizK</span>
+                  <span className="text-black opacity-90">
+                    YDenizK ,Wikipedia
+                  </span>
                 </p>
                 <h5 className="  tracking-wider font-semibold mt-6 opacity-80">
                   INFO

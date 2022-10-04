@@ -7,6 +7,8 @@ import mid2 from "./../assets/aphrodisias/aphro-440-492.jpeg";
 import big1 from "./../assets/aphrodisias/aphro-592-360.jpeg";
 import big2 from "./../assets/aphrodisias/aphro-2-592-360.jpeg";
 import big3 from "./../assets/aphrodisias/aphro-3-592-360.jpg";
+import big4 from "./../assets/aphrodisias/big4.jpg";
+import sideBig from "./../assets/aphrodisias/288x492.jpg";
 
 export default function Aphrodisias() {
   return (
@@ -16,16 +18,16 @@ export default function Aphrodisias() {
           <img
             src={aphro}
             alt="nature-2"
-            className="object-cover w-288 max-h-145 h-145 brightness-75 opacity-100 "
+            className="object-cover w-288 max-h-145 h-145 "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider md:text-xl">
+            <h2 className="font-roboto font-medium text-amber-50 text-3xl mb-2 tracking-wider md:text-xl">
               No <span className="font-roboto font-medium">02</span>
             </h2>
-            <p className=" font-roboto font-bold text-white text-4xl   whitespace-nowrap mb-6 tracking-wide md:text-2xl xs:text-xl ">
+            <p className=" font-roboto font-bold text-amber-50 text-4xl   whitespace-nowrap mb-6 tracking-wide md:text-2xl xs:text-xl ">
               HOME OF APHRODITE
             </p>
-            <p className="uppercase text-white font-mono text-lg tracking-wide md:text-base xs:text-sm whitespace-nowrap">
+            <p className="uppercase text-amber-50 font-mono text-lg tracking-wide md:text-base xs:text-sm whitespace-nowrap">
               The beauty of APHRODISIAS
             </p>
           </div>
@@ -123,6 +125,9 @@ export default function Aphrodisias() {
               <div className="w-148 h-83 mb-6">
                 <img src={big2} alt="object-cover w-72 max-h-72 " />
               </div>
+              <div className="w-148 h-83 mb-6">
+                <img src={big4} alt="object-cover w-72 max-h-72 " />
+              </div>
               <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 The stadium was used for athletic events until the theatre was
                 badly damaged by a 7th-century earthquake, requiring part of the
@@ -175,7 +180,7 @@ export default function Aphrodisias() {
                   CREDITS
                 </h5>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
-                  Text - <span className="text-black opacity-90">YDenizK</span>
+                  Text - <span className="text-black opacity-90">YDenizK , Wikipedia</span>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Photographs -
@@ -232,6 +237,10 @@ export default function Aphrodisias() {
                 </a>
               </div>
               <Share />
+
+              <div className="w-72 h-123 mt-16 mb-8 ">
+                <img src={sideBig} alt="object-cover w-72 h-123 " />
+              </div>
             </div>
           </div>
 

@@ -23,45 +23,41 @@ export default function Ads({ showp, setShowP }) {
             <div className="grid  grid-cols-3 gap-5 my-4 mt-12 px-4 md:grid-cols-2  ">
               <div className="w-91 h-53 relative ">
                 {/* <div className="absolute text-white w-full  pt-4 text-center top-12  z-10 hover:translate-y-4 transition duration-700 ease-in-out "> */}
-                <h3 className=" absolute text-xl uppercase font-medium tracking-wider top-16 lg:top-10 sm:top-4 text-center w-full text-neutral-100  z-5 ">
+                <h3
+                  className=" absolute text-lg uppercase font-medium tracking-wider top-14 lg:top-6 lg:text-base md:top-14 sm:top-10 sm:text-sm
+                    xs:top-1/3    xs:text-lg         text-center w-full text-white  z-30   "
+                >
                   Troy
                 </h3>
                 <p
-                  className=" absolute text-xl uppercase font-bold whitespace-nowrap tracking-wide top-24  w-full text-neutral-100 
-                z-5 font-roboto lg:top-16 lg:text-lg sm:top-12 sm:text-sm xs:hidden"
+                  className=" absolute text-xl uppercase font-bold  tracking-wide top-20 px-3  w-full text-white  
+                z-5 font-roboto lg:top-12 lg:text-lg lg:px-1 md:top-20  sm:top-14 sm:text-sm xs:hidden     "
                 >
-                  one of the most famous
+                  the land of legendary trojan war
                 </p>
-                <p
-                  className=" absolute text-xl uppercase font-bold   tracking-wide top-32  lg:top-24 sm:top-16 w-full text-neutral-100  z-5 font-roboto 
-                lg:text-lg sm:text-sm xs:hidden"
-                >
-                  ancient site
-                </p>
-                <Link to="/didyma" className="z-50 absolute bottom-4 right-4">
+
+                <Link to="/troy" className="z-50 absolute bottom-4 right-4">
                   <FaRegClone className=" text-right   text-neutral-200 text-xl z-5  hover:text-orange-200  transition  duration-200" />
                 </Link>
                 <img src={ads1} className=" w-91 h-53 object-cover z-5  " />
 
-                <div className=" h-53 absolute top-0 left-0  w-full h-full bg-gray-900  opacity-10 hover:opacity-30  transition-opacity duration-300 ease "></div>
+                <div className=" h-53 absolute top-0 left-0  w-full h-full bg-gray-900  opacity-20 hover:opacity-40  transition-opacity duration-300 ease "></div>
               </div>
 
               <div className="w-91 h-53 relative">
-                <h3 className="absolute text-xl uppercase tracking-wider font-medium top-16 lg:top-10 sm:top-4  text-center w-full text-neutral-100 z-5 ">
+                <h3
+                  className="absolute text-lg uppercase tracking-wider font-medium top-14 lg:top-6 lg:text-base md:top-14 sm:top-10 sm:text-sm 
+                  xs:top-1/3 xs:text-lg   text-center w-full text-white  z-30   "
+                >
                   aizanoi
                 </h3>
                 <p
-                  className="absolute  text-xl uppercase font-bold whitespace-nowrap tracking-wide top-24  w-full text-neutral-100 
-                  z-5 font-roboto lg:top-16 lg:text-lg sm:top-12 sm:text-sm xs:hidden"
+                  className="absolute  text-xl uppercase font-bold  tracking-wide top-20 px-3  w-full text-white  
+                  z-5 font-roboto lg:top-12 lg:text-lg lg:px-1 md:top-20 sm:top-14 sm:text-sm xs:hidden "
                 >
-                  first stock exchange
+                  first stock exchange market of the world
                 </p>
-                <p
-                  className="absolute  text-xl uppercase font-bold  mb-2 tracking-wide top-32   w-full text-neutral-100 z-5 font-roboto 
-                lg:top-24 lg:text-lg sm:top-16 sm:text-sm xs:hidden"
-                >
-                  market of the world
-                </p>
+
                 <Link to="/aizanoi" className="z-50 absolute bottom-4 right-4 ">
                   <FaRegClone className=" text-right   text-neutral-200 text-xl z-5  hover:text-orange-200  transition  " />
                 </Link>
@@ -71,24 +67,21 @@ export default function Ads({ showp, setShowP }) {
                   alt="nat2"
                   className="w-91 h-53 object-cover  "
                 />
-                <div className="w-full h-53 absolute top-0 left-0  h-full bg-gray-900  opacity-10 hover:opacity-30   transition-opacity duration-300 ease "></div>
+                <div className="w-full h-53 absolute top-0 left-0  h-full bg-gray-900  opacity-20 hover:opacity-40   transition-opacity duration-300 ease "></div>
               </div>
 
               <div className="w-91 h-53 relative md:hidden ">
-                <h3 className="absolute text-xl uppercase tracking-wider font-medium top-16 lg:top-10  text-center w-full text-neutral-100  z-5 ">
-                  myra
+                <h3 className="absolute text-lg uppercase tracking-wider font-medium top-14  lg:top-6 lg:text-base   text-center w-full text-white   z-30  ">
+                  pergamon
                 </h3>
                 <p
-                  className="absolute  text-xl uppercase font-bold whitespace-nowrap tracking-wide top-24  w-full text-neutral-100 
-                 z-5 font-roboto lg:top-16 lg:text-lg"
+                  className="absolute  text-xl uppercase font-bold  tracking-wide top-20  w-full text-white   px-2
+                 z-5 font-roboto lg:top-12 lg:text-lg lg:px-1"
                 >
-                  important lycian city
-                </p>
-                <p className="absolute  text-xl uppercase font-bold  mb-2 tracking-wide top-32   w-full text-neutral-100  z-5 font-roboto lg:top-24 lg:text-lg">
-                  visited by st.paul
+                  important and beautiful Hellenistic Greek city
                 </p>
 
-                <Link to="/myra" className="z-50 absolute bottom-4 right-4">
+                <Link to="/pergamon" className="z-50 absolute bottom-4 right-4">
                   <FaRegClone className=" text-right   text-neutral-200 text-xl z-5 hover:text-orange-200  transition  duration-200  " />
                 </Link>
                 <img
@@ -97,48 +90,43 @@ export default function Ads({ showp, setShowP }) {
                   className="w-91 h-53 object-cover 
                   "
                 />
-                <div className="w-full h-53 absolute top-0 left-0    h-full bg-gray-900  opacity-10 hover:opacity-30   transition-opacity duration-300 ease "></div>
+                <div className="w-full h-53 absolute top-0 left-0    h-full bg-gray-900  opacity-20 hover:opacity-40   transition-opacity duration-300 ease "></div>
               </div>
 
               <div className="col-span-2 row-span-2 w-190 h-112 relative">
-                <h3 className="text-2xl uppercase tracking-wider font-medium absolute w-full text-center top-40 text-neutral-100 z-5 lg:top-32 sm:top-24">
+                <h3
+                  className="text-2xl uppercase tracking-wider font-medium absolute w-full text-center top-40 text-white  z-30 
+                lg:text-xl lg:top-32 md:top-40 sm:top-28 sm:text-lg   xs:top-1/3 xs:text-xl   "
+                >
                   perga
                 </h3>
                 <p
-                  className="absolute w-full text-center text-2xl uppercase font-bold whitespace-nowrap tracking-wide top-48 text-neutral-100 
-                z-5 font-roboto lg:top-40 lg:text-xl sm:top-32 sm:text-base xs:hidden"
+                  className="absolute w-full text-center text-2xl uppercase font-bold  tracking-wide top-48 text-white  
+                z-5 font-roboto lg:top-40 lg:text-xl md:top-48 md:px-4 sm:top-36 sm:text-lg   xs:hidden "
                 >
-                  A LARGE GREEK-ROMAN CITY THAT HAS A GREAT
-                </p>
-                <p
-                  className="absolute w-full text-center text-2xl uppercase font-bold whitespace-nowrap tracking-wide top-56 text-neutral-100 
-                z-5 font-roboto lg:top-48 lg:text-xl sm:top-36 sm:text-base xs:hidden"
-                >
-                  LEVEL IN URBAN PLANNING
+                  A LARGE GREEK-ROMAN CITY THAT HAS A GREAT LEVEL IN URBAN
+                  PLANNING
                 </p>
 
                 <Link to="/perga" className="z-50 absolute bottom-4 right-4">
                   <FaRegClone className=" text-right   text-neutral-200 text-xl z-5  hover:text-orange-200  transition  duration-200 " />
                 </Link>
                 <img src={adsBig} className="w-190 h-112 object-cover  " />
-                <div className="w-190 h-112 absolute top-0 left-0  w-full h-full bg-gray-900  opacity-10 hover:opacity-30   transition-opacity duration-300 ease "></div>
+                <div className="w-190 h-112 absolute top-0 left-0  w-full h-full bg-gray-900  opacity-20 hover:opacity-40   transition-opacity duration-300 ease "></div>
               </div>
 
               <div className="w-91 h-53 relative ">
-                <h3 className="absolute text-xl uppercase tracking-wider font-medium top-16 lg:top-10 sm:top-4 text-center w-full text-neutral-100  z-5 ">
+                <h3
+                  className="absolute text-lg uppercase tracking-wider font-medium top-14 lg:top-6 lg:text-base  md:top-14 sm:top-10 sm:text-sm  
+                 xs:top-1/3 xs:text-lg   text-center w-full text-white   z-30 "
+                >
                   hierapolis
                 </h3>
                 <p
-                  className="absolute  text-xl uppercase font-bold whitespace-nowrap tracking-wide top-24  w-full text-neutral-100  
-                z-5 font-roboto lg:top-16 lg:text-lg sm:top-12 sm:text-sm xs:hidden"
+                  className="absolute  text-xl uppercase font-bold  tracking-wide top-20  w-full text-white  px-2
+                z-5 font-roboto lg:top-12 lg:text-lg md:top-20 sm:top-14 sm:text-sm xs:hidden lg:px-1"
                 >
-                  hot springs and
-                </p>
-                <p
-                  className="absolute  text-xl uppercase font-bold  mb-2 tracking-wide top-32   w-full text-neutral-100  z-5 font-roboto 
-                lg:top-24 lg:text-lg sm:top-16 sm:text-sm xs:hidden"
-                >
-                  LYCIA
+                  hot springs and healing center
                 </p>
 
                 <Link
@@ -152,26 +140,26 @@ export default function Ads({ showp, setShowP }) {
                   alt="nat5"
                   className="w-91 h-53 object-cover "
                 />
-                <div className="w-full h-53 absolute top-0 left-0    h-full bg-gray-900  opacity-10 hover:opacity-30   transition-opacity duration-300 ease "></div>
+                <div className="w-full h-53 absolute top-0 left-0    h-full bg-gray-900  opacity-20 hover:opacity-40   transition-opacity duration-300 ease "></div>
               </div>
               <div className="w-91 h-53 relative ">
-                <h3 className=" absolute text-xl uppercase  tracking-wider font-medium top-16 lg:top-10 sm:top-4 text-center w-full text-neutral-100  z-5 ">
-                  tlos
+                <h3
+                  className=" absolute text-lg uppercase  tracking-wider font-medium top-14 lg:top-6 lg:text-base md:top-14 sm:top-10 sm:text-sm 
+                xs:text-lg   xs:top-1/3   text-center w-full text-neutral-100  z-30 "
+                >
+                  aphrodisias
                 </h3>
                 <p
-                  className="absolute  text-xl uppercase font-bold whitespace-nowrap tracking-wide top-24  w-full text-neutral-100  
-                z-5 font-roboto lg:top-16 lg:text-lg sm:top-12 sm:text-sm xs:hidden"
+                  className="absolute  text-xl uppercase font-bold  tracking-wide top-20  w-full text-neutral-100  px-2
+                z-5 font-roboto lg:top-12 lg:text-lg md:top-20 sm:top-14 sm:text-sm xs:hidden lg:px-1"
                 >
-                  gLAMOROUS METROPOLIS
-                </p>
-                <p
-                  className="absolute  text-xl uppercase font-bold  mb-2 tracking-wide top-32   w-full text-neutral-100  z-5 font-roboto lg:top-24 
-                lg:text-lg sm:top-16 sm:text-sm xs:hidden"
-                >
-                  OF LYCIans
+                  sanctuary of Aphrodite and its marble sculptors
                 </p>
 
-                <Link to="/patara" className="z-50 absolute bottom-4 right-4">
+                <Link
+                  to="/aphrodisias"
+                  className="z-50 absolute bottom-4 right-4"
+                >
                   <FaRegClone className=" text-right   text-neutral-200 text-xl z-50  hover:text-orange-200  transition  duration-200  " />
                 </Link>
                 <img
@@ -179,7 +167,7 @@ export default function Ads({ showp, setShowP }) {
                   alt="nat6"
                   className="w-91 h-53 object-cover "
                 />
-                <div className=" h-53 absolute top-0 left-0  w-full h-full bg-gray-900  opacity-10 hover:opacity-30   transition-opacity duration-300 ease "></div>
+                <div className=" h-53 absolute top-0 left-0  w-full h-full bg-gray-900  opacity-20 hover:opacity-40   transition-opacity duration-300 ease "></div>
               </div>
             </div>
           </div>

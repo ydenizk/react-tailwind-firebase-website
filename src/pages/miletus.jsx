@@ -15,7 +15,7 @@ export default function Miletus() {
           <img
             src={banner}
             alt="nature-2"
-            className="object-cover w-288 max-h-145 h-145   "
+            className="object-cover w-288 max-h-145 h-145 brightness-75  "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
             <h2 className="font-roboto font-medium text-white text-4xl mb-2 tracking-wider md:text-2xl xs:text-base">

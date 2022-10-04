@@ -5,6 +5,7 @@ import banner from "./../assets/hierapolis/banner.jpg";
 import big from "./../assets/hierapolis/592-360.jpg";
 import big1 from "./../assets/hierapolis/592*360.jpg";
 import big2 from "./../assets/hierapolis/592--360.jpg";
+import big3 from "./../assets/hierapolis/592x360-1.jpg";
 import sideSmall from "./../assets/hierapolis/288-288.jpg";
 
 export default function Hierapolis() {
@@ -15,7 +16,7 @@ export default function Hierapolis() {
           <img
             src={banner}
             alt="nature-2"
-            className="object-cover w-288 max-h-145 h-145  opacity-90 "
+            className="object-cover w-288 max-h-145 h-145  brightness-75  "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
             <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider md:text-xl xs:text-base">
@@ -81,6 +82,9 @@ export default function Hierapolis() {
               </p>
               <div className="w-148 h-90  mb-4">
                 <img src={big} alt="object-cover w-148 h-90 " />
+              </div>
+              <div className="w-148 h-90  mb-4">
+                <img src={big3} alt="object-cover w-148 h-90 " />
               </div>
               <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
                 Hierapolis was first excavated by the German archaeologist Carl
@@ -182,11 +186,16 @@ export default function Hierapolis() {
                   CREDITS
                 </h5>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
-                  Text - <span className="text-black opacity-90">YDenizK</span>
+                  Text -{" "}
+                  <span className="text-black opacity-90">
+                    Wikipedia , YDenizK
+                  </span>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Photographs -
-                  <span className="text-black opacity-90">YDenizK</span>
+                  <span className="text-black opacity-90">
+                    Wikipedia , YDenizK
+                  </span>
                 </p>
                 <h5 className="  tracking-wider font-semibold mt-6 opacity-80">
                   INFO
