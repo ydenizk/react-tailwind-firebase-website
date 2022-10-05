@@ -8,9 +8,19 @@ import big2 from "./../assets/priene/592--360.jpeg";
 import sideSmall from "./../assets/priene/288-288.jpg";
 import sideSmall1 from "./../assets/priene/288*288.jpg";
 
+import { Helmet } from "react-helmet-async";
+
 export default function Priene() {
   return (
     <div className="w-full bg-neutral-100 md:mt-20 ">
+      <Helmet>
+        <title>Priene</title>
+        <meta
+          name="description"
+          content="Home of high-quality Hellenistic art and architecture "
+        />
+        <link rel="canonical" href="/priene" />
+      </Helmet>
       <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-8 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img

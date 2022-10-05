@@ -9,10 +9,20 @@ import big2 from "./../assets/aphrodisias/aphro-2-592-360.jpeg";
 import big3 from "./../assets/aphrodisias/aphro-3-592-360.jpg";
 import big4 from "./../assets/aphrodisias/big4.jpg";
 import sideBig from "./../assets/aphrodisias/288x492.jpg";
+import { Helmet } from "react-helmet-async";
 
 export default function Aphrodisias() {
   return (
     <div className="w-full bg-neutral-100 md:mt-20  ">
+      <Helmet>
+        <title>Aphrodisias</title>
+        <meta
+          name="description"
+          content=" Home of Aphrodite,greek goddess of love"
+        />
+        <link rel="canonical" href="/aphrodisias" />
+      </Helmet>
+
       <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-8 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
@@ -25,7 +35,7 @@ export default function Aphrodisias() {
               No <span className="font-roboto font-medium">02</span>
             </h2>
             <p className=" font-roboto font-bold text-amber-50 text-3xl uppercase  whitespace-nowrap mb-6 tracking-wide md:text-2xl sm:whitespace-normal sm:text-xl  xs:text-xl ">
-              HOME OF  APHRODITE,greek goddess of love
+              HOME OF APHRODITE,greek goddess of love
             </p>
             <p className="uppercase text-amber-50 font-mono text-lg tracking-wide md:text-base xs:text-sm whitespace-nowrap">
               The beauty of APHRODISIAS
@@ -39,7 +49,8 @@ export default function Aphrodisias() {
           {/* .................... */}
           <div className="text-center mb-20 px-2 ">
             <h2 className="mb-6 text-2xl tracking-widest font-semibold uppercase md:text-lg ">
-              famous for being the best-preserved stadium of the ancient world,its monumental temple gate and marbles
+              famous for being the best-preserved stadium of the ancient
+              world,its monumental temple gate and marbles
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>
@@ -179,7 +190,10 @@ export default function Aphrodisias() {
                   CREDITS
                 </h5>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
-                  Text - <span className="text-black opacity-90">YDenizK , Wikipedia</span>
+                  Text -{" "}
+                  <span className="text-black opacity-90">
+                    YDenizK , Wikipedia
+                  </span>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Photographs -

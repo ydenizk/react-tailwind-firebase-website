@@ -7,9 +7,20 @@ import big1 from "./../assets/tlos/592*360.jpg";
 import big2 from "./../assets/tlos/592--360.jpg";
 import sideSmall from "./../assets/tlos/288*288.jpg";
 
+
+import { Helmet } from "react-helmet-async";
+
 export default function Troia() {
   return (
     <div className="w-full bg-neutral-100 md:mt-20  ">
+      <Helmet>
+        <title>Tlos</title>
+        <meta
+          name="description"
+          content="Home of  one of the largest and oldest lycian city"
+        />
+        <link rel="canonical" href="/tlos" />
+      </Helmet>
       <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-6 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
@@ -130,7 +141,10 @@ export default function Troia() {
                   CREDITS
                 </h5>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
-                  Text - <span className="text-black opacity-90">YDenizK , Wikipedia</span>
+                  Text -{" "}
+                  <span className="text-black opacity-90">
+                    YDenizK , Wikipedia
+                  </span>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Photographs -

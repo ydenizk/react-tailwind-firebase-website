@@ -4,10 +4,17 @@ import Share from "./../components/share";
 import banner from "./../assets/knidos/banner.jpg";
 import big from "./../assets/knidos/592-360.jpg";
 import big1 from "./../assets/knidos/592*360.jpg";
+import { Helmet } from "react-helmet-async";
 
 export default function Knidos() {
   return (
     <div className="w-full bg-neutral-100 md:mt-20">
+      <Helmet>
+        <title>Knidos</title>
+        <meta name="description" content="Home of an important trade center" />
+        <link rel="canonical" href="/knidos" />
+      </Helmet>
+
       <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-6 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
@@ -34,7 +41,7 @@ export default function Knidos() {
           {/* .................... */}
           <div className="text-center mb-20 px-2 ">
             <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg ">
-           has a respected medical school and physicians whose fame had
+              has a respected medical school and physicians whose fame had
               spread throughout the ancient world
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>

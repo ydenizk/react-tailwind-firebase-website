@@ -5,10 +5,21 @@ import banner from "./../assets/aizanoi/banner.jpg";
 import big from "./../assets/aizanoi/592-360.jpg";
 import big1 from "./../assets/aizanoi/592x360.jpg";
 import big2 from "./../assets/aizanoi/592-332.jpg";
+import { Helmet } from "react-helmet-async";
+
+
+
+
 
 export default function Aizanoi() {
   return (
     <div className="w-full bg-neutral-100 md:mt-20 ">
+      <Helmet>
+        <title>Aizanoi</title>
+        <meta name="description" content="Home of Phrygians with the best preserved Zeus temple" />
+        <link rel="canonical" href="/aizanoi" />
+      </Helmet>
+
       <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-8 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img

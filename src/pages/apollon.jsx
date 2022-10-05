@@ -4,12 +4,20 @@ import Share from "./../components/share";
 import apollon from "./../assets/apollon/Apollon.jpeg";
 import small1 from "./../assets/apollon/apol-1-290x290.jpeg";
 import small2 from "./../assets/apollon/apol-290x290.jpeg";
-
 import big from "./../assets/apollon/592-664.jpeg";
+import { Helmet } from "react-helmet-async";
 
 export default function Apollon() {
   return (
     <div className="w-full bg-neutral-100 md:mt-20 ">
+      <Helmet>
+        <title> Appollo Smintheus </title>
+        <meta
+          name="description"
+          content=" Home of the temple of Apollo Smintheion"
+        />
+        <link rel="canonical" href="/apollon" />
+      </Helmet>
       <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-10 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img

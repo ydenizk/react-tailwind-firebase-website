@@ -8,10 +8,20 @@ import big2 from "./../assets/ephesus/592-444.jpeg";
 import sideBig from "./../assets/ephesus/288-492.jpg";
 import sideSmall from "./../assets/ephesus/290-290.jpg";
 import sideSmall1 from "./../assets/ephesus/290x290.jpg";
+import { Helmet } from "react-helmet-async";
 
 export default function Ephesus() {
   return (
     <div className="w-full bg-neutral-100 md:mt-20">
+      <Helmet>
+        <title>Ephesus</title>
+        <meta
+          name="description"
+          content=" Home of  one of the Seven Wonders of the Ancient World"
+        />
+        <link rel="canonical" href="/ephesus" />
+      </Helmet>
+
       <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-6 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
@@ -39,7 +49,7 @@ export default function Ephesus() {
           <div className="text-center mb-20 px-2 ">
             <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg ">
               outstanding example of a Roman port city, with sea channel and
-              harbour basin.
+              harbour basin.And Temple of Artemis as one of the seven wonders.
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>
@@ -144,7 +154,7 @@ export default function Ephesus() {
                 story is also mentioned in the Qur'an.
               </p>
               <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
-                main sites,Temple of Artemis and Libvrary of Celsus
+                main sites,Temple of Artemis and Library of Celsus
               </h2>
               <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
                 Ephesus is one of the largest Roman archaeological sites in the
@@ -216,11 +226,16 @@ export default function Ephesus() {
                   CREDITS
                 </h5>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
-                  Text - <span className="text-black opacity-90">Wikipedia , YDenizK ,Unesco</span>
+                  Text -{" "}
+                  <span className="text-black opacity-90">
+                    Wikipedia , YDenizK ,Unesco
+                  </span>
                 </p>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Photographs -
-                  <span className="text-black opacity-90">YDenizK , Unesco</span>
+                  <span className="text-black opacity-90">
+                    YDenizK , Unesco
+                  </span>
                 </p>
                 <h5 className="  tracking-wider font-semibold mt-6 opacity-80">
                   INFO

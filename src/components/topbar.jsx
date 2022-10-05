@@ -111,7 +111,7 @@ const Topbar = ({ scrollRef }) => {
                         onClick={() => setViso1((y) => !y)}
                         className="text-xs tracking-wide hover:text-amber-400 transition-all"
                       >
-                        Sardis
+                        Sardes
                       </Link>
                     </li>
                     <li className="p-2 flex xs:p-0">

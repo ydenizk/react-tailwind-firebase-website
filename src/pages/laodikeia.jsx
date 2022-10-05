@@ -6,10 +6,19 @@ import big from "./../assets/laodikeia/592-360.jpg";
 import big1 from "./../assets/laodikeia/592*360.jpg";
 import big2 from "./../assets/laodikeia/592x360-1.jpg";
 import big3 from "./../assets/laodikeia/592x360-2.jpg";
+import { Helmet } from "react-helmet-async";
 
 export default function Laodikeia() {
   return (
     <div className="w-full bg-neutral-100 md:mt-20">
+      <Helmet>
+        <title>Laodiceia</title>
+        <meta
+          name="description"
+          content="Home of an important center of commerce and arts"
+        />
+        <link rel="canonical" href="/laodikeia" />
+      </Helmet>
       <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-6 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img

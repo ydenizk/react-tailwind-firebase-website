@@ -11,9 +11,19 @@ import sideSmall1 from "./../assets/troia/288--288.jpg";
 import sideSmall2 from "./../assets/troia/288*288.jpg";
 import sideSmall3 from "./../assets/troia/288**288.jpg";
 
+import { Helmet } from "react-helmet-async";
+
 export default function Troy() {
   return (
     <div className="w-full bg-neutral-100 md:mt-20 ">
+      <Helmet>
+        <title>Troy</title>
+        <meta
+          name="description"
+          content="Home of one of the most famous ancient sites in history"
+        />
+        <link rel="canonical" href="/troy" />
+      </Helmet>
       <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-8 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
@@ -45,7 +55,7 @@ export default function Troy() {
           <div className="text-center mb-20  px-2">
             <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg ">
               not just one city,but nine,built one on top of the other:nine
-              layers of diferent civilisation
+              layers of diferent civilization
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>

@@ -7,9 +7,19 @@ import big1 from "./../assets/xanthos/592**332.jpg";
 import big2 from "./../assets/xanthos/592-444.jpg";
 import big3 from "./../assets/xanthos/592-332.jpg";
 
+import { Helmet } from "react-helmet-async";
+
 export default function Xanthos() {
   return (
     <div className="w-full bg-neutral-100  md:mt-20">
+      <Helmet>
+        <title>Xanthos</title>
+        <meta
+          name="description"
+          content="Home of the capital city of Lycia"
+        />
+        <link rel="canonical" href="/xanthos" />
+      </Helmet>
       <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-6 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
@@ -18,16 +28,16 @@ export default function Xanthos() {
             className="object-cover w-288 max-h-145 h-145 brightness-75  "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-amber-100 text-2xl mb-2 tracking-wider md:text-lg xs:text-base">
+            <h2 className="font-roboto font-medium text-amber-50 text-2xl mb-2 tracking-wider md:text-lg xs:text-base">
               No <span className="font-roboto font-medium">22</span>
             </h2>
             <p
-              className="uppercase  font-roboto font-bold text-amber-100 text-3xl   whitespace-nowrap mb-6 tracking-wide 
+              className="uppercase  font-roboto font-bold text-amber-50 text-4xl   whitespace-nowrap mb-6 tracking-wide  lg:text-3xl
              md:text-2xl sm:text-xl xs:text-lg"
             >
-              HOME OF capital city of Lycia
+              HOME OF the capital city of Lycia
             </p>
-            <p className="uppercase text-amber-100 font-mono text-lg tracking-wide md:text-base xs:text-sm">
+            <p className="uppercase text-amber-50 font-mono text-lg tracking-wide md:text-base xs:text-sm">
               The beauty of xanthos
             </p>
           </div>

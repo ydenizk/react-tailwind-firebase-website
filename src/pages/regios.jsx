@@ -3,6 +3,8 @@ import items from "./../data";
 import image from "./../assets/map.png";
 import { useNavigate } from "react-router-dom";
 
+import { Helmet } from "react-helmet-async";
+
 
 
 export default function Regios() {
@@ -13,6 +15,11 @@ let navigate=useNavigate()
 
   return (
     <div className="bg-neutral-100 mt-16 flex justify-center align-center pt-16 pb-12  md:pt-32">
+      <Helmet>
+        <title>Regions</title>
+        <meta name="description" content="Regions of Asia Minor" />
+        <link rel="canonical" href="/regios" />
+      </Helmet>
       <div className="max-w-6xl  w-full p-0 bg-neutral-100 ">
         <div className="text-center mb-16">
           <div className="w-96 h-96  my-0 mx-auto mb-12 ">
@@ -29,15 +36,17 @@ let navigate=useNavigate()
           <p className="tracking-wider font-light  font-roboto  text-medium w-1/2 my-0 mx-auto mb-4">
             The geographical regions of Turkey comprise seven regions.From
             classical cities scattered along the coast to archaeological sites
-            that go back to the earliest periods of human history,Turkey(or Asia Minor) is a kind of an outdoor museum and  one
-            of the most exciting countries on earth for anyone  who wants to discover the ancient
+            that go back to the earliest periods of human history,Turkey(or Asia
+            Minor) is a kind of an outdoor museum and one of the most exciting
+            countries on earth for anyone who wants to discover the ancient
             world.
           </p>
           <p className="tracking-wider font-light  font-roboto  text-medium w-1/2 my-0 mx-auto">
-          Located at the intersection in between East and west,Asia Minor is a central hub.It was occupied 
-          by everyone from Greeks to the Romans to the Persians to the Ottomans.As they all built remarkable cities and monuments,
-          many of which still stand today.
-          You will find  below the summary of top spots based on regions. 
+            Located at the intersection in between East and west,Asia Minor is a
+            central hub.It was occupied by everyone from Greeks to the Romans to
+            the Persians to the Ottomans.As they all built remarkable cities and
+            monuments, many of which still stand today. You will find below the
+            summary of top spots based on regions.
           </p>
         </div>
 

@@ -1,5 +1,12 @@
 import React, { useState } from "react";
 
+import { Helmet } from "react-helmet-async";
+
+
+
+
+
+
 export default function Contact() {
   const [contactData, setContactData] = useState({
     fullname: "",
@@ -54,6 +61,12 @@ export default function Contact() {
 
   return (
     <div className="bg-white mt-16 flex justify-center align-center pt-32 pb-48 ">
+      <Helmet>
+        <title>Contact</title>
+        <meta name="description" content="Please contact us" />
+        <link rel="canonical" href="/contact" />
+      </Helmet>
+
       <div className="w-288 h-145 max-h-145 ">
         <form method="POST" className="bg-white ">
           <div>

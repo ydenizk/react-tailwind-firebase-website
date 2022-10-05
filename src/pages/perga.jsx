@@ -10,9 +10,20 @@ import sideBig from "./../assets/perga/288-444.jpg";
 import sideBig1 from "./../assets/perga/288-444.jpg";
 import sideSmall from "./../assets/perga/288-288.jpg";
 
+import { Helmet } from "react-helmet-async"; 
+
 export default function Perga() {
   return (
     <div className="w-full bg-neutral-100 md:mt-20">
+      <Helmet>
+        <title>Perga</title>
+        <meta
+          name="description"
+          content="Home of one of the largest ancient settlements"
+        />
+        <link rel="canonical" href="/perga" />
+      </Helmet>
+
       <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-10 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
@@ -25,7 +36,7 @@ export default function Perga() {
               No <span className="font-roboto font-medium">15</span>
             </h2>
             <p className="uppercase font-roboto font-bold text-white text-3xl mb-6 tracking-wide md:text-xl xs:text-base ">
-              HOME OF one of the largest ancient settleements
+              HOME OF one of the largest ancient settlements
             </p>
             <p className="uppercase text-white font-mono text-lg tracking-wide md:text-base whitespace-nowrap">
               The beauty of perga
@@ -39,7 +50,8 @@ export default function Perga() {
           {/* .................... */}
           <div className="text-center mb-20 px-2">
             <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg ">
-              a large greek-roman city that has a great level in urban planning
+              a large greek-roman city at Pamphylia that has a great level in
+              urban planning
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
           </div>

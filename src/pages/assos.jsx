@@ -5,10 +5,17 @@ import big from "./../assets/assos/592--444.jpeg";
 import big1 from "./../assets/assos/592-444.JPG";
 import side from "./../assets/assos/side-big.jpg";
 import Share from "./../components/share";
+import { Helmet } from "react-helmet-async";
 
 export default function Assos() {
   return (
     <div className="w-full bg-neutral-100 md:mt-20 ">
+      <Helmet>
+        <title>Assos</title>
+        <meta name="description" content=" Home of Aristotle" />
+        <link rel="canonical" href="/assos" />
+      </Helmet>
+
       <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-10 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img

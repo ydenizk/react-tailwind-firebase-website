@@ -7,10 +7,21 @@ import img6 from "./../assets/troia/288-444.jpg";
 import img7 from "./../assets/laodikeia/592-360.jpg";
 import img8 from "./../assets/sagalassos/592-360.jpg";
 
+import { Helmet } from "react-helmet-async";
+
 export default function About() {
   return (
     <>
       <div className="bg-neutral-100 flex justify-center align-center my-16 mt-32  ">
+        <Helmet>
+          <title>About</title>
+          <meta
+            name="description"
+            content="About Ancient Asia Minor"
+          />
+          <link rel="canonical" href="/about" />
+        </Helmet>
+
         <div className="max-w-6xl  w-full p-0 bg-neutral-100 ">
           <h1 className="mt-24 mb-36 w-full font-garamond text-4xl tracking-wide text-center px-4 md:text-3xl xs:text-2xl   ">
             Ancient Asia Minor is an independent individual initiative to

@@ -5,10 +5,17 @@ import banner from "./../assets/didyma/banner.jpg";
 import big from "./../assets/didyma/592-360.jpg";
 import big1 from "./../assets/didyma/592*360.jpg";
 import sideSmall from "./../assets/didyma/288-288.jpg";
+import { Helmet } from "react-helmet-async";
 
 export default function Didyma() {
   return (
     <div className="w-full bg-neutral-100 md:mt-20 ">
+      <Helmet>
+        <title>Didyma</title>
+        <meta name="description" content=" Home the oracle of Apollo" />
+        <link rel="canonical" href="/didyma" />
+      </Helmet>
+
       <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-10 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
@@ -80,7 +87,7 @@ export default function Didyma() {
               </p>
 
               <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
-                The Significance of Didymaion
+                The Significance of Didyma
               </h2>
               <p className="tracking-wider font-light  font-roboto  text-lg mb-5 leading-7">
                 In a world where “church and state” were inseparable, the Temple

@@ -7,9 +7,21 @@ import big1 from "./../assets/patara/592-360.jpg";
 import big2 from "./../assets/patara/592-444.jpg";
 import side from "./../assets/patara/288-492.jpg";
 
+import { Helmet } from "react-helmet-async";
+
 export default function Patara() {
   return (
     <div className="w-full bg-neutral-100 md:mt-20 ">
+      <Helmet>
+        <title>Patara</title>
+        <meta
+          name="description"
+          content="Home of one of the most powerful cities of the Lycian league and
+              the birhplace of god Apollo"
+        />
+        <link rel="canonical" href="/patara" />
+      </Helmet>
+
       <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-10 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
@@ -23,9 +35,9 @@ export default function Patara() {
             </h2>
             <p className="uppercase font-roboto font-bold   text-amber-50 text-2xl   mb-1 tracking-wide md:text-xl sm:text-lg xs:text-sm">
               HOME OF one of the most powerful cities of the Lycian league and
-              the birhplace of gof apollo
+              the birhplace of god Apollo
             </p>
-        
+
             <p className="uppercase text-amber-50 font-mono text-lg tracking-wide md:text-base xs:text-sm">
               The beauty of patara
             </p>

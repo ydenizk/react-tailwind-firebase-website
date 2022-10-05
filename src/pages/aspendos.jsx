@@ -2,13 +2,22 @@ import React from "react";
 import banner from "./../assets/aspendos/banner.jpg";
 import small1 from "./../assets/aspendos/288-552.jpg";
 import Share from "./../components/share";
-
 import big from "./../assets/aspendos/592-360.jpeg";
 import big1 from "./../assets/aspendos/592*360.jpeg";
+import { Helmet } from "react-helmet-async";
 
 export default function Aspendos() {
   return (
     <div className="w-full bg-neutral-100 md:mt-20 ">
+      <Helmet>
+        <title>Aspendos</title>
+        <meta
+          name="description"
+          content="Home of the best preserved Roman theater"
+        />
+        <link rel="canonical" href="/aspendos" />
+      </Helmet>
+
       <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-8 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
@@ -30,7 +39,6 @@ export default function Aspendos() {
           s
         </div>
       </header>
-
       <div className="  flex justify-center align-center bg-neutral-100 relative my-24">
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
@@ -202,7 +210,6 @@ export default function Aspendos() {
           {/* .................... */}
         </div>
       </div>
-
       {/* .................... */}
     </div>
   );

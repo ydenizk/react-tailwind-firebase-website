@@ -8,9 +8,16 @@ import big2 from "./../assets/sagalassos/592-360.jpg";
 import small from "./../assets/sagalassos/288x288.jpg";
 import small1 from "./../assets/sagalassos/288x288-1.jpg";
 
+import { Helmet } from "react-helmet-async";
+
 export default function Sagalassos() {
   return (
     <div className="w-full bg-neutral-100 md:mt-20">
+      <Helmet>
+        <title>Sagalassos</title>
+        <meta name="description" content="Home of the first city of Pisidia " />
+        <link rel="canonical" href="/sagalassos" />
+      </Helmet>
       <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-6 ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
@@ -142,14 +149,19 @@ export default function Sagalassos() {
                   CREDITS
                 </h5>
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
-                  Text - <span className="text-black opacity-90">YDenizK , Wikipedia ,Unesco</span>
+                  Text -{" "}
+                  <span className="text-black opacity-90">
+                    YDenizK , Wikipedia ,Unesco
+                  </span>
                 </p>
-             
+
                 <p className="font-medium text-base font-garamond tracking-wider text-gray-500">
                   Photographs -
-                  <span className="text-black opacity-90">YDenizK , Wikipedia</span>
+                  <span className="text-black opacity-90">
+                    YDenizK , Wikipedia
+                  </span>
                 </p>
-            
+
                 <h5 className="  tracking-wider font-semibold mt-6 opacity-80">
                   INFO
                 </h5>

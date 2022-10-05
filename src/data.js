@@ -33,7 +33,7 @@ const region = [
       "Laodikeia",
       "Hierapolis",
       "Cnidus",
-      "Sardis",
+      "Sardes",
       "Aizanoi",
       "Aphrodisias",
     ],
