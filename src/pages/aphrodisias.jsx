@@ -23,7 +23,7 @@ export default function Aphrodisias() {
         <link rel="canonical" href="/aphrodisias" />
       </Helmet>
 
-      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-8 ">
+      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-8 xs:pb-2   xs:w-screen">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
             src={aphro}
@@ -31,10 +31,13 @@ export default function Aphrodisias() {
             className="object-cover w-288 max-h-145 h-145 "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-amber-50 text-3xl mb-2 tracking-wider md:text-xl">
+            <h2 className="font-roboto font-medium text-amber-50 text-3xl mb-2 tracking-wider md:text-base">
               No <span className="font-roboto font-medium">02</span>
             </h2>
-            <p className=" font-roboto font-bold text-amber-50 text-3xl uppercase  whitespace-nowrap mb-6 tracking-wide md:text-2xl sm:whitespace-normal sm:text-xl  xs:text-xl ">
+            <p
+              className=" font-roboto font-bold text-amber-50 text-3xl uppercase  whitespace-nowrap mb-6 tracking-wide 
+            md:text-2xl sm:whitespace-normal sm:text-xl  xs:text-base "
+            >
               HOME OF APHRODITE,greek goddess of love
             </p>
             <p className="uppercase text-amber-50 font-mono text-lg tracking-wide md:text-base xs:text-sm whitespace-nowrap">
@@ -48,7 +51,7 @@ export default function Aphrodisias() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 px-2 ">
-            <h2 className="mb-6 text-2xl tracking-widest font-semibold uppercase md:text-lg ">
+            <h2 className="mb-6 text-2xl tracking-widest font-semibold uppercase md:text-lg xs:text-base ">
               famous for being the best-preserved stadium of the ancient
               world,its monumental temple gate and marbles
             </h2>
@@ -62,13 +65,13 @@ export default function Aphrodisias() {
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No02
               </h4>
-              <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7 xs:text-base">
                 Aphrodisias,was a small Roman Hellenistic city in the historic
                 Caria cultural region of western Anatolia, Turkey. It is located
                 near the modern village of Geyre, about 100 km east/inland from
                 the coast of the Aegean Sea, and 230 km southeast of İzmir.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7 xs:text-base">
                 The city shared a close interest in the goddess Aphrodite with
                 Sulla, Julius Caesar and the emperor Augustus, Aphrodisias came
                 to have a close relationship with Rome. It obtained a privileged
@@ -77,7 +80,7 @@ export default function Aphrodisias() {
                 Period. Many elaborately decorated structures were erected
                 during the period of Roman rule, all made from the local marble.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7 xs:text-base">
                 The city had notable schools for sculpture, as well as
                 philosophy, remaining a centre of paganism until the end of the
                 5th century. It was destroyed by earthquake in the early 7th
@@ -103,7 +106,7 @@ export default function Aphrodisias() {
                 Ancient buildings and Temple of Aphrodite
               </h2>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7 xs:text-base">
                 The Cult of Aphrodite was the most important cult of
                 Aphrodisias. The sanctuary at Aphrodisias had a distinctive cult
                 statue of Aphrodite which defined the city’s identity. The
@@ -116,7 +119,7 @@ export default function Aphrodisias() {
                 of Christianity; the Temple did not become a church until c. AD
                 500.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7 xs:text-base">
                 The Bouleuterion (council house), or Odeon, is centered on the
                 north side of the North Agora. As it stands today, it consists
                 of a semicircular auditorium fronted by a shallow stage
@@ -138,7 +141,7 @@ export default function Aphrodisias() {
               <div className="w-148 h-83 mb-6">
                 <img src={big4} alt="object-cover w-72 max-h-72 " />
               </div>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7 xs:text-base">
                 The stadium was used for athletic events until the theatre was
                 badly damaged by a 7th-century earthquake, requiring part of the
                 stadium to be converted for events previously staged in the
@@ -155,7 +158,7 @@ export default function Aphrodisias() {
                 <img src={big1} alt="object-cover w-72 max-h-72 " />
               </div>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7 xs:text-base">
                 The first formal excavations were undertaken in 1904–5, by a
                 French railroad engineer, Paul Augustin Gaudin. Some of the
                 architectural finds (mostly friezes, pilasters and capitals) he
@@ -170,7 +173,7 @@ export default function Aphrodisias() {
                 How to get Aphrodisias Ancient City?
               </h2>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7 xs:text-base">
                 Afrodisias is located inland in the Southern Aegean region of
                 Turkey,about 30 km west of Denizli,2 hours away from Ephesus and
                 2,5 hours from Pamukkale.The nearby village is named Geyre, less

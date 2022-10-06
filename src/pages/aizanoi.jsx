@@ -16,11 +16,17 @@ export default function Aizanoi() {
     <div className="w-full bg-neutral-100 md:mt-20 ">
       <Helmet>
         <title>Aizanoi</title>
-        <meta name="description" content="Home of Phrygians with the best preserved Zeus temple" />
+        <meta
+          name="description"
+          content="Home of Phrygians with the best preserved Zeus temple"
+        />
         <link rel="canonical" href="/aizanoi" />
       </Helmet>
 
-      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-8 ">
+      <header
+        className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative 
+      top-16 xs:pb-2   xs:w-screen "
+      >
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
             src={banner}
@@ -28,16 +34,16 @@ export default function Aizanoi() {
             className="object-cover w-288 max-h-145 h-145  "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-2xl mb-2 tracking-wider md:text-xl xs:text-base">
+            <h2 className="font-roboto font-medium text-amber-50 text-2xl mb-2 tracking-wider md:text-xl xs:text-base">
               No <span className="font-roboto font-medium">01</span>
             </h2>
             <p
-              className=" font-roboto uppercase font-bold text-white text-3xl  mb-6 tracking-wide md:text-2xl sm:text-xl 
-            sm:whitespace-normal xs:text-base"
+              className=" font-roboto uppercase font-bold text-amber-50 text-3xl  mb-6 tracking-wide md:text-2xl sm:text-xl 
+            sm:whitespace-normal xs:text-sm"
             >
               HOME OF Phrygians with THE BEST PRESERVED ZEUS TEMPLE
             </p>
-            <p className="uppercase text-white font-mono text-xl tracking-wide md:text-lg whitespace-nowrap xs:text-sm">
+            <p className="uppercase text-amber-50 font-mono text-xl tracking-wide md:text-lg whitespace-nowrap xs:text-xs">
               The beauty of AIZANOI
             </p>
           </div>
@@ -48,7 +54,7 @@ export default function Aizanoi() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 px-2 ">
-            <h2 className="mb-6 text-2xl tracking-widest font-semibold uppercase  md:text-lg">
+            <h2 className="mb-6 text-2xl tracking-widest font-semibold uppercase  md:text-lg xs:text-base">
               One of the first stock exchange markets of the world was
               established in Aizanoi
             </h2>
@@ -62,14 +68,14 @@ export default function Aizanoi() {
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No01
               </h4>
-              <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base ">
                 The Aizanoi ancient city is located in the inner Western
                 Anatolia , 48 km Southwest of the Kütahya Province, and within
                 the boundaries of the Çavdarhisar district.Although this city is
                 one of the greatest historical monuments in Turkey, it doesn’t
                 well-known enough by the people.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7 xs:text-base">
                 Aizanoi was the capital of Aizanitis, who belonged to Phrigia.
                 There was less information about Pre-Roman period for Aizanoi.
                 It is said that the early settlement in the region dates back to
@@ -82,7 +88,7 @@ export default function Aizanoi() {
                 Starting from the 1st century BC Aizanoi started to transform to
                 city from town. .
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7 xs:text-base">
                 After the 7th century, Aezani fell into decline. Later, in
                 Seljuk times, the temple hill was converted into a citadel
                 (Turkish: hisar) by Çavdar Tatars, after which the recent
@@ -98,7 +104,7 @@ export default function Aizanoi() {
               <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
                 Ancient buildings and Zeus temple
               </h2>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7 xs:text-base">
                 Aizanoi is one of the most significant cities of the Roman
                 Period with the Zeus Temple, the Complex of Stadium-Theatre and
                 the Macellum. The structure of the Temple which is one of the
@@ -121,7 +127,7 @@ export default function Aizanoi() {
                 <img src={big1} alt="object-cover w-148 h-90  brightness-50 " />
               </div>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg my-8 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg my-8 leading-7 xs:text-base">
                 The Complex of Stadium-Theatre is located in the north part of
                 the city and was one of the most intensive development
                 activities in the city during the Roman Period. The stadium with
@@ -129,14 +135,14 @@ export default function Aizanoi() {
                 20.000 people were constructed adjacently and as such it is
                 unique in the ancient world.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7"></p>
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7 xs:text-base"></p>
               <div className="w-148 h-83  mb-8">
                 <img src={big2} alt="object-cover w-148 h-83 brightness-75 " />
               </div>
               <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
                 First STOCK EXCHANGE MARKET and Inflation
               </h2>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7 xs:text-base">
                 One of the first stock exchange markets of the world was
                 established in Aizanoi. The Macellum (Round Building) is dated
                 to the midst of the 2nd century AD., probably serving as a food
@@ -151,7 +157,7 @@ export default function Aizanoi() {
               <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
                 How to get Aizanoi Ancient City?
               </h2>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7 xs:text-base">
                 Aizanoi is only accessible with local buses or car from the
                 Kutahya. As Çavdarhisar is a bit out of the way, and the Aizanoi
                 ruins a bit scattered, a car is a great way to explore Aizanoi.

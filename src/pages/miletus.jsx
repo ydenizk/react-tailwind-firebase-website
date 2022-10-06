@@ -21,7 +21,7 @@ export default function Miletus() {
         <link rel="canonical" href="/miletus" />
       </Helmet>
 
-      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-6 ">
+      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 xs:pb-2   xs:w-screen ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
             src={banner}
@@ -49,7 +49,7 @@ export default function Miletus() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 px-2">
-            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg ">
+            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg xs:text-base ">
               the greatest Greek city in the east for 1400 years
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
@@ -62,7 +62,7 @@ export default function Miletus() {
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No12
               </h4>
-              <p className=" tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className=" tracking-wider font-light  font-roboto  text-lg mb-4 leading-7  xs:text-base">
                 Miletus was an ancient Greek city on the western coast of
                 Anatolia, near the mouth of the Maeander River in ancient
                 Ionia.Its ruins are located near the modern village of Balat in
@@ -72,7 +72,7 @@ export default function Miletus() {
                 Anatolia and had a considerable wool trade with Sybaris, in
                 southern Italy.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7  xs:text-base">
                 Recorded history at Miletus begins with the records of the
                 Hittite Empire, and the Mycenaean records of Pylos and Knossos,
                 in the Late Bronze Age. Miletus was a Mycenaean stronghold on
@@ -87,7 +87,7 @@ export default function Miletus() {
                 with Rome, in 133 BC the city became part of the province of
                 Asia.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7  xs:text-base">
                 Miletus benefited from Roman rule and most of the present
                 monuments date to this period.In 262 new city walls were built.
                 However the harbour was silting up and the economy was in
@@ -98,7 +98,7 @@ export default function Miletus() {
                 their rule in Anatolia. As the harbour became silted up, the
                 city was abandoned.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7  xs:text-base">
                 In antiquity the city possessed a harbor at the southern entry
                 of a large bay, on which two more of the traditional twelve
                 Ionian cities stood: Priene and Myus. The harbor of Miletus was
@@ -113,7 +113,7 @@ export default function Miletus() {
                 Ancient buildings and Archaeological excavations
               </h2>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-5 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-5 leading-7  xs:text-base">
                 The first excavations in Miletus were conducted by the French
                 archaeologist Olivier Rayet in 1873, followed by the German
                 archaeologists Julius Hülsen and Theodor Wiegand between 1899
@@ -129,7 +129,7 @@ export default function Miletus() {
                 <img src={big} alt="object-cover w-148 h-90 " />
               </div>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7  xs:text-base">
                 The streets of Miletus have a right-angle grid plan – the
                 brainchild of local architect Hippodamus. Approaching the site
                 from the car park, the Great Theatre dominates. Miletus'
@@ -149,7 +149,7 @@ export default function Miletus() {
                 How to get miletus Ancient City?
               </h2>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7  xs:text-base">
                 Miletus Ancient City is located in Didim District of Aydın
                 province. You can reach Miletus, which is about 22 km north of
                 Didim center, by following the Didim Güllübahçe Road by private

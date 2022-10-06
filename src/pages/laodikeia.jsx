@@ -19,7 +19,7 @@ export default function Laodikeia() {
         />
         <link rel="canonical" href="/laodikeia" />
       </Helmet>
-      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-6 ">
+      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 xs:pb-2   xs:w-screen ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
             src={banner}
@@ -27,13 +27,13 @@ export default function Laodikeia() {
             className="object-cover w-288 max-h-145 h-145 brightness-75  "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider md:text-xl xs:text-sm">
+            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider md:text-xl xs:text-xs">
               No <span className="font-roboto font-medium">11</span>
             </h2>
-            <p className="uppercase font-roboto font-bold text-white text-3xl    mb-6 tracking-wide md:text-xl xs:text-lg">
+            <p className="uppercase font-roboto font-bold text-white text-3xl    mb-6 tracking-wide md:text-xl xs:text-sm">
               home of cicero once,an important center of rich commerce and arts.
             </p>
-            <p className="uppercase text-white font-mono text-xl tracking-wide md:text-base whitespace-nowrap xs:text-sm">
+            <p className="uppercase text-white font-mono text-xl tracking-wide md:text-base whitespace-nowrap xs:text-xs">
               The beauty of laodiceia
             </p>
           </div>
@@ -44,7 +44,7 @@ export default function Laodikeia() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 px-2">
-            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg">
+            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg xs:text-base">
               the huge city located on trade route, an important center of
               Christianity and one of the Seven Churches of Revelation
             </h2>
@@ -58,7 +58,7 @@ export default function Laodikeia() {
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No11
               </h4>
-              <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 Laodicea was an ancient city in Asia Minor, now Turkey, on the
                 river Lycus (Çürüksu). It was located in the Hellenistic regions
                 of Caria and Lydia, which later became the Roman Province of
@@ -73,7 +73,7 @@ export default function Laodikeia() {
                 so a visit here makes for a very tranquil sightseeing
                 experience.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 The town was originally called Diospolis, "City of Zeus", and
                 afterwards Rhodas. Excavations in the northern necropolis have
                 shown that the settlement existed before the Hellenistic
@@ -94,7 +94,7 @@ export default function Laodikeia() {
                 <img src={big3} alt="object-cover w-148 h-90 " />
               </div>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 The wealth of its inhabitants engendered a taste for the arts of
                 the Greeks, as is manifest from its ruins, and that it
                 contributed to the advancement of science and literature is
@@ -109,7 +109,7 @@ export default function Laodikeia() {
                 Christianity and a bishopric.
               </p>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-5 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-5 leading-7  xs:text-base">
                 The existing remains attest to its former greatness. Its many
                 buildings include a stadium, baths, temples, a gymnasium, two
                 theatres and a bouleuterion (Senate House). On the eastern side,
@@ -130,7 +130,7 @@ export default function Laodikeia() {
                 <img src={big1} alt="object-cover w-148 h-90 " />
               </div>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 The stadium near the southern extremity of the city is in a good
                 state of preservation. The seats are arranged along two sides of
                 a narrow valley, which was taken advantage of for this purpose,

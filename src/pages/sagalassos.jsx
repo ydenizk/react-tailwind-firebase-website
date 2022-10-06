@@ -18,7 +18,7 @@ export default function Sagalassos() {
         <meta name="description" content="Home of the first city of Pisidia " />
         <link rel="canonical" href="/sagalassos" />
       </Helmet>
-      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-6 ">
+      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 xs:pb-2   xs:w-screen">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
             src={banner}
@@ -43,7 +43,7 @@ export default function Sagalassos() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 px-2">
-            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg">
+            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg xs:text-base">
               almost completely preserved, with the monumental structures
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
@@ -56,7 +56,7 @@ export default function Sagalassos() {
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No18
               </h4>
-              <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 Sagalassos is located in Ağlasun, Burdur Province, about 100 km
                 north of Antalya.In Roman Imperial times, the town was known as
                 the "first city of Pisidia", a region in the western Taurus
@@ -64,7 +64,7 @@ export default function Sagalassos() {
                 the Hellenistic period it was already one of the major Pisidian
                 towns.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 The first traces of hunter/gatherers in the territory of
                 Sagalassos date back to some 12 000 years BP.Under Phrygian and
                 Lydian domination the site gradually developed into an urban
@@ -75,7 +75,7 @@ export default function Sagalassos() {
                 region as part of his conquest of the Persian kingdom.isidia
                 changed hands many times among the successors of Alexander.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 Rapidly, under Roman Imperial rule, Sagalassos became the
                 metropolis of Pisidia. Trouble only started around 400 AD, when
                 the town had to fortify its civic centre against, among others,
@@ -89,7 +89,7 @@ export default function Sagalassos() {
                 life was replaced by a more rural way of living.
               </p>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-5 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-5 leading-7  xs:text-base">
                 Sagalassos was destroyed in mid 13th century, by which time
                 Seljuk's had already build a bath and a caravanserai in the
                 village in the valley (Ağlasun). The abandoned ancient city was
@@ -102,7 +102,7 @@ export default function Sagalassos() {
                 <img src={big} alt="object-cover w-148 h-90 " />
               </div>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 The site of Sagalassos remains almost completely preserved, with
                 the monumental structures, where in some cases almost all the
                 original building stones can be recovered. It is an exceptional
@@ -119,7 +119,7 @@ export default function Sagalassos() {
               <div className="w-148 h-90  mb-6">
                 <img src={big1} alt="object-cover w-148 h-90 " />
               </div>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 In the following centuries, erosion covered the ruins of
                 Sagalassos. It was not looted to a significant extent, possibly
                 because of its location. Explorer Paul Lucas, who was traveling

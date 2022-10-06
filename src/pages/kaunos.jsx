@@ -14,7 +14,7 @@ export default function Kaunos() {
         <link rel="canonical" href="/kaunos" />
       </Helmet>
 
-      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-6 ">
+      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 xs:pb-2   xs:w-screen">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
             src={banner}
@@ -42,7 +42,7 @@ export default function Kaunos() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 px-2 ">
-            <h2 className=" uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg">
+            <h2 className=" uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg xs:text-base">
               mysterious ruins of carians and tombs of the kings
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
@@ -57,7 +57,7 @@ export default function Kaunos() {
               </h4>
               <p
                 className=" tracking-wider font-light  font-roboto  text-lg mb-6
-               leading-7"
+               leading-7  xs:text-base"
               >
                 Kaunos was a city of ancient Caria and in Anatolia, a few
                 kilometres west of the modern town of Dalyan, Muğla Province,
@@ -75,7 +75,7 @@ export default function Kaunos() {
 
               <p
                 className="tracking-wider font-light  font-roboto  text-lg mb-6
-               leading-7"
+               leading-7  xs:text-base"
               >
                 Kaunos was an important sea port city with two ports; one is in
                 the south at the southeast of Küçük Kale (Small Castle) and the
@@ -89,7 +89,7 @@ export default function Kaunos() {
               </p>
               <p
                 className="tracking-wider font-light  font-roboto  text-lg mb-6
-               leading-7"
+               leading-7  xs:text-base"
               >
                 According to mythology Kaunos was founded by King Kaunos, son of
                 the Carian King Miletus and Kyane, and grandson of Apollo.Life
@@ -100,7 +100,7 @@ export default function Kaunos() {
                 defined the independent state boundaries of Kaunos.
               </p>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-5 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-5 leading-7  xs:text-base">
                 Kaunos is a site that is interesting for both its archeological
                 and ecological importance. Situated in the Köyceğiz-Dalyan
                 Special Environmental Protection Area, it offers outstanding
@@ -121,7 +121,7 @@ export default function Kaunos() {
 
               <p
                 className="tracking-wider font-light  font-roboto  text-lg mb-6
-               leading-7"
+               leading-7  xs:text-base"
               >
                 The Acropolis (Persikon), situated on a 152 m high rock,
                 fortified with Byzantine walls.The theater on the slope of the
@@ -135,7 +135,7 @@ export default function Kaunos() {
               </p>
               <p
                 className="tracking-wider font-light  font-roboto  text-lg mb-6
-               leading-7"
+               leading-7  xs:text-base"
               >
                 The port agora is located at the flat area in front of Sülüklü
                 Lake.It dates back to the 4th century BC and kept its function
@@ -155,7 +155,7 @@ export default function Kaunos() {
 
               <p
                 className="tracking-wider font-light  font-roboto  text-lg mb-6
-               leading-7"
+               leading-7  xs:text-base"
               >
                 Kaunos is located at Dalyan-Köyceğiz of Muğla province. The best
                 way to get Kaunos ancient city is by the rowing boat service

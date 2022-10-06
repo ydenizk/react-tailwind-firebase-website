@@ -21,7 +21,7 @@ export default function Pergamon() {
         <link rel="canonical" href="/pergamon" />
       </Helmet>
 
-      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-6 ">
+      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 xs:pb-2   xs:w-screen ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
             src={banner}
@@ -46,7 +46,7 @@ export default function Pergamon() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 px-2">
-            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg ">
+            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg xs:text-base ">
               UNIQUE CULTURE, healing sanctuary and one of the most important
               libraries in the ancient world.
             </h2>
@@ -60,7 +60,7 @@ export default function Pergamon() {
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No16
               </h4>
-              <p className=" tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className=" tracking-wider font-light  font-roboto  text-lg mb-4 leading-7  xs:text-base">
                 Pergamon or Pergamum was a rich and powerful ancient Greek city
                 in the northwest of Asia Minor. It is located 26 kilometres from
                 the modern coastline of the Aegean Sea on and northwest of the
@@ -77,7 +77,7 @@ export default function Pergamon() {
               <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
                 history of pergamon
               </h2>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7  xs:text-base">
                 Settlement of Pergamon can be detected as far back as the
                 Archaic period, thanks to modest archaeological finds,
                 especially fragments of pottery imported from the west,
@@ -97,7 +97,7 @@ export default function Pergamon() {
                 province, and had around 200,000 inhabitants.
               </p>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-5 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-5 leading-7  xs:text-base">
                 During the Byzantine Period due to the relocation of the trade
                 roads and political centres from the Aegean Region to northwest
                 Anatolia, especially to İstanbul (Constantinople), Pergamon was
@@ -119,7 +119,7 @@ export default function Pergamon() {
                 <img src={big1} alt="object-cover w-148 h-90 " />
               </div>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7  xs:text-base">
                 Pergamon is associated with important people, schools, ideas and
                 traditions concerning art, architecture, planning, religion and
                 science. The Pergamon sculpture school contributed the ‘Pergamon
@@ -133,7 +133,7 @@ export default function Pergamon() {
               <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
                 Ancient buildings,library and pergamon altar
               </h2>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7  xs:text-base">
                 The Attalids made the city of Pergamum one of the most important
                 and beautiful of all Greek cities in the Hellenistic Age; it is
                 one of the most outstanding examples of city planning in that
@@ -153,7 +153,7 @@ export default function Pergamon() {
               <div className="w-148 h-90  mb-4">
                 <img src={big2} alt="object-cover w-148 h-90 " />
               </div>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7  xs:text-base">
                 The well-preserved Theatre of Pergamon dates from the
                 Hellenistic period and had space for around 10,000 people.
                 Additional theatres were built in the Roman period, one in the
@@ -169,7 +169,7 @@ export default function Pergamon() {
                 <img src={big3} alt="object-cover w-148 h-83 " />
               </div>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg my-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg my-4 leading-7  xs:text-base">
                 The Library of Pergamon was the second largest in the ancient
                 Greek world after the Library of Alexandria, containing at least
                 200,000 scrolls. The location of the library building is not
@@ -183,7 +183,7 @@ export default function Pergamon() {
               <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
                 how to get pergamon ancient city?
               </h2>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7  xs:text-base">
                 Pergamon is located in Bergama town of Izmir province(108 kms
                 away) and it is pretty easy to go with a car or public
                 transportation.

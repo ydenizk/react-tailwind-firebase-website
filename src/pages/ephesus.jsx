@@ -22,7 +22,7 @@ export default function Ephesus() {
         <link rel="canonical" href="/ephesus" />
       </Helmet>
 
-      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-6 ">
+      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 xs:pb-2   xs:w-screen ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
             src={banner}
@@ -47,7 +47,7 @@ export default function Ephesus() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 px-2 ">
-            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg ">
+            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg xs:text-base ">
               outstanding example of a Roman port city, with sea channel and
               harbour basin.And Temple of Artemis as one of the seven wonders.
             </h2>
@@ -61,7 +61,7 @@ export default function Ephesus() {
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No07
               </h4>
-              <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7 xs:text-base">
                 Ephesus,on the cost of Ionia, is the most important Greek city
                 in Ionian Asia Minor, the ruins of which lie near the modern
                 village of Selƈuk of İzmir province in western Turkey.The city
@@ -75,7 +75,7 @@ export default function Ephesus() {
                 Kuşadası. In 2015, the ruins were designated a UNESCO World
                 Heritage Site.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7 xs:text-base">
                 In Roman times it was situated on the northern slopes of the
                 hills Coressus and Pion and south of the Cayster (Küçükmenderes)
                 River, the silt from which has since formed a fertile plain but
@@ -95,7 +95,7 @@ export default function Ephesus() {
               <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
                 History
               </h2>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7 xs:text-base">
                 Humans had begun inhabiting the area surrounding Ephesus by the
                 Neolithic Age (about 6000 BC), as shown by evidence from
                 excavations at the nearby höyük (artificial mounds known as
@@ -116,7 +116,7 @@ export default function Ephesus() {
                 Actium with Octavius.
               </p>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-5 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-5 leading-7 xs:text-base">
                 Ephesus became under Augustus the first city of the Roman
                 province of Asia.The triumphal arch of 3 BCE and the aqueduct of
                 4–14 CE initiated that long series of public buildings,
@@ -137,7 +137,7 @@ export default function Ephesus() {
                 <img src={big} alt="object-cover w-148 h-90 " />
               </div>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7 xs:text-base">
                 Ephesians were incorporated as vassals into the Ottoman Empire
                 for the first time in 1390.After a period of unrest, the region
                 was again incorporated into the Ottoman Empire in 1425. Ephesus
@@ -167,7 +167,7 @@ export default function Ephesus() {
               <div className="w-148 h-53  mb-6">
                 <img src={big1} alt="object-cover w-148 h-53 " />
               </div>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7 xs:text-base">
                 The Temple of Artemis, one of the Seven Wonders of the Ancient
                 World,is a magnificent structure took 120 years to build but is
                 now represented only by one inconspicuous column, revealed
@@ -191,7 +191,7 @@ export default function Ephesus() {
                 <img src={big2} alt="object-cover w-148 h-111 " />
               </div>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg my-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg my-4 leading-7 xs:text-base">
                 The library is considered an architectural marvel, and is one of
                 the only remaining examples of a library from the Roman Empire.
                 The Library of Celsus was the third-largest library in the Roman
@@ -208,7 +208,7 @@ export default function Ephesus() {
               <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
                 How to get Ephesus Ancient City?
               </h2>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7 xs:text-base">
                 Ephesus,15 minutes away from Selçuk,1 hours away from İzmir
                 province,is located in a pretty central area. You can get to
                 Ephesus Ancient City by dolmushes from Selcuk bus station.You

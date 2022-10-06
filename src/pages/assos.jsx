@@ -16,7 +16,7 @@ export default function Assos() {
         <link rel="canonical" href="/assos" />
       </Helmet>
 
-      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-10 ">
+      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 xs:pb-2   xs:w-screen ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
             src={banner}
@@ -41,7 +41,7 @@ export default function Assos() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 mx-2">
-            <h2 className="mb-6 text-2xl tracking-widest font-semibold uppercase md:text-lg">
+            <h2 className="mb-6 text-2xl tracking-widest font-semibold uppercase md:text-lg xs:text-base">
               Temple of Goddess Athena, the protector of Assos Ancient city
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
@@ -54,13 +54,13 @@ export default function Assos() {
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No05
               </h4>
-              <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 Assos,ancient Greek city of Troas,located on the coast of what
                 is now northwestern Turkey, with the island of Lesbos lying
                 about 7 miles (11 km) offshore to the south. During Pliny the
                 Elder's time the city also bore the name Apollonia.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 The city was founded from 1000 to 900 BC by Aeolian colonists
                 from Lesbos, who specifically are said to have come from
                 Methymna. Assus came under the rule of the Persians and later of
@@ -68,7 +68,7 @@ export default function Assos() {
                 subsequently was ruled by the Macedonian general Lysimachus, the
                 kings of Pergamum, and Rome.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 St. Paul also visited the city during his third missionary
                 journey through Asia Minor, which was between 53-57 AD, on his
                 way to Lesbos. From this period onwards, Assos shrunk to a small
@@ -79,7 +79,7 @@ export default function Assos() {
                 includes pictures both of mythical creatures and heraldic
                 events.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 The most striking structure in the acropolis is the Temple of
                 Athena in the part of the inner castle during the Byzantine
                 period. Only 5-6 columns have survived from this structure,
@@ -87,7 +87,7 @@ export default function Assos() {
                 which does not have much detail on the architectural texture and
                 is generally used to be seen in the Greece.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 The theatre, which was located on the south of the agora on a
                 slope overlooking the Aegean Sea, was built on a stepped terrace
                 formed by cutting the surrounding conglomerate rock. The
@@ -102,7 +102,7 @@ export default function Assos() {
                 a Platonic school of Aristotle
               </h2>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 Assos is the city where the great philosopher Aristotle taught
                 philosophy and wrote some of his books. Its importance in the
                 history of philosophy as well as for its natural beauty and
@@ -113,7 +113,7 @@ export default function Assos() {
                 topography, layout and preservation make this Greek city unique
                 among its counterparts.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 Aristotle and the members of his group carried out observations
                 in Assos, particularly in zoology and biology. Aristotle
                 probably began his work “Politics” in Assos as well as “On

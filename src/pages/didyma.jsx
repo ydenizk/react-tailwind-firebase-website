@@ -16,7 +16,7 @@ export default function Didyma() {
         <link rel="canonical" href="/didyma" />
       </Helmet>
 
-      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-10 ">
+      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 xs:pb-2   xs:w-screen ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
             src={banner}
@@ -41,7 +41,7 @@ export default function Didyma() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 px-2 ">
-            <h2 className=" uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg ">
+            <h2 className=" uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg xs:text-base ">
               home to both of the temples dedicated to the twins Apollo and
               Artemis
             </h2>
@@ -55,7 +55,7 @@ export default function Didyma() {
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No06
               </h4>
-              <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 Didyma was an ancient Greek sanctuary on the coast of Ionia in
                 the domain of the famous city of Miletus.The ruins of Didyma are
                 located a short distance to the northwest of modern Didim in
@@ -67,7 +67,7 @@ export default function Didyma() {
                 world.The Didymaion was well renowned in antiquity because of
                 its famed oracle.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 The Didymaion, the temple of Apollo and its oracle at Didyma,
                 had a considerable reputation in the ancient times. The temple's
                 oracle, second in importance only to that at Delphi, played a
@@ -77,7 +77,7 @@ export default function Didyma() {
                 Diocletian (244-313 CE) visited or sent delegations to this
                 oracle seeking the guidance and favor of Apollo
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 The linear distance between Miletus and Didyma measures some 16
                 km. As well as the simple footway there also existed a Sacred
                 Way between the city and its sanctuary which measured some 20 km
@@ -89,7 +89,7 @@ export default function Didyma() {
               <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
                 The Significance of Didyma
               </h2>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-5 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-5 leading-7  xs:text-base">
                 In a world where “church and state” were inseparable, the Temple
                 of Apollo at Didyma played a critical role in the religious and
                 political life of ancient Miletus. The temple complex served as
@@ -112,7 +112,7 @@ export default function Didyma() {
                 <img src={big} alt="object-cover w-148 h-90 " />
               </div>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 Medusa is one of the most important symbols of Didyma which is
                 exhibited at the entrance of the Temple of Apollo. According to
                 the belief, Medusa, a beautiful young girl in her youth, was
@@ -128,7 +128,7 @@ export default function Didyma() {
               <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
                 The temple of Apollo and The temple of artemis
               </h2>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 The Hellenistic temple had two predecessors. The first sacred
                 building dedicated to Apollo was erected around 700 BC.The
                 oldest temple of Apollo surrounded the sacred spring and the
@@ -144,7 +144,7 @@ export default function Didyma() {
                 be seen. What can be seen is a collasal, unfinished Ionic
                 temple.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 The foundations of the temple of Artemis were discovered in 2013
                 directly behind the mosque and former Greek Orthodox church of
                 Saint Charalambos 100 m north of the temple of Apollo. In
@@ -165,7 +165,7 @@ export default function Didyma() {
               <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
                 how to get ancient city Didyma?
               </h2>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 Didyma,2 hours away from Aydın province, is located in Didim
                 where is a famous and well-known touristic spot on Turkish
                 riviera . There are plenty of options to get to place

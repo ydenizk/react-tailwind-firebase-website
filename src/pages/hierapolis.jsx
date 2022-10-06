@@ -22,7 +22,7 @@ export default function Hierapolis() {
         <link rel="canonical" href="/hiearapolis" />
       </Helmet>
 
-      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-8 ">
+      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 xs:pb-2   xs:w-screen ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
             src={banner}
@@ -47,7 +47,7 @@ export default function Hierapolis() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 ">
-            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg ">
+            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg xs:text-base ">
               The combination of striking natural formations and the development
               of a complex system of canals
             </h2>
@@ -61,7 +61,7 @@ export default function Hierapolis() {
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No08
               </h4>
-              <p className=" tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className=" tracking-wider font-light  font-roboto  text-lg mb-4 leading-7  xs:text-base">
                 Hierapolis, modern Pamukkale, ancient Phrygian city in
                 southwestern Turkey, about 6 miles (10 km) north of the ruins of
                 Laodicea,is located on hot springs in classical Phrygia in
@@ -74,7 +74,7 @@ export default function Hierapolis() {
                 and rod mechanism, and the Tomb of Philip the Apostle. It was
                 added as a UNESCO World Heritage Site in 1988.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7  xs:text-base">
                 The Phrygians built a temple on the site probably in the first
                 half of the 7th century BC.Hierapolis was founded as a thermal
                 spa early in the 2nd century BC within the sphere of the
@@ -97,7 +97,7 @@ export default function Hierapolis() {
               <div className="w-148 h-90  mb-4">
                 <img src={big3} alt="object-cover w-148 h-90 " />
               </div>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7  xs:text-base">
                 Hierapolis was first excavated by the German archaeologist Carl
                 Humann during June and July 1887. His excavation notes were
                 published in his 1889 book Altertümer von Hierapolis. His
@@ -129,7 +129,7 @@ export default function Hierapolis() {
                 Necropolis and other ancient buildings
               </h2>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7  xs:text-base">
                 Necropolis is one of the best preserved in Turkey. Most of about
                 the 1,200 tombs were constructed with local varieties of
                 limestone, though marble has been used, as well. Most tombs date
@@ -141,7 +141,7 @@ export default function Hierapolis() {
                 status.There are many architectural grave monuments in
                 Hierapolis and they show different architectural techniques.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7  xs:text-base">
                 A temple was raised to Apollo Lairbenos, the town's principal
                 god during the late Hellenistic period.New temple was
                 reconstructed in the 3rd century in Roman fashion, recycling the
@@ -151,7 +151,7 @@ export default function Hierapolis() {
               <div className="w-148 h-90  mb-4">
                 <img src={big2} alt="object-cover w-148 h-90 " />
               </div>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7  xs:text-base">
                 The Theatre was probably constructed under the reign of Hadrian
                 after the earthquake of 60 AD.Sculptural reliefs, displaying
                 mythological subjects, were placed on the different storeys,
@@ -167,7 +167,7 @@ export default function Hierapolis() {
                 restorations between 2004 and 2014.
               </p>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg my-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg my-4 leading-7  xs:text-base">
                 The great baths were centred upon the natural thermal pools and
                 were one of the biggest buildings of Hierapolis.Especially in
                 the period of the Roman Empire, Hierapolis and its site were a
@@ -181,7 +181,7 @@ export default function Hierapolis() {
               <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
                 How to get Hierapolis Ancient City?
               </h2>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7  xs:text-base">
                 Hierapolis is located near (18km ) the Denizli province . The
                 easiest way to get to Pamukkale is to arrive from Denizli bus
                 station.If you arrive from elsewhere in Turkey by road you will

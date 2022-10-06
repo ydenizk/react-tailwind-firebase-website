@@ -22,7 +22,7 @@ export default function Patara() {
         <link rel="canonical" href="/patara" />
       </Helmet>
 
-      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-10 ">
+      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 xs:pb-2   xs:w-screen ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
             src={banner}
@@ -49,7 +49,7 @@ export default function Patara() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 px-2">
-            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg">
+            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg xs:text-base">
               Lighthouse of patara is believed to the oldest one in the world
               and was built in 60 AD.
             </h2>
@@ -63,14 +63,14 @@ export default function Patara() {
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No14
               </h4>
-              <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 Patara was an ancient and flourishing maritime and commercial
                 city, capital of Lycia, on the south-west coast of Turkey near
                 the modern small town of Gelemiş,Kalkan in Antalya Province.t is
                 the birthplace of Saint Nicholas in 270 AD, who lived most of
                 his life in the nearby town of Myra (Demre).
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 In myth, Patara was said to have been founded by Patarus a son
                 of Apollo. Ancient writers mentioned Patara as one of the
                 principal cities of Lycia. It was Lycia's primary seaport, and a
@@ -83,7 +83,7 @@ export default function Patara() {
                 BC and it became the capital of Lycia. The Lycian League was
                 formally established in 176 BC.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 In the 5th century AD the city was reduced in size through the
                 construction of a strong fortification wall adjoining the
                 Bouleuterion using stone from the nearby structures.he city
@@ -96,7 +96,7 @@ export default function Patara() {
                 Ancient buildings
               </h2>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-5 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-5 leading-7  xs:text-base">
                 The theatre was rebuilt under Antoninus Pius in 147 AD after an
                 earthquake;its diameter is 265 feet, and held about 6000
                 spectators.The Bouleuterion or prytaneion is well-preserved and
@@ -111,14 +111,14 @@ export default function Patara() {
                 <img src={big1} alt="object-cover w-148 h-90 " />
               </div>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 The lighthouse stood at the entrance to the major naval and
                 trading port of Lycia, which had an outer and an inner harbour.
                 It was built in 60 AD during the reign of Nero, according to an
                 inscription, and is one of the oldest surviving.The site of the
                 oracle and temple of Apollo have not been found.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 Sadly, it is getting harder for these tribesmen to do business.
                 Camel trading has declined in recent years; whereas 30,000
                 animals might have changed hands at Pushkar in decades past,

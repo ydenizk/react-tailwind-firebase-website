@@ -18,12 +18,15 @@ export default function Aspendos() {
         <link rel="canonical" href="/aspendos" />
       </Helmet>
 
-      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-8 ">
-        <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
+      <header
+        className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 
+      relative top-16 pb-8 xs:pb-2   xs:w-screen "
+      >
+        <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100    ">
           <img
             src={banner}
             alt="nature-2"
-            className="object-cover w-288 max-h-145 h-145 brightness-75 opacity-90 "
+            className="object-cover w-288 max-h-145 h-145 brightness-75 opacity-90   "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
             <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider md:text-xl xs:text-sm">
@@ -36,14 +39,13 @@ export default function Aspendos() {
               The beauty of Aspendos
             </p>
           </div>
-          s
         </div>
       </header>
       <div className="  flex justify-center align-center bg-neutral-100 relative my-24">
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 px-2">
-            <h2 className="mb-6 text-2xl tracking-widest font-semibold uppercase md:text-lg ">
+            <h2 className="mb-6 text-2xl tracking-widest font-semibold uppercase md:text-lg xs:text-base ">
               a surreal atmosphere of ancient ruins and great sounds of
               acoustics of theater
             </h2>
@@ -57,7 +59,7 @@ export default function Aspendos() {
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No04
               </h4>
-              <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7 xs:text-base">
                 Aspendos or Aspendus was an ancient Greco-Roman city in Antalya
                 province of Turkey. The site is located 40 km east of the modern
                 city of Antalya.In antiquity, Aspendos was probably the most
@@ -65,7 +67,7 @@ export default function Aspendos() {
                 came under Roman control in 190 BCE and reached its epoch during
                 the Roman period, when trade and commerce flourished here.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7 xs:text-base">
                 Aspendos did not play an important role in antiquity as a
                 political force. Its political history during the colonisation
                 period corresponded to the currents of the Pamphylian region.The
@@ -82,7 +84,7 @@ export default function Aspendos() {
               <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
                 Ancient buildings and Aspendos Theater
               </h2>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7 xs:text-base">
                 Aspendos' theater is one of the largest ever built by the Romans
                 in Asia Minor(Anatolia), and today it is one of the best
                 preserved examples of Roman theater architecture.It was built in
@@ -101,7 +103,7 @@ export default function Aspendos() {
                 participation of opera and ballet companies and an audience of
                 about 10,000.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-8 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-8 leading-7 xs:text-base">
                 Although mainly known for its theatre by the general public and
                 visitors, Aspendos‟ aqueducts, with their two unique siphons,
                 have been a source of extreme fascination for researchers.Just

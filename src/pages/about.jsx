@@ -23,7 +23,7 @@ export default function About() {
         </Helmet>
 
         <div className="max-w-6xl  w-full p-0 bg-neutral-100 ">
-          <h1 className="mt-24 mb-36 w-full font-garamond text-4xl tracking-wide text-center px-4 md:text-3xl xs:text-2xl   ">
+          <h1 className="mt-24 mb-36 w-full font-garamond text-4xl tracking-wide text-center px-4 md:text-3xl xs:text-xl  xs:mb-24  ">
             Ancient Asia Minor is an independent individual initiative to
             promote ancient sites and cities of various civilizations that lived
             in Asia Minor throughout centuries.Remembering most of these

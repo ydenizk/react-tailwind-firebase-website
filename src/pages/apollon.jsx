@@ -18,7 +18,7 @@ export default function Apollon() {
         />
         <link rel="canonical" href="/apollon" />
       </Helmet>
-      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-10 ">
+      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 xs:pb-2   xs:w-screen ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
             src={apollon}
@@ -26,13 +26,13 @@ export default function Apollon() {
             className="object-cover w-288 max-h-145 h-145  "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center ">
-            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider md:text-xl xs:text-lg">
+            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider md:text-xl xs:text-sm">
               No <span className="font-roboto font-medium">03</span>
             </h2>
-            <p className=" font-roboto font-bold text-white text-4xl   mb-6 tracking-wide lg:text-2xl  sm:text-xl  xs:text-lg">
+            <p className=" font-roboto font-bold text-white text-4xl   mb-6 tracking-wide lg:text-2xl  sm:text-xl  xs:text-sm">
               HOME OF THE TEMPLE OF APOLLO SMINTHEION
             </p>
-            <p className="uppercase text-white font-mono text-lg tracking-wide md:text-base whitespace-nowrap">
+            <p className="uppercase text-white font-mono text-lg tracking-wide md:text-base xs:text-sm whitespace-nowrap">
               The beauty of Appollo Smintheus
             </p>
           </div>
@@ -43,7 +43,7 @@ export default function Apollon() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 px-2 ">
-            <h2 className="mb-6 text-2xl tracking-widest font-semibold uppercase md:text-lg">
+            <h2 className="mb-6 text-2xl tracking-widest font-semibold uppercase md:text-lg xs:text-base">
               cult centers of Troas in ancient times
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
@@ -56,7 +56,7 @@ export default function Apollon() {
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No03
               </h4>
-              <p className=" tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className=" tracking-wider font-light  font-roboto  text-lg mb-4 leading-7 xs:text-base">
                 Hamaxitus(or better known name as Appollo Smintheus) has been
                 located on a rise called Beşiktepe near the village of Gülpınar
                 in the Ayvacık district of Çanakkale Province, Turkey.The city's
@@ -66,7 +66,7 @@ export default function Apollon() {
                 south-west of the Troas region of Anatolia which was considered
                 to mark the boundary between the Troas and Aeolia.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7 xs:text-base">
                 All foundation myths about Hamaxitus in Classical Antiquity were
                 related to the foundation of the nearby temple of Apollo
                 Smintheus. Hamaxitus is believed to have first been settled by
@@ -85,7 +85,7 @@ export default function Apollon() {
                 the settlement of Hamaxitus had long since declined.
               </p>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7 xs:text-base">
                 The settlement at Hamaxitus appears to have survived at least
                 until the early Roman period following its synoecism with
                 Alexandreia Troas (the city had been renamed from Antigoneia
@@ -97,7 +97,7 @@ export default function Apollon() {
                 Sanctuary of Apollo Smintheus to the town of Alexandria Troas,
                 35 kilometers north.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7 xs:text-base">
                 The temple was first made known to the world of archaeology by
                 Jean Baptista Le Chevalier in 1785 when he saw some remains of
                 the temple as he was traveling from Lectum-Babakale to
@@ -112,7 +112,7 @@ export default function Apollon() {
                 <img src={big} alt="object-cover w-148 max-h-166 " />
               </div>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg my-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg my-4 leading-7 xs:text-base">
                 The Temple of Apollonn Smintheus also attacks attention with its
                 architectural design and style as well as embossings from
                 Homer's Iliad Epic for the Hellenistic period. The temple, which
@@ -123,7 +123,7 @@ export default function Apollon() {
                 How to get hamaxitus Ancient City?
               </h2>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7 xs:text-base">
                 Hamaxitus(or as commonly used Apollonn Smintheus ) is located in
                 Gürpınar village, 1 hour from Troia and 1.5 hours away from
                 Çanakkale.As the location is far from the main roads,only public

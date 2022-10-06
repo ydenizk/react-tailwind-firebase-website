@@ -21,7 +21,7 @@ export default function Priene() {
         />
         <link rel="canonical" href="/priene" />
       </Helmet>
-      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-8 ">
+      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 xs:pb-2   xs:w-screen ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
             src={banner}
@@ -49,7 +49,7 @@ export default function Priene() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 ">
-            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg ">
+            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg xs:text-base ">
               a port city situated at the mouth of the Maeander(Menderes)
             </h2>
             <div className="w-24 bg-black h-0.5 my-0 mx-auto"></div>
@@ -62,7 +62,7 @@ export default function Priene() {
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No17
               </h4>
-              <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 Priene was an ancient Greek city of Ionia (and member of the
                 Ionian League) located 6 kilometres (3.7 mi) north of what was
                 then the course of the Maeander River (now called the Büyük
@@ -75,7 +75,7 @@ export default function Priene() {
                 of information about ancient Greek town planning.
               </p>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 Priene is known to have been the site of high-quality
                 Hellenistic art and architecture. The city's original position
                 on Mount Mycale has never been discovered; however, it is
@@ -91,7 +91,7 @@ export default function Priene() {
                 importantly, the Temple of Athena.
               </p>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-5 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-5 leading-7  xs:text-base">
                 The city visible on the slopes and escarpment of Mycale was
                 constructed according to plan entirely during the 4th century
                 BCE. The original Priene had been a port city situated at the
@@ -104,7 +104,7 @@ export default function Priene() {
                 <img src={big} alt="object-cover w-148 h-90 " />
               </div>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 The Greek city (there may have been unknown habitations of other
                 ethnicities, as at Miletus) was founded by a colony from the
                 ancient Greek city of Thebes in the vicinity of ancient Aneon at
@@ -126,7 +126,7 @@ export default function Priene() {
               <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
                 Ancient buildings
               </h2>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 The city’s remains lie on successive terraces that rise from a
                 plain to a steep hill upon which stands the Temple of Athena
                 Polias. Priene is laid out on a grid plan, with 6 main streets
@@ -143,7 +143,7 @@ export default function Priene() {
               <div className="w-148 h-90  mb-6">
                 <img src={big1} alt="object-cover w-148 h-90 " />
               </div>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 The ruins, which fell on the successive terraces where they were
                 built, were the object of investigatory missions sent out by the
                 English Society of Dilettanti in 1765 and 1868. They were
@@ -154,7 +154,7 @@ export default function Priene() {
                 <img src={big2} alt="object-cover w-148 h-90 " />
               </div>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg my-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg my-4 leading-7  xs:text-base">
                 Priene was a wealthy city, as the plenitude of fine urban homes
                 in marble and the private dedications of public buildings
                 suggests. In addition, historical references to the interest of
@@ -171,7 +171,7 @@ export default function Priene() {
               <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
                 How to get priene Ancient City?
               </h2>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 Priene is located on the town of Güllübahçe,15 km way from
                 Didim,34 km south of Kuşadası and 54 km south of Selçuk and
                 Ephesus by way of Söke.

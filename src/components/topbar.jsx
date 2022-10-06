@@ -57,7 +57,7 @@ const Topbar = ({ scrollRef }) => {
 
   return (
     <>
-      <div className="bg-neutral-200  shadow fixed top-0 w-full  z-50">
+      <div className="bg-neutral-200  shadow fixed top-0 w-full  z-50 xs:w-screen ">
         <div
           className="w-full h-20 bg-neutral-200 flex justify-between 
              items-center px-2.5 max-w-6xl my-0 mx-auto    md:flex-col md:h-36 md:pt-2"

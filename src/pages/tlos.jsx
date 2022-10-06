@@ -21,7 +21,7 @@ export default function Troia() {
         />
         <link rel="canonical" href="/tlos" />
       </Helmet>
-      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-6 ">
+      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 xs:pb-2   xs:w-screen ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
             src={banner}
@@ -46,7 +46,7 @@ export default function Troia() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 px-2">
-            <h2 className=" uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg ">
+            <h2 className=" uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg xs:text-base ">
               most glamorous metropolis of Lycian Union and a sports center of
               the Federation.
             </h2>
@@ -71,7 +71,7 @@ export default function Troia() {
               <div className="w-148 h-90  mb-6">
                 <img src={big} alt="object-cover w-148 h-90 " />
               </div>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 Archaeological remains from the city centre and at nearby sites
                 (the caves at Girmeler and Tavabaşı) suggest that the foundation
                 of the city started more than 4,000 years ago.Tlos seemingly
@@ -83,7 +83,7 @@ export default function Troia() {
                 the Lycian League to which in 168 BC Rome granted autonomy
                 instead of dependence on Rhodes.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 Regular excavations have been undertaken by an interdisciplinary
                 team since 2005.The influence of many cultures upon Tlos has
                 resulted in a patchwork of buildings dominated by an acropolis
@@ -99,7 +99,7 @@ export default function Troia() {
                 <img src={big1} alt="object-cover w-148 h-90 " />
               </div>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 At the foot of the hill is a stadium with seating capacity for
                 2,500 people. It dates from the Hellenistic period with
                 additions and alterations from the Roman period.There are two
@@ -110,7 +110,7 @@ export default function Troia() {
                 three rooms but does not have the plan of a typical Lycian
                 baths.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 Most famous Lycian tomb is the tomb of Bellerophon nestled at
                 the bottom of the hill base. It is believed that this is the
                 family tomb of Tlos royal dynasties and its genus comes from the
@@ -127,7 +127,7 @@ export default function Troia() {
               <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
                 How to get tlos Ancient City?
               </h2>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 Tlos,42 km away from Fethiye town of Muğla province,is in a
                 village called Yaka. You can find regular minubuses from fethiye
                 to Yaka.You can reach to Tlos by private car in 30 minutes from

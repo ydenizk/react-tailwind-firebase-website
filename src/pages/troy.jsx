@@ -24,7 +24,7 @@ export default function Troy() {
         />
         <link rel="canonical" href="/troy" />
       </Helmet>
-      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-8 ">
+      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 xs:pb-2   xs:w-screen ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
             src={banner}
@@ -32,17 +32,17 @@ export default function Troy() {
             className="object-cover w-288 max-h-145 h-145  "
           />
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  text-center  ">
-            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider md:xl">
+            <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider md:xl xs:text-base">
               No <span className="font-roboto font-medium">21</span>
             </h2>
-            <p className="uppercase font-roboto font-bold text-white text-3xl  whitespace-nowrap mb-1 tracking-wide  md:text-xl sm:text-lg">
-              HOME OF one of the most famous ancient
+            <p
+              className="uppercase font-roboto font-bold text-white text-3xl   mb-1 tracking-wide  
+            md:text-xl sm:text-lg xs:text-base"
+            >
+              HOME OF one of the most famous ancient sites in history
             </p>
-            <p className="uppercase font-roboto font-bold text-white text-3xl  whitespace-nowrap mb-6 tracking-wide md:text-xl sm:text-lg ">
-              sites in history
-            </p>
-
-            <p className="uppercase text-white font-mono text-lg tracking-wide md:text-base">
+          
+            <p className="uppercase text-white font-mono text-lg whitespace-nowrap tracking-wide md:text-base xs:text-sm">
               The beauty of troy
             </p>
           </div>
@@ -67,7 +67,7 @@ export default function Troy() {
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No21
               </h4>
-              <p className=" tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className=" tracking-wider font-light  font-roboto  text-lg mb-4 leading-7  xs:text-base">
                 Troy was an ancient city located at Hisarlik in present-day
                 Turkey, 30 kilometres south-west of Çanakkale,that holds an
                 enduring place in both literature and archaeology.It is known as
@@ -78,7 +78,7 @@ export default function Troy() {
               <div className="w-148 h-90  mb-4">
                 <img src={big} alt="object-cover w-148 h-90 " />
               </div>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7  xs:text-base">
                 In Ancient Greek literature, Troy is portrayed as a powerful
                 kingdom of the Heroic Age, a mythic era when monsters roamed the
                 earth and gods interacted directly with humans. The city was
@@ -89,7 +89,7 @@ export default function Troy() {
                 as well as numerous other poems and plays. Its legacy played a
                 large role in Greek society,
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7  xs:text-base">
                 Until the late 19th century, scholars regarded the Trojan War as
                 entirely legendary. However, starting in 1871, Heinrich
                 Schliemann and Frank Calvert excavated the site of the classical
@@ -107,7 +107,7 @@ export default function Troy() {
                 trade and the transmission of knowledge.
               </p>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-5 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-5 leading-7  xs:text-base">
                 24 excavation campaigns, spread over the past 140 years, have
                 revealed many features from all the periods of occupation in the
                 citadel and the lower town. These include 23 sections of the
@@ -123,7 +123,7 @@ export default function Troy() {
                 <img src={big1} alt="object-cover w-148 h-111 " />
               </div>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7  xs:text-base">
                 The archaeological site of Troy is of immense significance in
                 the understanding of the development of European civilization at
                 a critical stage in its early development. It documents an
@@ -133,7 +133,7 @@ export default function Troy() {
                 between Anatolia, the Aegean, and the Balkans, given its
                 location at a point where the three cultures met.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7  xs:text-base">
                 As for the doubs about the exact location of Troy,no other city
                 has been found in this area that fits the size and
                 description,that is why experts are confident these are the ruin
@@ -141,7 +141,7 @@ export default function Troy() {
                 The Ilıad.Also the city was right by the beach but it is totally
                 solved now that the sea has retreated approx. 6 kms now.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7  xs:text-base">
                 The Turkish government created the Historical National Park at
                 Troy on September 30, 1996. It contains 136 square kilometres to
                 include Troy and its vicinity, centered on Troy. The purpose of
@@ -162,7 +162,7 @@ export default function Troy() {
               <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
                 How to get troy Ancient City?
               </h2>
-              <p className="tracking-wider font-light  font-roboto  text-lg my-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg my-4 leading-7  xs:text-base">
                 Troy is located 32 km away from Çanakkale(Dardanelles) province
                 on the aegean cost of Turkey. As it is one of the top spots in
                 region,there are plenty of options to come Troy by car,by direct

@@ -24,7 +24,8 @@ export default function Perga() {
         <link rel="canonical" href="/perga" />
       </Helmet>
 
-      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 pb-10 ">
+      <header className=" flex justify-center align-center  max-w-6xl  my-0 mx-auto bg-neutral-100 relative top-16 xs:pb-2  
+       xs:w-screen ">
         <div className="w-288 h-145 max-h-145 mx-6   relative  pt-6    bg-neutral-100     ">
           <img
             src={banner}
@@ -35,10 +36,10 @@ export default function Perga() {
             <h2 className="font-roboto font-medium text-white text-3xl mb-2 tracking-wider md:text-xl xs:text-base">
               No <span className="font-roboto font-medium">15</span>
             </h2>
-            <p className="uppercase font-roboto font-bold text-white text-3xl mb-6 tracking-wide md:text-xl xs:text-base ">
+            <p className="uppercase font-roboto font-bold text-white text-3xl mb-6 tracking-wide md:text-xl xs:text-sm ">
               HOME OF one of the largest ancient settlements
             </p>
-            <p className="uppercase text-white font-mono text-lg tracking-wide md:text-base whitespace-nowrap">
+            <p className="uppercase text-white font-mono text-lg tracking-wide md:text-base xs:text-sm whitespace-nowrap">
               The beauty of perga
             </p>
           </div>
@@ -49,7 +50,7 @@ export default function Perga() {
         <div className="max-w-4xl  w-full ">
           {/* .................... */}
           <div className="text-center mb-20 px-2">
-            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg ">
+            <h2 className="uppercase mb-6 text-2xl tracking-widest font-semibold md:text-lg xs:text-base ">
               a large greek-roman city at Pamphylia that has a great level in
               urban planning
             </h2>
@@ -63,7 +64,7 @@ export default function Perga() {
               <h4 className="tracking-wider font-bold text-lg mb-1 opacity-80">
                 No15
               </h4>
-              <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 Perga or Perge was an ancient Greek city in Anatolia, once the
                 capital of Pamphylia Secunda, now in Antalya Province on the
                 southwestern Mediterranean coast of Turkey.It was a centre of
@@ -74,7 +75,7 @@ export default function Perga() {
                 pools and which would have been remarkable even today in a
                 semi-arid area where summer temperatures reach over 30 deg. C.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 Excavations in the original settlement on the acropolis date it
                 to the early Bronze Age, 4000-3000 BC. Perge was later a
                 Pamphylian Greek city, and came under successive rule by
@@ -94,7 +95,7 @@ export default function Perga() {
                 centuries.Perga remained inhabited until the foundation of the
                 Seljuk Empire in roughly 1000.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 St. Paul the Apostle and his, companion St. Barnabas, twice
                 visited Perga as recorded in the biblical book, the Acts of the
                 Apostles, during their first missionary journey, where they
@@ -111,7 +112,7 @@ export default function Perga() {
                 Ancient buildings and excavations
               </h2>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 Excavations started in 1946 and have uncovered many monumental
                 buildings: a theatre, a stadium, palaestra, a temple of Artemis
                 and two churches.The temple of Artemis was located outside the
@@ -119,7 +120,7 @@ export default function Perga() {
                 lies outside the walls near the stadium. It is larger than those
                 of Myra and Patara.
               </p>
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
                 Perge has been dubbed as “Turkey’s second Zeugma” for the
                 alluring appearance of the mosaics that have been unearthed so
                 far. In 2003 archaeologists discovered well-preserved Greek
@@ -138,7 +139,7 @@ export default function Perga() {
                 How to get perga Ancient City?
               </h2>
 
-              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7">
+              <p className="tracking-wider font-light  font-roboto  text-lg mb-4 leading-7  xs:text-base">
                 Perge islocated 17 kms from the center of Antalya province.
                 There are 2 ways to get here.If you prefer to take a bus from
                 the center of Antalya, take bus number AC03 to the Aksu
