@@ -82,8 +82,8 @@ let navigate=useNavigate()
                             navigate(`/${pl}`);
                           }}
                           key={index}
-                          className="p-1  pl-0 whitespace-nowrap text-amber-900 font-roboto text-left text-base 
-                          tracking-wider hover:text-amber-400 transition-all xs:text-sm "
+                          className="p-1  pl-0  text-amber-900 font-roboto text-left text-base 
+                          tracking-wider hover:text-amber-400 transition-all xs:text-sm  "
                         >
                           {pl}
                         </button>
