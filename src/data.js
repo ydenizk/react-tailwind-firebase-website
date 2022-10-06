@@ -6,7 +6,7 @@ const region = [
     url: "https://drive.google.com/uc?export=view&id=1CHdBwTRPQjwoxzXB449HV0KXUhe2WS5w",
     name: "MARMARA REGION",
     text: "Located in northwestern Turkey,bordered by Greece and the Aegean sea to the west.",
-    places: ["Assos", "Troy", "Apollon Smintheion"],
+    places: ["Assos", "Troy", "A.Smintheion"],
     mapp: (
       <iframe
         src="https://my.atlistmaps.com/map/0ea3388c-6c38-4168-9a18-d6ace5dbc720?share=true"
