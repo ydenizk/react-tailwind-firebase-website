@@ -15,10 +15,7 @@ export default function About() {
       <div className="bg-neutral-100 flex justify-center align-center my-16 mt-32  ">
         <Helmet>
           <title>About</title>
-          <meta
-            name="description"
-            content="About Ancient Asia Minor"
-          />
+          <meta name="description" content="About Ancient Asia Minor" />
           <link rel="canonical" href="/about" />
         </Helmet>
 
