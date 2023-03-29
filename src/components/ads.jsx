@@ -98,7 +98,7 @@ export default function Ads({ showp, setShowP }) {
                   className="text-2xl uppercase tracking-wider font-medium absolute w-full text-center top-40 text-white  z-30 
                 lg:text-xl lg:top-32 md:top-40 sm:top-28 sm:text-lg   xs:top-1/3 xs:text-xl   "
                 >
-                  perga
+                  perge
                 </h3>
                 <p
                   className="absolute w-full text-center text-2xl uppercase font-bold  tracking-wide top-48 text-white  
@@ -108,7 +108,7 @@ export default function Ads({ showp, setShowP }) {
                   PLANNING
                 </p>
 
-                <Link to="/perga" className="z-50 absolute bottom-4 right-4">
+                <Link to="/perge" className="z-50 absolute bottom-4 right-4">
                   <FaRegClone className=" text-right   text-neutral-200 text-xl z-5  hover:text-orange-200  transition  duration-200 " />
                 </Link>
                 <img src={adsBig} className="w-190 h-112 object-cover  " />

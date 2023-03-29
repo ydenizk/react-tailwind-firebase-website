@@ -58,7 +58,6 @@ const region = [
       "Myria",
       "Aspendos",
       "Perga",
-      "Olympos",
       "Kaunos",
       "Letoon",
       "Xanthos",

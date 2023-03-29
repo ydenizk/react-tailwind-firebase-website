@@ -2,13 +2,15 @@ import React from "react";
 import Share from "./../components/share";
 
 import aphro from "./../assets/aphrodisias/aphro.jpg";
-import mid1 from "./../assets/aphrodisias/aphro-440-492.jpg";
-import mid2 from "./../assets/aphrodisias/aphro-440-492.jpeg";
+
 import big1 from "./../assets/aphrodisias/aphro-592-360.jpeg";
 import big2 from "./../assets/aphrodisias/aphro-2-592-360.jpeg";
 import big3 from "./../assets/aphrodisias/aphro-3-592-360.jpg";
+import big5 from "./../assets/aphrodisias/aphro-5-592-360.jpg";
 import big4 from "./../assets/aphrodisias/big4.jpg";
 import sideBig from "./../assets/aphrodisias/288x492.jpg";
+import sideSmall from "./../assets/aphrodisias/aphro-288-360.jpeg";
+
 import { Helmet } from "react-helmet-async";
 
 export default function Aphrodisias() {
@@ -94,13 +96,8 @@ export default function Aphrodisias() {
                 Carian, pagan, Jewish, Christian) that is abundantly articulated
                 in the site’s 2,000 surviving inscriptions.
               </p>
-              <div className="w-224 h-123 grid grid-cols-2 gap-2 mb-6">
-                <div className="w-110 h-123 ">
-                  <img src={mid1} alt="object-cover w-110 h-123 " />
-                </div>
-                <div className="w-110 h-123 ">
-                  <img src={mid2} alt="object-cover w-110 h-123 " />
-                </div>
+              <div className="w-148 h-111 mb-6 ">
+                <img src={big5} alt="object-cover w-148 max-h-111 " />
               </div>
               <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
                 Ancient buildings and Temple of Aphrodite
@@ -254,8 +251,11 @@ export default function Aphrodisias() {
               </div>
               <Share />
 
-              <div className="w-72 h-123 mt-16 mb-8 ">
+              <div className="w-72 h-123 mt-16 mb-6 ">
                 <img src={sideBig} alt="object-cover w-72 h-123 " />
+              </div>
+              <div className="w-72 h-90 mt-2 mb-8 ">
+                <img src={sideSmall} alt="object-cover w-72 h-123 " />
               </div>
             </div>
           </div>

@@ -32,7 +32,8 @@ export default function Myra() {
               No <span className="font-roboto font-medium">13</span>
             </h2>
             <p
-              className="uppercase font-roboto font-bold text-orange-100 text-3xl  whitespace-nowrap mb-6 tracking-wide lg:whitespace-normal 
+              className="uppercase font-roboto font-bold text-orange-100 text-3xl  whitespace-nowrap mb-6 tracking-wide 
+              lg:whitespace-normal 
             md:text-xl md:whitespace-normal sm:text-lg xs:text-base"
             >
               HOME OF one of the the most important towns of Lycia

@@ -55,7 +55,7 @@ export default function Assos() {
                 No05
               </h4>
               <p className=" tracking-wider font-light  font-roboto  text-lg mb-6 leading-7  xs:text-base">
-                Assos,ancient Greek city of Troas,located on the coast of what
+                Assos,ancient Greek city of Troas,located on the coast of where
                 is now northwestern Turkey, with the island of Lesbos lying
                 about 7 miles (11 km) offshore to the south. During Pliny the
                 Elder's time the city also bore the name Apollonia.

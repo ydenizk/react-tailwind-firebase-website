@@ -6,7 +6,9 @@ import big from "./../assets/hierapolis/592-360.jpg";
 import big1 from "./../assets/hierapolis/592*360.jpg";
 import big2 from "./../assets/hierapolis/592--360.jpg";
 import big3 from "./../assets/hierapolis/592x360-1.jpg";
+import big4 from "./../assets/hierapolis/592xx360.jpg";
 import sideSmall from "./../assets/hierapolis/288-288.jpg";
+import sideSmall2 from "./../assets/hierapolis/288x288.jpg";
 
 import { Helmet } from "react-helmet-async";
 
@@ -123,6 +125,9 @@ export default function Hierapolis() {
 
               <div className="w-148 h-90  mb-4">
                 <img src={big1} alt="object-cover w-148 h-90 " />
+              </div>
+              <div className="w-148 h-90  mb-4">
+                <img src={big4} alt="object-cover w-148 h-90 " />
               </div>
 
               <h2 className="mb-1  uppercase text-lg tracking-widest font-semibold">
@@ -261,6 +266,9 @@ export default function Hierapolis() {
               <Share />
               <div className="w-72 h-72 mt-16 mb-4 ">
                 <img src={sideSmall} alt="object-cover  w-72 h-72 " />
+              </div>
+              <div className="w-72 h-72 mt-4 mb-4 ">
+                <img src={sideSmall2} alt="object-cover  w-72 h-72 " />
               </div>
             </div>
           </div>

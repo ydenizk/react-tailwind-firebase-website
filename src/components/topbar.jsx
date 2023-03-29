@@ -258,11 +258,11 @@ const Topbar = ({ scrollRef }) => {
                     <li className="p-2 flex xs:p-0">
                       <FaUniversity className="mr-1 text-amber-400" />
                       <Link
-                        to="/perga"
+                        to="/perge"
                         onClick={() => setViso1((y) => !y)}
                         className="text-xs tracking-wide hover:text-amber-400 transition-all"
                       >
-                        Perga
+                        Perge
                       </Link>
                     </li>
                     <li className="p-2 flex xs:p-0">
@@ -324,6 +324,28 @@ const Topbar = ({ scrollRef }) => {
                         Pergamon
                       </Link>
                     </li>
+                    <li className="p-2 flex xs:p-0">
+                      <FaUniversity className="mr-1 text-amber-400" />
+                      <Link
+                        to="/termessos"
+                        onClick={() => setViso1((y) => !y)}
+                        className="text-xs tracking-wide hover:text-amber-400 transition-all"
+                      >
+                        Termessos
+                      </Link>
+                    </li>
+
+                    <li className="p-2 flex xs:p-0">
+                      <FaUniversity className="mr-1 text-amber-400" />
+                      <Link
+                        to="/nysa"
+                        onClick={() => setViso1((y) => !y)}
+                        className="text-xs tracking-wide hover:text-amber-400 transition-all"
+                      >
+                        Nysa
+                      </Link>
+                    </li>
+
                     <li className="p-2 flex xs:p-0">
                       <FaUniversity className="mr-1  text-amber-400" />
                       <Link

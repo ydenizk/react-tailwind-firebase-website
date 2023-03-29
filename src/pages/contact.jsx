@@ -16,7 +16,7 @@ export default function Contact() {
     setContactData({ ...contactData, [name]: value });
   };
   //firebase le contatc form
-  const submitData = async (e) => {
+  const submitData = (e) => {
     e.preventDefault();
 
     const { fullname, email, message } = contactData;

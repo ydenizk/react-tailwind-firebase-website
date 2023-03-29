@@ -12,11 +12,11 @@ import sideSmall from "./../assets/perga/288-288.jpg";
 
 import { Helmet } from "react-helmet-async"; 
 
-export default function Perga() {
+export default function Perge() {
   return (
     <div className="w-full bg-neutral-100 md:mt-20">
       <Helmet>
-        <title>Perga</title>
+        <title>Perge</title>
         <meta
           name="description"
           content="Home of one of the largest ancient settlements"
@@ -40,7 +40,7 @@ export default function Perga() {
               HOME OF one of the largest ancient settlements
             </p>
             <p className="uppercase text-white font-mono text-lg tracking-wide md:text-base xs:text-sm whitespace-nowrap">
-              The beauty of perga
+              The beauty of perge
             </p>
           </div>
         </div>

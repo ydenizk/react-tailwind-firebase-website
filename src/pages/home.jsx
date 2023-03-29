@@ -4,6 +4,8 @@ import Hedaer from "./../components/hedaer";
 import Ads from "./../components/ads";
 import Regions from "./../components/regions";
 import Mail from "./../components/mail";
+import Harita from "./../components/harita"
+
 
 import { Helmet } from "react-helmet-async";
 
@@ -20,6 +22,7 @@ export default function Home() {
       <Ads />
       <Regions />
       <Mail />
+      <Harita />
     </div>
   );
 }

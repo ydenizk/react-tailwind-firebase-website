@@ -24,12 +24,14 @@ import Laodikeia from "./pages/laodikeia";
 import Miletus from "./pages/miletus";
 import Myra from "./pages/myra";
 /* import Olympos from "./pages/olympos"; */
+import Nysa from "./pages/nysa";
 import Patara from "./pages/patara";
-import Perga from "./pages/perga";
+import Perge from "./pages/perge";
 import Pergamon from "./pages/pergamon";
 import Priene from "./pages/priene";
 import Sagalassos from "./pages/sagalassos";
 import Sardes from "./pages/sardes";
+import Termessos from "./pages/termessos";
 import Tlos from "./pages/tlos";
 import Troy from "./pages/troy";
 import Xanthos from "./pages/xanthos";
@@ -64,6 +66,7 @@ function App() {
 
           <Route path="/ephesus" element={<Ephesus />} />
           <Route path="/sardes" element={<Sardes />} />
+          <Route path="/termessos" element={<Termessos />} />
           <Route path="/miletus" element={<Miletus />} />
           <Route path="/aphrodisias" element={<Aphrodisias />} />
           <Route path="/aizanoi" element={<Aizanoi />} />
@@ -76,9 +79,10 @@ function App() {
           <Route path="/Knidos" element={<Knidos />} />
           <Route path="/laodikeia" element={<Laodikeia />} />
           <Route path="/myra" element={<Myra />} />
+          <Route path="/nysa" element={<Nysa />} />
           {/*  <Route path="/olympos" element={<Olympos />} /> */}
           <Route path="/patara" element={<Patara />} />
-          <Route path="/perga" element={<Perga />} />
+          <Route path="/perge" element={<Perge />} />
           <Route path="/pergamon" element={<Pergamon />} />
           <Route path="/priene" element={<Priene />} />
           <Route path="/sagalassos" element={<Sagalassos />} />
