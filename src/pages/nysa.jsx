@@ -16,10 +16,7 @@ export default function Nysa() {
     <div className="w-full bg-neutral-100 md:mt-20  ">
       <Helmet>
         <title>Nysa</title>
-        <meta
-          name="description"
-          content=" Home of Aphrodite,greek goddess of love"
-        />
+        <meta name="description" content="  Home of Dionysus,the god of wine" />
         <link rel="canonical" href="/nysa" />
       </Helmet>
 

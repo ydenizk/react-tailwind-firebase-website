@@ -2,7 +2,6 @@ import React from "react";
 import Share from "./../components/share";
 
 import aphro from "./../assets/aphrodisias/aphro.jpg";
-
 import big1 from "./../assets/aphrodisias/aphro-592-360.jpeg";
 import big2 from "./../assets/aphrodisias/aphro-2-592-360.jpeg";
 import big3 from "./../assets/aphrodisias/aphro-3-592-360.jpg";
