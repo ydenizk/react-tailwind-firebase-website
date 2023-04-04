@@ -11,7 +11,7 @@ export default function Apollon() {
   return (
     <div className="w-full bg-neutral-100 md:mt-20 ">
       <Helmet>
-        <title> Appollo Smintheus </title>
+        <title  > Appollo Smintheus </title>
         <meta
           name="description"
           content=" Home of the temple of Apollo Smintheion"
