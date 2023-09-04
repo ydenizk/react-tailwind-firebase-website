@@ -66,7 +66,7 @@ export default function Mail() {
                   }}
                   placeholder="your email adress"
                   className="text-sm tracking-wide w-96 h-10 rounded-none px-2
-             border border-gray-500 outline-0 shadow  text-gray-700 xs:w-80"
+                   border border-gray-500 outline-0 shadow  text-gray-700 xs:w-80"
                 />
               </div>
 
